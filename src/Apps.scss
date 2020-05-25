@@ -1,0 +1,14 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "./scss/custom.scss";
+
+//Import Light mode
+@import './scss/style.scss';
+
+//Import Dark RTL mode
+// @import './scss/style-dark-rtl.scss';
+
+//Import RTL mode
+// @import './scss/style-rtl.scss';
+
+//Import Dark Mode
+// @import './scss/style-dark.scss';

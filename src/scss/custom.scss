@@ -1,0 +1,67 @@
+.Typist 
+{
+    display: inline;
+}
+
+li.active > a
+{
+    color:#2f55d4 !important
+}
+
+.pagination .active a {
+    color: #ffffff!important;
+}
+
+a {
+ &:hover {
+  cursor:pointer;
+ } 
+}
+
+.accordian-custom
+{
+    border: none;
+}
+
+.progress-bar
+{
+    background-color: #2f55d4;
+}
+
+#mt-1
+{
+    margin-top: 5px!important;
+}
+
+#mb-1
+{
+    margin-top: 5px!important;
+}
+
+#bottomIcon {
+    aside {
+       border-radius: 10px !important;
+       height: 30px !important;
+       position: fixed !important;
+       bottom: 20px !important;
+       width: 30px !important;
+       transition: opacity 0.5s ease-in-out 0s, right 0s ease 0s !important;
+       cursor: pointer !important;
+       opacity: 1 !important;
+       right: 20px !important;
+       line-height: 26px !important;
+       background-color: rgb(73, 80, 87) !important;
+       text-align: center;
+       box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 3px;
+       text-align: center;
+       border: none !important;
+       &:hover {
+          background-color: rgb(47, 85, 212) !important;
+       }
+       svg {
+          height: 12px;
+          width: 12px;
+          fill: #FFF;
+       }
+    }
+ }
