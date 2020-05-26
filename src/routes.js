@@ -19,14 +19,12 @@ const PageRecoveryPassword = React.lazy(() => import('./pages/Pages/User/PageRec
 const PageSignup = React.lazy(() => import('./pages/Pages/User/PageSignup'));
 
 // Import all components
-const SaasOnepage = React.lazy(() => import('./pages/Saas Onepage/index'));
 const Customer = React.lazy(() => import('./pages/Customer/index'));
 const Job = React.lazy(() => import('./pages/Job/index'));
 const Software = React.lazy(() => import('./pages/Software/index'));
 const Cryptocurrency = React.lazy(() => import('./pages/Cryptocurrency/index'));
 const Payments = React.lazy(() => import('./pages/Payments/index'));
 const IndexCarRiding = React.lazy(() => import('./pages/Car Ride/index'));
-const IndexclassicSaas = React.lazy(() => import('./pages/Classic Saas/index'));
 const ClassicApp = React.lazy(() => import('./pages/Classic Application/index'));
 const Main = React.lazy(() => import('./pages/Home/indexMain'));
 const Agency = React.lazy(() => import('./pages/Agency/index'));
@@ -47,7 +45,7 @@ const Enterprise = React.lazy(() => import('./pages/Enterprise/index'));
 const Portfolio = React.lazy(() => import('./pages/Portfolio/index'));
 const Services = React.lazy(() => import('./pages/Services/index'));
 
-//Docs
+//Resources
 const ChangeLog = React.lazy(() => import('./pages/Docs/ChangeLog'));
 const Components = React.lazy(() => import('./pages/Docs/Components'));
 const Documentation = React.lazy(() => import('./pages/Docs/Documentation'));
@@ -109,17 +107,14 @@ const routes = [
     { path: '/page-cover-re-password', component: PageCoverRePassword, isWithoutLayout : true},
     { path: '/page-cover-signup', component: PageCoverSignup, isWithoutLayout : true },
     
-    // Landings
-    { path: '/index-onepage', component: SaasOnepage },
+    // Features
     { path: '/index-customer', component: Customer },
     { path: '/index-job', component: Job },
     { path: '/index-software', component: Software },
     { path: '/index-crypto', component: Cryptocurrency },
     { path: '/index-payments', component: Payments },
     { path: '/index-car-riding', component: IndexCarRiding },
-    { path: '/index-classic-saas', component: IndexclassicSaas },
     { path: '/index-classic-app', component: ClassicApp },
-    { path: '/index-saas', component: Saas },
     { path: '/index-apps', component: Apps },
     { path: '/index-agency', component: Agency },
     { path: '/index-studio', component: Studio },
@@ -173,7 +168,7 @@ const routes = [
     { path: '/page-contact-three', component: PageContactThree },
     { path: '/page-contact-two', component: PageContactTwo },
 
-    //Docs
+    //Resources
     { path: '/changelog', component: ChangeLog },
     { path: '/components', component: Components },
     { path: '/documentation', component: Documentation },
@@ -183,7 +178,7 @@ const routes = [
     { path: '/index', component: Main },
 
     //Root
-    { path: '/', component: Root, isWithoutLayout : true }
+    { path: '/', component: Software }
 
 ];
 

@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { withRouter } from "react-router";
 import { Container } from "reactstrap";
 
+//Import Images
+import logo from "../../images/logo_grey.png";
+
 class Topbar extends Component {
 
     constructor(props) {
@@ -200,12 +203,16 @@ class Topbar extends Component {
             <React.Fragment>
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
-                        <div>
-                            <Link className="logo" to="/index">Landrick<span className="text-primary">.</span></Link>
+                          <div>
+                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="175" alt=""/></Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-primary">Buy Now</Link>
+                            <Link to="#" id="loginButton" className="btn btn-outline-success d-md-block mt-3">Login</Link>
                         </div>
+                        <div className="buy-button">
+                            <Link to="#" id="buyButton" className="btn btn-primary d-md-block mt-3 mr-2">Try It Free</Link>
+                        </div>
+
                         <div className="menu-extras">
                             <div className="menu-item">
                                 <Link to="#" onClick={ this.toggleLine } className={this.state.isOpen ? "navbar-toggle open" : "navbar-toggle" } >
@@ -219,7 +226,7 @@ class Topbar extends Component {
                         </div>
 
                         <div id="navigation" style={{ display : this.state.isOpen ? "block" : "none" }}>
-                            <ul className="navigation-menu" id="top-menu">
+                            <ul className="navigation-menu pt-1" id="top-menu">
                                 {
                                     this.state.navLinks.map((navLink, key) => 
                                     navLink.child || navLink.child2 ?
@@ -286,9 +293,12 @@ class Topbar extends Component {
                                     )
                                 }
                             </ul>
-                            <div className="buy-menu-btn d-none">
-                                <Link to="#" target="_blank" className="btn btn-primary">Buy Now</Link>
+                            <div className="buy-menu-btn ml-4">
+                                <Link to="#" id="signupButton" target="_blank" className="btn btn-primary d-md-none">Get Started</Link>
                             </div>
+                        <div className="buy-menu-btn ml-4 mt-2">
+                            <Link to="#" id="loginButton" className="btn btn-outline-success d-md-none mr-2">Login</Link>
+                        </div>
                         </div>
                     </Container>
                 </header>

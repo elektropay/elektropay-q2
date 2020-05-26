@@ -10,9 +10,9 @@ import mobile from "../../images/software/mobile01.png";
 class WebsiteDescription extends Component {
     state = {
         features : [
-            { title : "Digital Marketing Solutions for Tomorrow" },
-            { title : "Our Talented & Experienced Marketing Agency" },
-            { title : "Create your own skin to match your brand" },
+            { title : "Digital Payment Solutions for Tomorrow" },
+            { title : "Our Secure & Experienced Marketing Agency" },
+            { title : "Fully Whitelabeled to match your brand" },
         ],
     }
 
@@ -33,8 +33,8 @@ class WebsiteDescription extends Component {
                             <Col lg="7" md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-5">
                                 <SectionTitleLeft
-                                    title = "Carry out Marketing Initiatives : Landrick"
-                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                    title = "Maximizing Revenue Channels"
+                                    desc = "Every business encounters credit card declines. In subscription commerce, declines increase subscriber churn and reduce revenue. This means you can focus on growing your subscriber base while we work to maximize your revenue."
                                     features = {this.state.features}
                                     class = "mdi-18px h5 mr-2"
                                 />

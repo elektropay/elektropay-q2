@@ -8,7 +8,6 @@ import '../../../node_modules/react-modal-video/scss/modal-video.scss';
 
 //Import Images
 import software from "../../images/software/software.png";
-import bgimg from "../../images/software/bg.jpg";
 
 class Section extends Component {
     constructor(props) {
@@ -26,17 +25,19 @@ class Section extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="bg-half-170 bg-light d-table w-100" style={{background: `url(${bgimg}) center center`}}>
-                    <div className="bg-overlay bg-overlay-gradient2"></div>
+                <section className="bg-half-170 bg-white d-table w-100">
                     <Container>
-                        <Row className="align-items-center position-relative mt-5" style={{zIndex: "1"}}>
+                        <Row className="align-items-center position-relative mt-2" style={{zIndex: "1"}}>
                             <Col lg="6" md="12">
                                 <div className="title-heading mt-4 text-center text-lg-left">
-                                    <h1 className="heading mb-3 text-white">Best Software For Your Work Monitor</h1>
-                                    <p className="para-desc text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                                    <h1 className="heading mb-3 text-dark">Monetize Your Commerce Channels</h1>
+                                    <p className="para-desc text-muted">The commerce as service management platform delivering unmatched solutions for start-up and enterprise businesses.</p>
                                     <div className="mt-4">
-                                        <Link to="" className="btn btn-light"><i className="mdi mdi-download"></i> Download Now</Link>
-                                    </div>
+                                         <Link to="" className="btn btn-light mt-1 mr-2 mouse-down"> Request A Demo</Link>
+                                      
+  <Link to="" className="btn btn-outline-primary mt-1 mr-2 mouse-down"><i className="mdi mdi-download"></i> Get Started</Link>
+                                     
+                                             </div>
                                 </div>
                             </Col>
 

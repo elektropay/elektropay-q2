@@ -38,7 +38,7 @@ class Features extends Component {
             <React.Fragment>
                 <Container>
                     {/* Render Section Title */}
-                    <SectionTitle title="Solutions" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
+                    <SectionTitle title="Why Us" desc=" can provide everything you need to conduct commerce, pay suppliers, subscription billing." />
 
                     {/* feature box */}
                     <Feature featureArray={this.state.features} isCenter={true} />

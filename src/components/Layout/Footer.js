@@ -25,8 +25,8 @@ class Footer extends Component {
             { title : "Login", link : "/page-cover-login" },
         ],
         grid2 : [
-            { title : "Terms of Services", link : "/page-terms" },
-            { title : "Privacy Policy", link : "/page-privacy" },
+            { title : "Terms of Services", link : "/terms" },
+            { title : "Privacy Policy", link : "/privacy-policy" },
             { title : "Documentation", link : "/documentation" },
             { title : "Changelog", link : "/changelog" },
             { title : "Components", link : "/components" },
@@ -37,11 +37,13 @@ class Footer extends Component {
   render() {
     return (
       <React.Fragment>
+
+
         <footer className={this.props.isLight ? "footer bg-light" : "footer"}>
             <Container>
                 <Row>
                     <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">
-                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Landrick<span className="text-primary">.</span></Link>
+                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Elektropay<span className="text-primary">.</span></Link>
                         <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
@@ -62,7 +64,7 @@ class Footer extends Component {
                     </Col>
                     
                     <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Usefull Links</h4>
+                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Useful Links</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid2.map((grid, key) =>
@@ -96,13 +98,21 @@ class Footer extends Component {
         <footer className="footer footer-bar">
             <Container className="text-center">
                 <Row className="align-items-center">
-                    <Col sm="6">
-                        <div className="text-sm-left">
-                            <p className="mb-0">© 2020-21 Landrick. Develop by <Link to="#" target="_blank" className="text-success">Themesbrand</Link>.</p>
+                    <Col md="4" sm="6">
+                        <div className="text-sm-left small">
+                            <p className="mb-0 small">© 2020 Elektropay.com - All Rights Reserved.</p>
                         </div>
                     </Col>
+                 <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <ul className="list-unstyled text-sm-right text-muted mb-0 small">
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Privacy&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Terms&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Security&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to=""> Status  </Link></li>
+                        </ul>
+                    </Col>
 
-                    <Col sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right mb-0">
                             <li className="list-inline-item mr-1"><Link to=""><img src={americanEx} className="avatar avatar-ex-sm" title="American Express" alt=""/></Link></li>
                             <li className="list-inline-item mr-1"><Link to=""><img src={discover} className="avatar avatar-ex-sm" title="Discover" alt=""/></Link></li>
@@ -111,6 +121,7 @@ class Footer extends Component {
                             <li className="list-inline-item mr-1"><Link to=""><img src={visa} className="avatar avatar-ex-sm" title="Visa" alt=""/></Link></li>
                         </ul>
                     </Col>
+
                 </Row>
             </Container>
         </footer>        

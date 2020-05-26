@@ -9,7 +9,7 @@ class NavbarPage extends Component {
         this.state = {
             navItems : [
                 { id: 1 , idnm : "home", navheading: "Home" },
-                { id: 3 , idnm : "service", navheading: "Services" },
+                { id: 3 , idnm : "service", navheading: "Features" },
                 { id: 3 , idnm : "testimonial", navheading: "About" },
                 { id: 4 , idnm : "pricing", navheading: "Pricing" },
                 { id: 6 , idnm : "contact", navheading: "Contact" },
@@ -35,7 +35,7 @@ class NavbarPage extends Component {
                     <header id="topnav" className="defaultscroll sticky">
                             <Container>
                             <div>
-                                <Link className="logo" to="/index">Landrick<span className="text-primary">.</span></Link>
+                                <Link className="logo" to="/index">Elektropay<span className="text-primary">.</span></Link>
                             </div>                 
                             <div className="buy-button">
                                 <Link to="https://1.envato.market/4n73n" target="_blank" className="btn btn-primary">Buy Now</Link>
