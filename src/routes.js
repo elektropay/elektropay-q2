@@ -178,7 +178,7 @@ const routes = [
     { path: '/index', component: Main },
 
     //Root
-    { path: '/', component: Software }
+    { path: '/', component: Payments }
 
 ];
 
