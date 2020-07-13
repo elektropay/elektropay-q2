@@ -53,6 +53,9 @@ a.text-primary:hover, a.text-primary:focus {
 .bg-secondary {
   background-color: #5a6d90 !important;
 }
+.bg-white {
+  background-color: #2eca8b !important;
+}
 
 .text-secondary {
   color: #5a6d90 !important;
@@ -1548,7 +1551,7 @@ p {
 }
 
 .bg-overlay {
-  background-color: rgba(60, 72, 88, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   top: 0;
   right: 0;
@@ -1573,16 +1576,22 @@ p {
 }
 
 .title-heading {
-  line-height: 26px;
+  line-height: 48px;
 }
 
-.title-heading .heading {
+.title-heading {
   font-size: 45px;
   letter-spacing: 1px;
 }
 
+.heading {
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+
 .title-heading .para-desc {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .section-title {
@@ -1600,6 +1609,26 @@ p {
 
 .para-desc {
   max-width: 600px;
+}
+
+.mt-6 {
+  margin-top: 60px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
 }
 
 .mt-100 {

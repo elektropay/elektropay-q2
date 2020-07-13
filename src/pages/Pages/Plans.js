@@ -6,7 +6,6 @@ import classnames from 'classnames';
 
 //Import components
 import Section from "./hero-plans";
-import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
 import SectionTitle from "../../components/Shared/section-title";
 import PricingBox2 from "../../components/Shared/pricing-box2";
 import Pricing from "../../components/Shared/pricing-box";
@@ -174,7 +173,7 @@ class PagePricing extends Component {
                     <Container className="mt-0">
 
                         <Row className="align-items-center">
-                            <Col xs="12" className="mt-4 pt-2">
+                            <Col xs="12" className="mt-4 pt-1">
                                 <div className="text-center">
                                     <Nav pills className="rounded-pill justify-content-center d-inline-block border py-1 px-2">
                                         <NavItem className="d-inline-block mr-1">
@@ -213,14 +212,6 @@ class PagePricing extends Component {
                                 </TabContent>
                             </Col>
                         </Row>
-                    </Container>
-
-                    <Container className="mt-100 mt-60">
-                        {/* Render Section Title */}
-                        <SectionTitle title="Client Reviews" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
-
-                        {/* clients slider */}
-                        <ReviewsSlider reviews={this.state.reviews}/>
                     </Container>
                 </section>
 
@@ -265,6 +256,14 @@ class PagePricing extends Component {
                                 </div>
                             </div>
                         </Row>
+                    </Container>
+
+                    <Container className="mt-100 mt-60">
+                        {/* Render Section Title */}
+                        <SectionTitle title="Client Reviews" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
+
+                        {/* clients slider */}
+                        <ReviewsSlider reviews={this.state.reviews}/>
                     </Container>
                 </section>
             </React.Fragment>

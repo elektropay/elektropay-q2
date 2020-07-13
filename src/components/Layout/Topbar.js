@@ -13,8 +13,7 @@ class Topbar extends Component {
         this.state = { 
             isOpen : false, 
             navLinks : [
-                { id : 1, title : "Home", link : "/index" },
-                { id : 2, title : "Landing", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
+                 { id : 1, title : "Products", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
                     child : [
                         { title : "Saas", link : "/index-saas" },
                         { title : "Agency", link : "/index-agency" },
@@ -46,7 +45,42 @@ class Topbar extends Component {
                         { title : "Saas", link : "/index-onepage", isOnePage : true },                        
                     ]
                 },
-                { id : 3, title : "Pages", link : "/#", isOpenSubMenu : false,
+                { id : 2, title : "Features", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
+                    child : [
+                        { title : "Saas", link : "/index-saas" },
+                        { title : "Agency", link : "/index-agency" },
+                        { title : "Application", link : "/index-apps" },
+                        { title : "Studio", link : "/index-studio" },
+                        { title : "Business", link : "/index-business" },
+                        { title : "Modern Business", link : "/index-modern-business" },
+                        { title : "Hotel", link : "/index-hotel" },
+                        { title : "Marketing", link : "/index-marketing" },
+                        { title : "Enterprise", link : "/index-enterprise" },
+                        { title : "Coworking", link : "/index-coworking" },
+                        { title : "Classic Application", link : "/index-classic-app", isNew : true },
+                        { title : "Classic Saas", link : "/index-classic-saas", isNew : true },
+                        { title : "Car Ride", link : "/index-car-riding", isNew : true },
+                    ],
+                    child2 : [
+                        { title : "Cloud Hosting", link : "/index-cloud-hosting" },
+                        { title : "Event", link : "/index-event" },
+                        { title : "Course", link : "/index-course" },
+                        { title : "Personal", link : "/index-personal" },
+                        { title : "Product", link : "/index-single" },
+                        { title : "Portfolio", link : "/index-portfolio" },
+                        { title : "Service", link : "/index-services" },
+                        { title : "Payments", link : "/index-payments" },
+                        { title : "Cryptocurrency", link : "/index-crypto" },
+                        { title : "Software", link : "/index-software" },
+                        { title : "Job", link : "/index-job" },
+                        { title : "Customer", link : "/index-customer" },
+                        { title : "Saas", link : "/index-onepage", isOnePage : true },                        
+                    ]
+                },
+
+                { id : 13, title : "Plans", link : "/page-pricing" },
+
+                { id : 3, title : "Contact", link : "/#", isOpenSubMenu : false,
                     child : [
                         { id : 1, title : "About Us", link : "/page-aboutus"},
                         { id : 2, title : "Services", link : "page-services"},
@@ -116,6 +150,7 @@ class Topbar extends Component {
                         },
                     ]
                 },
+
                 { id : 4, title : "Docs", link : "/#", isOpenSubMenu : false,
                 child : [
                     { title : "Documentations", link : "/documentation"},
@@ -204,13 +239,13 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                           <div>
-                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="175" alt=""/></Link>
+                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="156" alt=""/></Link>
                         </div>
                         <div className="buy-button">
                             <Link to="#" id="loginButton" className="btn btn-outline-success d-md-block mt-3">Login</Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-primary d-md-block mt-3 mr-2">Try It Free</Link>
+                            <Link to="#" id="buyButton" className="btn btn-secondary d-md-block mt-3 mr-2">Try It Free</Link>
                         </div>
 
                         <div className="menu-extras">
@@ -294,7 +329,7 @@ class Topbar extends Component {
                                 }
                             </ul>
                             <div className="buy-menu-btn ml-4">
-                                <Link to="#" id="signupButton" target="_blank" className="btn btn-primary d-md-none">Get Started</Link>
+                                <Link to="#" id="signupButton" target="_blank" className="btn btn-secondary d-md-none">Get Started</Link>
                             </div>
                         <div className="buy-menu-btn ml-4 mt-2">
                             <Link to="#" id="loginButton" className="btn btn-outline-success d-md-none mr-2">Login</Link>

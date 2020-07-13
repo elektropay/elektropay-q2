@@ -53,6 +53,7 @@ const Widget = React.lazy(() => import('./pages/Docs/widget'));
 
 const PageAboutUs = React.lazy(() => import('./pages/Pages/PageAboutUs'));
 const PagePricing = React.lazy(() => import('./pages/Pages/PagePricing'));
+const Plans = React.lazy(() => import('./pages/Pages/Plans'));
 const PageServices = React.lazy(() => import('./pages/Pages/PageServices'));
 const PageTeam = React.lazy(() => import('./pages/Pages/PageTeam'));
 
@@ -134,6 +135,7 @@ const routes = [
 
     { path: '/page-aboutus', component: PageAboutUs },
     { path: '/page-pricing', component: PagePricing },
+    { path: '/plans', component: PagePricing },
     { path: '/page-services', component: PageServices },
     { path: '/page-team', component: PageTeam },
 

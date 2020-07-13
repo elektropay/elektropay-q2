@@ -5,7 +5,6 @@ import { Container, Row, Col, Nav, NavItem, NavLink, TabContent, TabPane } from 
 import classnames from 'classnames';
 
 //Import components
-import Section from "./hero-plans";
 import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
 import SectionTitle from "../../components/Shared/section-title";
 import PricingBox2 from "../../components/Shared/pricing-box2";
@@ -166,12 +165,33 @@ class PagePricing extends Component {
 
         return (
             <React.Fragment>
-           {/* Hero Start */}
-                <Section/>
+                {/* breadcrumb */}
+                <PageBreadcrumb
+                    title="Pricing"
+                    pathItems = {this.state.pathItems}
+                />
+                <div className="position-relative">
+                    <div className="shape overflow-hidden text-white">
+                        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
 
-                <section className="section pt-0">
+                <section className="section">
+                    <Container>
+                    {/* Render Section Title */}
+                    <SectionTitle title="Pricing #1" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
 
-                    <Container className="mt-0">
+                        <Row className="align-items-center">
+                            {/* pricing */}
+                            <PricingBox2 pricings={this.state.pricings} />
+                        </Row>
+                    </Container>
+
+                    <Container className="mt-100 mt-60">
+                    {/* Render Section Title */}
+                    <SectionTitle title="Pricing #2" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
 
                         <Row className="align-items-center">
                             <Col xs="12" className="mt-4 pt-2">
