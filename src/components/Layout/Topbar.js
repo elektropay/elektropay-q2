@@ -78,7 +78,7 @@ class Topbar extends Component {
                     ]
                 },
 
-                { id : 13, title : "Plans", link : "/page-pricing" },
+                { id : 13, title : "Plans", link : "/plans" },
 
                 { id : 3, title : "Contact", link : "/#", isOpenSubMenu : false,
                     child : [
@@ -142,18 +142,19 @@ class Topbar extends Component {
                         },
                         { id : 12, title : "Contact", link : "/#", isOpenNestedSubMenu : false,
                             nestedChild : [
-                                { title : "Contact Detail", link : "/page-contact-detail"},
-                                { title : "Contact One", link : "/page-contact-one"},
-                                { title : "Contact Two", link : "/page-contact-two"},
+                                { title : "Contact Us", link : "/contact-us"},
+                                { title : "About Us", link : "/about-us"},
+                                { title : "Careers", link : "/page-job"},
+                                { title : "ElektroBytes", link : "/page-blog"},
                                 { title : "Contact Three", link : "/page-contact-three"},
                             ]
                         },
                     ]
                 },
 
-                { id : 4, title : "Docs", link : "/#", isOpenSubMenu : false,
+                { id : 4, title : "Resources", link : "/#", isOpenSubMenu : false,
                 child : [
-                    { title : "Documentations", link : "/documentation"},
+                    { title : "API Docs", link : "/documentation"},
                     { title : "Changelog", link : "/changelog"},
                     { title : "Components", link : "/components"},
                     { title : "Widget", link : "/widget"},
@@ -239,13 +240,13 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                           <div>
-                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="156" alt=""/></Link>
+                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="160" alt=""/></Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="loginButton" className="btn btn-outline-success d-md-block mt-3">Login</Link>
+                            <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-xl-block d-md-block">Login</Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-secondary d-md-block mt-3 mr-2">Try It Free</Link>
+                            <Link to="#" id="buyButton" className="btn btn-outline-info mt-3 mr-2 d-none d-xl-block d-sm-block">Try It Free</Link>
                         </div>
 
                         <div className="menu-extras">
@@ -268,7 +269,7 @@ class Topbar extends Component {
                                         <li className="has-submenu" key={key}>
                                             {/* child item(menu Item) - Level 1 */}
                                             <Link to={navLink.link} onClick={(event) => {  event.preventDefault(); this.openBlock(navLink.id) } } >{navLink.title}</Link>
-                                            <span className="menu-arrow"></span>
+                                            
                                                 {
                                                     navLink.isMegaMenu ?
                                                     // if menu is mega menu(2 columns grid)
@@ -329,7 +330,7 @@ class Topbar extends Component {
                                 }
                             </ul>
                             <div className="buy-menu-btn ml-4">
-                                <Link to="#" id="signupButton" target="_blank" className="btn btn-secondary d-md-none">Get Started</Link>
+                                <Link to="#" id="signupButton" target="_blank" className="btn btn-outline-info d-md-none">Get Started</Link>
                             </div>
                         <div className="buy-menu-btn ml-4 mt-2">
                             <Link to="#" id="loginButton" className="btn btn-outline-success d-md-none mr-2">Login</Link>

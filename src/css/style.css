@@ -27,7 +27,7 @@
  *     17.  Contact              *
  *     18.  Footer               *
  ================================*/
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 .bg-primary {
   background-color: #5dbcd2 !important;
 }
@@ -972,11 +972,17 @@ button:not(:disabled) {
   letter-spacing: 1px;
 }
 
+.page-next-level .jumbo {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
 .page-next-level .page-next {
   letter-spacing: 0.5px;
   position: relative;
   padding-left: 0;
-  top: 110px;
+  top: 100px;
   z-index: 99;
 }
 
@@ -1001,7 +1007,7 @@ button:not(:disabled) {
 }
 
 .page-next-level .page-next li a, .page-next-level .page-next li span {
-  font-size: 14px;
+  font-size: 12px;
   padding-right: 8px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -1017,7 +1023,7 @@ button:not(:disabled) {
 
 .pagination {
   line-height: 20px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .pagination li {
@@ -1497,14 +1503,14 @@ button:not(:disabled) {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   overflow-x: hidden !important;
   font-size: 16px;
   color: #161c2d;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   font-weight: 600;
 }
@@ -1587,8 +1593,9 @@ p {
 }
 
 .section-title .title {
-  letter-spacing: 0.5px;
-  font-size: 30px;
+    letter-spacing: 0.5px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .text-shadow-title {
@@ -2269,6 +2276,25 @@ margin-top: -4px;
 
 .bg-half-260 {
   padding: 260px 0;
+  background-size: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  background-position: center center;
+}
+
+.bg-half-140 {
+  padding: 140px 0;
+  background-size: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  background-position: center center;
+}
+.bg-half-150 {
+  padding: 150px 0;
   background-size: cover;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

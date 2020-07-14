@@ -84,6 +84,8 @@ const PagePrivacy = React.lazy(() => import('./pages/Pages/Utility/PagePrivacy')
 const PageTerms = React.lazy(() => import('./pages/Pages/Utility/PageTerms'));
 
 //Contact
+const AboutUs = React.lazy(() => import('./pages/Pages/AboutUs'));
+const ContactUs = React.lazy(() => import('./pages/Pages/ContactUs'));
 const PageContactOne = React.lazy(() => import('./pages/Pages/Contact/PageContactOne'));
 const PageContactThree = React.lazy(() => import('./pages/Pages/Contact/PageContactThree'));
 const PageContactTwo = React.lazy(() => import('./pages/Pages/Contact/PageContactTwo'));
@@ -135,7 +137,7 @@ const routes = [
 
     { path: '/page-aboutus', component: PageAboutUs },
     { path: '/page-pricing', component: PagePricing },
-    { path: '/plans', component: PagePricing },
+    { path: '/plans', component: Plans },
     { path: '/page-services', component: PageServices },
     { path: '/page-team', component: PageTeam },
 
@@ -166,6 +168,8 @@ const routes = [
     { path: '/page-blog-sidebar', component: PageBlogSidebar },
 
     //Page Contact
+    { path: '/about-us', component: AboutUs },
+    { path: '/contact-us', component: ContactUs },
     { path: '/page-contact-one', component: PageContactOne },
     { path: '/page-contact-three', component: PageContactThree },
     { path: '/page-contact-two', component: PageContactTwo },

@@ -7,20 +7,20 @@ class PageBreadcrumb extends Component {
         const length = this.props.pathItems.length;
         return (
             <React.Fragment>
-                <section className="bg-half bg-light d-table w-100">
+                <section className="bg-half-170 bg-light d-table w-100">
                     <Container>
                         <Row className="justify-content-center">
-                            <Col lg="12" className="text-center">
+                            <Col lg="12" className="text-left">
                                 <div className="page-next-level">
-                                    { this.props.title ? <h4 className="title"> {this.props.title}</h4> : null }
+                                    { this.props.title ? <h1 className="jumbo pl-1 text-muted"> {this.props.title}</h1> : null }
                                     { this.props.children ? this.props.children : null }
-                                    <ul className="page-next d-inline-block bg-white shadow p-2 pl-4 pr-4 rounded mb-0">
+                                    <ul className="page-next d-none bg-white shadow p-2 pl-4 pr-4 rounded mb-0">
                                         {
                                             this.props.pathItems.map((item, key) =>
                                                 item.id !== length
-                                                ? <li key={key}><Link to={item.link} className="text-uppercase font-weight-bold text-dark">{item.name}</Link></li>
+                                                ? <li key={key}><Link to={item.link} className="text-normal font-weight-bold text-dark">{item.name}</Link></li>
                                                 : <li key={key}>
-                                                    <span className="text-uppercase text-primary font-weight-bold">{item.name}</span> 
+                                                    <span className="text-normal text-primary font-weight-bold">{item.name}</span> 
                                                   </li>
                                             )
                                         }

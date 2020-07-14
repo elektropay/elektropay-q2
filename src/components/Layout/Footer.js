@@ -101,12 +101,12 @@ class Footer extends Component {
                 <Row className="align-items-center">
                     <Col md="4" sm="6">
                         <div className="text-sm-left small">
-                            <p className="mb-0 small">© 2020 Elektropay.com - All Rights Reserved.</p>
+                            <p className="mb-0 small">Elektropay is a service of EverPay. &copy; 2020 EverPay.</p>
                         </div>
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right text-muted mb-0 small">
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Privacy&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Privacy Statement&nbsp; | </Link></li>
                             <li className="list-inline-item mr-2 text-muted small"><Link to="">Terms&nbsp; | </Link></li>
                             <li className="list-inline-item mr-2 text-muted small"><Link to="">Security&nbsp; | </Link></li>
                             <li className="list-inline-item mr-2 text-muted small"><Link to=""> Status  </Link></li>
