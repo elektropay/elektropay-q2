@@ -51,7 +51,7 @@ const Components = React.lazy(() => import('./pages/Docs/Components'));
 const Documentation = React.lazy(() => import('./pages/Docs/Documentation'));
 const Widget = React.lazy(() => import('./pages/Docs/widget'));
 
-const PageAboutUs = React.lazy(() => import('./pages/Pages/PageAboutUs'));
+const PageAboutUs = React.lazy(() => import('./pages/Pages/AboutUs'));
 const PagePricing = React.lazy(() => import('./pages/Pages/PagePricing'));
 const Plans = React.lazy(() => import('./pages/Pages/Plans'));
 const PageServices = React.lazy(() => import('./pages/Pages/PageServices'));
@@ -184,7 +184,7 @@ const routes = [
     { path: '/index', component: Main },
 
     //Root
-    { path: '/', component: Software }
+    { path: '/', component: Payments }
 
 ];
 

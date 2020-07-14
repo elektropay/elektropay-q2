@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
+
 //Import components
 import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
 import SectionTitle from "../../components/Shared/section-title";
@@ -18,6 +19,7 @@ import team4 from '../../images/team/4.jpg';
 // Modal Video 
 import ModalVideo from 'react-modal-video'
 import '../../../node_modules/react-modal-video/scss/modal-video.scss';
+
 
 class AboutUs extends Component {
 
@@ -117,10 +119,9 @@ class AboutUs extends Component {
             <React.Fragment>
                 {/* breadcrumb */}
                 <PageBreadcrumb
-                    title="Our Company"
+                    title="About Us"
                     pathItems = {this.state.pathItems}
                 />
-
                 <div className="position-relative">
                     <div className="shape overflow-hidden text-white">
                         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,14 +135,13 @@ class AboutUs extends Component {
                 <section className="section">
                     <Container>
                         <Row className="align-items-center">
-                            <Col lg={7} md={7} className="mt-1 pt-2 mt-sm-0 pt-sm-0">
+                            <Col lg={7} md={7} className="mt-0 pt-1 mt-sm-0 pt-sm-0">
                               <div className="section-title ml-lg-4">
                                     <h2 className="title mb-4">Unlocking the Power of Payments</h2>
                                     <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
                                     <Link to="#" className="btn btn-primary mt-3">Buy Now <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
-
                             <Col lg={5} md={5} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
                                 <div className="position-relative">
                                     <img src={about} className="rounded img-fluid mx-auto d-block" alt="" />
@@ -202,4 +202,4 @@ class AboutUs extends Component {
         );
     }
 }
-export default AboutUs;
+export default PageAboutUs;
