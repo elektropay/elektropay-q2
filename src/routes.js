@@ -51,7 +51,7 @@ const Components = React.lazy(() => import('./pages/Docs/Components'));
 const Documentation = React.lazy(() => import('./pages/Docs/Documentation'));
 const Widget = React.lazy(() => import('./pages/Docs/widget'));
 
-const PageAboutUs = React.lazy(() => import('./pages/Pages/AboutUs'));
+const PageAboutUs = React.lazy(() => import('./pages/Pages/PageAboutUs'));
 const PagePricing = React.lazy(() => import('./pages/Pages/PagePricing'));
 const Plans = React.lazy(() => import('./pages/Pages/Plans'));
 const PageServices = React.lazy(() => import('./pages/Pages/PageServices'));
@@ -86,6 +86,8 @@ const PageTerms = React.lazy(() => import('./pages/Pages/Utility/PageTerms'));
 //Contact
 const AboutUs = React.lazy(() => import('./pages/Pages/AboutUs'));
 const ContactUs = React.lazy(() => import('./pages/Pages/ContactUs'));
+const PageJob = React.lazy(() => import('./pages/Pages/Careers/PageJob'));
+const PageBlog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
 const PageContactOne = React.lazy(() => import('./pages/Pages/Contact/PageContactOne'));
 const PageContactThree = React.lazy(() => import('./pages/Pages/Contact/PageContactThree'));
 const PageContactTwo = React.lazy(() => import('./pages/Pages/Contact/PageContactTwo'));
@@ -163,6 +165,7 @@ const routes = [
     { path: '/page-job-candidate', component: PageJobCandidate },
 
     //Page Blog
+    { path: '/blog', component: PageBlog },
     { path: '/page-blog', component: PageBlog },
     { path: '/page-blog-detail', component: PageBlogDetail },
     { path: '/page-blog-sidebar', component: PageBlogSidebar },
@@ -184,7 +187,7 @@ const routes = [
     { path: '/index', component: Main },
 
     //Root
-    { path: '/', component: Payments }
+    { path: '/', component: Software }
 
 ];
 
