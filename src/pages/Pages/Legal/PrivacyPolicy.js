@@ -6,7 +6,7 @@ import { Row, Col, Container } from 'reactstrap';
 //Import components
 import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
 
-class PagePrivacy extends Component {
+class PrivacyPolicy extends Component {
 
     constructor(props) {
         super(props);
@@ -14,9 +14,8 @@ class PagePrivacy extends Component {
             pathItems : [
                 //id must required
                 { id : 1, name : "Home", link : "/index" },
-                { id : 2, name : "Pages", link : "#" },
-                { id : 3, name : "Utility", link : "#" },
-                { id : 4, name : "Privacy Policy" },
+                { id : 2, name : "Legal", link : "#" },
+                { id : 3, name : "Privacy Policy" },
             ],
         }
     }
@@ -91,4 +90,4 @@ class PagePrivacy extends Component {
         );
     }
 }
-export default PagePrivacy;
+export default PrivacyPolicy;

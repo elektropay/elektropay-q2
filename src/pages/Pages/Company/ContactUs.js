@@ -5,10 +5,10 @@ import { Container, Row, Col, Alert, Form, FormGroup, Input, Label } from 'react
 
 
 // import images
-import bitcoin from '../../images/icon/bitcoin.svg';
-import Email from '../../images/icon/Email.svg';
-import location from '../../images/icon/location.svg';
-import contact from '../../images/contact.png';
+import bitcoin from '../../../images/icon/bitcoin.svg';
+import Email from '../../../images/icon/Email.svg';
+import location from '../../../images/icon/location.svg';
+import contact from '../../../images/contact.png';
 
 class ContactUs extends Component {
 

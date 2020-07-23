@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
 //Import components
-import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
-import SectionTitle from "../../components/Shared/section-title";
-import KeyFeatureBox from "../../components/Shared/key-feature-box";
-import TeamBox from "../../components/Shared/team-box";
+import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
+import SectionTitle from "../../../components/Shared/section-title";
+import KeyFeatureBox from "../../../components/Shared/key-feature-box";
+import TeamBox from "../../../components/Shared/team-box";
 
 // import images
-import about from '../../images/about.jpg';
-import team1 from '../../images/team/1.jpg';
-import team2 from '../../images/team/2.jpg';
-import team3 from '../../images/team/3.jpg';
-import team4 from '../../images/team/4.jpg';
+import about from '../../../images/about.jpg';
+import team1 from '../../../images/team/1.jpg';
+import team2 from '../../../images/team/2.jpg';
+import team3 from '../../../images/team/3.jpg';
+import team4 from '../../../images/team/4.jpg';
 
 // Modal Video 
 import ModalVideo from 'react-modal-video'
-import '../../../node_modules/react-modal-video/scss/modal-video.scss';
+import '../../../../node_modules/react-modal-video/scss/modal-video.scss';
 
 
 class AboutUs extends Component {
@@ -202,4 +202,4 @@ class AboutUs extends Component {
         );
     }
 }
-export default PageAboutUs;
+export default AboutUs;

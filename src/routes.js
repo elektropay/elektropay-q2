@@ -45,15 +45,8 @@ const Enterprise = React.lazy(() => import('./pages/Enterprise/index'));
 const Portfolio = React.lazy(() => import('./pages/Portfolio/index'));
 const Services = React.lazy(() => import('./pages/Services/index'));
 
-//Resources
-const ChangeLog = React.lazy(() => import('./pages/Docs/ChangeLog'));
-const Components = React.lazy(() => import('./pages/Docs/Components'));
-const Documentation = React.lazy(() => import('./pages/Docs/Documentation'));
-const Widget = React.lazy(() => import('./pages/Docs/widget'));
-
 const PageAboutUs = React.lazy(() => import('./pages/Pages/PageAboutUs'));
 const PagePricing = React.lazy(() => import('./pages/Pages/PagePricing'));
-const Plans = React.lazy(() => import('./pages/Pages/Plans'));
 const PageServices = React.lazy(() => import('./pages/Pages/PageServices'));
 const PageTeam = React.lazy(() => import('./pages/Pages/PageTeam'));
 
@@ -63,9 +56,9 @@ const PageProfileEdit = React.lazy(() => import('./pages/Pages/Account/page-prof
 const PageInvoice = React.lazy(() => import('./pages/Pages/Account/page-invoice'));
 
 //Career
+
 const PageJobsSidebar = React.lazy(() => import('./pages/Pages/Careers/page-jobs-sidebar'));
 const PageJobDetail = React.lazy(() => import('./pages/Pages/Careers/page-job-detail'));
-const PageJob = React.lazy(() => import('./pages/Pages/Careers/PageJob'));
 const PageJobApply = React.lazy(() => import('./pages/Pages/Careers/page-job-apply'));
 const PageJobCompany = React.lazy(() => import('./pages/Pages/Careers/page-job-company'));
 const PageJobCandidate = React.lazy(() => import('./pages/Pages/Careers/page-job-candidate'));
@@ -83,14 +76,31 @@ const PageWorkDetail = React.lazy(() => import('./pages/Pages/Work/PageWorkDetai
 const PagePrivacy = React.lazy(() => import('./pages/Pages/Utility/PagePrivacy'));
 const PageTerms = React.lazy(() => import('./pages/Pages/Utility/PageTerms'));
 
+//Resources
+const ChangeLog = React.lazy(() => import('./pages/Docs/ChangeLog'));
+const Components = React.lazy(() => import('./pages/Docs/Components'));
+const Documentation = React.lazy(() => import('./pages/Docs/Documentation'));
+const Widget = React.lazy(() => import('./pages/Docs/widget'));
+
+//Legal
+const PrivacyPolicy = React.lazy(() => import('./pages/Pages/Legal/PrivacyPolicy'));
+const WebsiteTerms = React.lazy(() => import('./pages/Pages/Legal/WebsiteTerms'));
+
+//Plans
+const Plans = React.lazy(() => import('./pages/Pages/Plans'));
+
 //Contact
-const AboutUs = React.lazy(() => import('./pages/Pages/AboutUs'));
-const ContactUs = React.lazy(() => import('./pages/Pages/ContactUs'));
-const PageJob = React.lazy(() => import('./pages/Pages/Careers/PageJob'));
-const PageBlog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
 const PageContactOne = React.lazy(() => import('./pages/Pages/Contact/PageContactOne'));
 const PageContactThree = React.lazy(() => import('./pages/Pages/Contact/PageContactThree'));
 const PageContactTwo = React.lazy(() => import('./pages/Pages/Contact/PageContactTwo'));
+
+//Company
+const AboutUs = React.lazy(() => import('./pages/Pages/Company/AboutUs'));
+const ContactUs = React.lazy(() => import('./pages/Pages/Company/ContactUs'));
+const ContactSupport = React.lazy(() => import('./pages/Pages/Company/Careers'));
+const Careers = React.lazy(() => import('./pages/Pages/Company/Careers'));
+const Elektrobytes = React.lazy(() => import('./pages/Pages/Company/Elektrobytes'));
+const Partners = React.lazy(() => import('./pages/Pages/Company/Partners'));
 
 const routes = [
     //routes without Layout
@@ -137,9 +147,10 @@ const routes = [
     { path: '/index-portfolio', component: Portfolio },
     { path: '/index-services', component: Services },
 
+
+    //About Us
     { path: '/page-aboutus', component: PageAboutUs },
     { path: '/page-pricing', component: PagePricing },
-    { path: '/plans', component: Plans },
     { path: '/page-services', component: PageServices },
     { path: '/page-team', component: PageTeam },
 
@@ -157,7 +168,6 @@ const routes = [
     { path: '/page-invoice', component: PageInvoice },
 
     //Page Job
-    { path: '/page-job', component: PageJob },
     { path: '/page-job-apply', component: PageJobApply },
     { path: '/page-job-detail', component: PageJobDetail },
     { path: '/page-jobs-sidebar', component: PageJobsSidebar },
@@ -165,24 +175,41 @@ const routes = [
     { path: '/page-job-candidate', component: PageJobCandidate },
 
     //Page Blog
-    { path: '/blog', component: PageBlog },
     { path: '/page-blog', component: PageBlog },
     { path: '/page-blog-detail', component: PageBlogDetail },
     { path: '/page-blog-sidebar', component: PageBlogSidebar },
 
     //Page Contact
-    { path: '/about-us', component: AboutUs },
-    { path: '/contact-us', component: ContactUs },
     { path: '/page-contact-one', component: PageContactOne },
     { path: '/page-contact-three', component: PageContactThree },
     { path: '/page-contact-two', component: PageContactTwo },
+
+    //Products
+
+
+    //Features
+
+    //Plans
+    { path: '/plans', component: Plans },
 
     //Resources
     { path: '/changelog', component: ChangeLog },
     { path: '/components', component: Components },
     { path: '/documentation', component: Documentation },
     { path: '/widget', component: Widget },
-    
+
+    //Legal
+    { path: '/privacy-policy', component: PrivacyPolicy },
+    { path: '/terms', component: WebsiteTerms },
+
+    //Company
+    { path: '/contact-us', component: ContactUs },
+    { path: '/contact-support', component: ContactSupport },
+    { path: '/about-us', component: AboutUs },
+    { path: '/careers', component: Careers },
+    { path: '/elektrobytes', component: Elektrobytes },
+    { path: '/partners', component: Partners },
+
     //Index Main
     { path: '/index', component: Main },
 

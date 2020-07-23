@@ -78,79 +78,7 @@ class Topbar extends Component {
                     ]
                 },
 
-                { id : 13, title : "Plans", link : "/plans" },
-
-                { id : 3, title : "Contact", link : "/#", isOpenSubMenu : false,
-                    child : [
-                        { id : 1, title : "About Us", link : "/page-aboutus"},
-                        { id : 2, title : "Services", link : "page-services"},
-                        { id : 3, title : "Pricing", link : "/page-pricing"},
-                        { id : 4, title : "Team", link : "/page-team"},
-                        { id : 5, title : "Account", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Profile", link : "/page-profile"},
-                                { title : "Account Setting", link : "/page-profile-edit"},
-                                { title : "Invoice", link : "/page-invoice"},
-                            ]
-                        },
-                        { id : 6, title : "Careers", link : "/#", isAdded : true, isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Jobs", link : "/page-job"},
-                                { title : "Jobs - Sidebar", link : "/page-jobs-sidebar", isAdded : true },
-                                { title : "Job Detail", link : "/page-job-detail"},
-                                { title : "Job Apply", link : "/page-job-apply"},
-                                { title : "Company", link : "/page-job-company"},
-                                { title : "Candidate", link : "/page-job-candidate"},
-                            ]
-                        },
-                        { id : 7, title : "Blog", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Blog Grid", link : "/page-blog"},
-                                { title : "Blog with Sidebar", link : "/page-blog-sidebar"},
-                                { title : "Blog Detail", link : "/page-blog-detail"},
-                            ]
-                        },
-                        { id : 8, title : "Works", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Works Grid", link : "/page-work"},
-                                { title : "Work Detail", link : "/page-work-detail"},
-                            ]
-                        },
-                        { id : 9, title : "User", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Login", link : "/page-login"},
-                                { title : "Signup", link : "/page-signup"},
-                                { title : "Recovery Password", link : "/page-recovery-password"},
-                                { title : "Login 2", link : "/page-cover-login"},
-                                { title : "Signup 2", link : "/page-cover-signup"},
-                                { title : "Recovery Password 2", link : "/page-cover-re-password"},
-                            ]
-                        },
-                        { id : 10, title : "Utility", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Terms of Services", link : "/page-terms"},
-                                { title : "Privacy Policy", link : "/page-privacy"},
-                            ]
-                        },
-                        { id : 11, title : "Special", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Coming Soon", link : "/page-comingsoon"},
-                                { title : "Coming Soon Two", link : "/page-comingsoon2"},
-                                { title : "Maintenance", link : "/page-maintenance"},
-                                { title : "Error", link : "/page-error"},
-                            ]
-                        },
-                        { id : 12, title : "Contact", link : "/#", isOpenNestedSubMenu : false,
-                            nestedChild : [
-                                { title : "Contact Us", link : "/contact-us"},
-                                { title : "About Us", link : "/about-us"},
-                                { title : "Careers", link : "/page-job"},
-                                { title : "ElektroBytes", link : "/page-blog"},
-                                { title : "Contact Three", link : "/page-contact-three"},
-                            ]
-                        },
-                    ]
-                },
+                { id : 3, title : "Plans", link : "/plans" },
 
                 { id : 4, title : "Resources", link : "/#", isOpenSubMenu : false,
                 child : [
@@ -160,8 +88,24 @@ class Topbar extends Component {
                     { title : "Widget", link : "/widget"},
                     ]
                 },
+            
+                { id : 5, title : "Company", link : "/#", isOpenSubMenu : false,
+                    child : [
+                        { id : 1, title : "Contact Us", link : "/contact-us"},
+                        { id : 2, title : "Contact Support", link : "page-contactus"},
+                        { id : 3, title : "About Us", link : "/about-us"},
+                        { id : 4, title : "Team", link : "/page-team"},
+                        { id : 5, title : "Careers", link : "/jobs-careers"},
+                        { id : 6, title : "ElektroBytes", link : "/elektrobytes"},
+                        { id : 7, title : "Partners", link : "/partners"},
+                        ]
+                    },
+                    
             ]
          };
+
+
+
         this.toggleLine = this.toggleLine.bind(this);
         this.openBlock.bind(this);
         this.openNestedBlock.bind(this);
@@ -243,10 +187,10 @@ class Topbar extends Component {
                             <Link className="logo" to="/"><img src={logo} className="header_logo" width="160" alt=""/></Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-xl-block d-md-block">Login</Link>
+                            <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-md-block">Login</Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-outline-info mt-3 mr-2 d-none d-xl-block d-sm-block">Try It Free</Link>
+                            <Link to="#" id="buyButton" className="btn btn-outline-info mt-3 mr-2 d-none d-sm-block">Try It Free</Link>
                         </div>
 
                         <div className="menu-extras">

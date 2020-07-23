@@ -6,7 +6,7 @@ import { Container, Row, Col, Card, CardBody, Collapse} from 'reactstrap';
 //Import components
 import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
 
-class PageTerms extends Component {
+class WebsiteTerms extends Component {
 
     constructor(props) {
         super(props);
@@ -14,9 +14,8 @@ class PageTerms extends Component {
             pathItems : [
                 //id must required
                 { id : 1, name : "Home", link : "/index" },
-                { id : 2, name : "Pages", link : "#" },
-                { id : 3, name : "Utility", link : "#" },
-                { id : 4, name : "Terms of Services" },
+                { id : 2, name : "Legal", link : "#" },
+                { id : 3, name : "Terms & Conditions" },
             ],
             t1 : true,
             t2 : false,
@@ -50,7 +49,7 @@ class PageTerms extends Component {
         return (
             <React.Fragment>
                 {/* breadcrumb */}
-                <PageBreadcrumb title="Terms of Services" pathItems = {this.state.pathItems} />
+                <PageBreadcrumb title="Terms of Conditions" pathItems = {this.state.pathItems} />
                     <div className="position-relative">
                         <div className="shape overflow-hidden text-white">
                             <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,4 +166,4 @@ class PageTerms extends Component {
         );
     }
 }
-export default PageTerms;
+export default WebsiteTerms;
