@@ -10,7 +10,7 @@ import CTA from "./cta";
 import Pricings from "./pricings";
 import BlockContainer from "./block-container";
 import WebsiteDescription from "./website-description";
-import Price from "./price";
+// import Price from "./price";
 
 //Import Images
 import user from "../../images/icon/user.svg";
