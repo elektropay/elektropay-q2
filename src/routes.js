@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Root Include
-const Root = React.lazy(() => import('./pages/Payments/index'));
+// const Root = React.lazy(() => import('./pages/Payments/index'));
 const PageContactDetail = React.lazy(() => import('./pages/Pages/Contact/PageContactDetail'));
 
 //Special
