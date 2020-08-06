@@ -4,7 +4,7 @@ import { Container } from "reactstrap";
 //Import Components
 import Section from "./section";
 import Partners from "../../components/Shared/Partners";
-import Feature from "../../components/Shared/Feature";
+// import Feature from "../../components/Shared/Feature";
 import FeatureDescription from "./feature-description";
 import CTA from "./cta";
 import Pricings from "./pricings";
