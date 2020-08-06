@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Root Include
-const Root = React.lazy(() => import('./pages/Payments/index'));
+// const Root = React.lazy(() => import('./pages/Payments/index'));
 const PageContactDetail = React.lazy(() => import('./pages/Pages/Contact/PageContactDetail'));
 
 //Special
@@ -28,7 +28,7 @@ const IndexCarRiding = React.lazy(() => import('./pages/Car Ride/index'));
 const ClassicApp = React.lazy(() => import('./pages/Classic Application/index'));
 const Main = React.lazy(() => import('./pages/Home/indexMain'));
 const Agency = React.lazy(() => import('./pages/Agency/index'));
-const Saas = React.lazy(() => import('./pages/Saas/index'));
+// const Saas = React.lazy(() => import('./pages/Saas/index'));
 const Apps = React.lazy(() => import('./pages/Apps/index'));
 const Studio = React.lazy(() => import('./pages/Studio/index'));
 const Business = React.lazy(() => import('./pages/Business/index'));

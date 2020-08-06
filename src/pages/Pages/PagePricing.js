@@ -6,9 +6,9 @@ import classnames from 'classnames';
 
 //Import components
 import Section from "./hero-plans";
-import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
+// import PageBreadcrumb from "../../components/Shared/page-breadcrumb";
 import SectionTitle from "../../components/Shared/section-title";
-import PricingBox2 from "../../components/Shared/pricing-box2";
+ // import PricingBox2 from "../../components/Shared/pricing-box2";
 import Pricing from "../../components/Shared/pricing-box";
 import ReviewsSlider from "../../components/Shared/reviews-slider";
 
