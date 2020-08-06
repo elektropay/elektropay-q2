@@ -92,9 +92,9 @@ class Topbar extends Component {
                 { id : 5, title : "Company", link : "/#", isOpenSubMenu : false,
                     child : [
                         { id : 1, title : "Contact Us", link : "/contact-us"},
-                        { id : 2, title : "Contact Support", link : "page-contactus"},
+                        { id : 2, title : "Support", link : "/support"},
                         { id : 3, title : "About Us", link : "/about-us"},
-                        { id : 4, title : "Team", link : "/page-team"},
+                        { id : 4, title : "Our Team", link : "/page-team"},
                         { id : 5, title : "Careers", link : "/jobs-careers"},
                         { id : 6, title : "ElektroBytes", link : "/elektrobytes"},
                         { id : 7, title : "Partners", link : "/partners"},
