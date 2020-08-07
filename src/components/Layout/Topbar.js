@@ -15,9 +15,9 @@ class Topbar extends Component {
             navLinks : [
                  { id : 1, title : "Platform", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
                     child : [
-                        { title : "Card Payments", link : "/index-payments" },
-                        { title : "Retail Payments", link : "/index-business" },
-                        { title : "Billing Solutions", link : "/index-apps", isNew : true },
+                        { title : "Card Processing", link : "/index-payments" },
+                        { title : "Omni-Commerce", link : "/index-business" },
+                        { title : "Real-Time Payments", link : "/index-apps", isNew : true },
                         { title : "Bitcoin Payments", link : "/index-crypto" },
                         { title : "Mobile Payments", link : "/index-modern-business" },
                         { title : "Bank Payments", link : "/index-software", isNew : true },
@@ -27,25 +27,22 @@ class Topbar extends Component {
                         { title : "Marketplace", link : "/index-services" },
                         { title : "ElektroPos", link : "/index-course", isNew : true  },
                         { title : "EAuth", link : "/index-personal" },
-                        { title : "ElektroBill", link : "/index-single" },
+                        { title : "SugarBiller", link : "/index-single" },
                         { title : "KardIssue", link : "/index-portfolio", isNew : true },                       
                     ]
                 },
                 { id : 2, title : "Features", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
                     child : [
                         { title : "Payment Methods", link : "/index-saas" },
-                        { title : "Fraud Tools", link : "/index-apps" },
+                        { title : "Fraud Prevention", link : "/index-apps" },
                         { title : "Instore Payments", link : "/index-business" },
+                        { title : "Risk Management", link : "/index-software", isNew : true  }, 
                     ],
                     child2 : [
+                        { title : "Payouts", link : "/index-cloud-hosting" },
                         { title : "Global Reach", link : "/index-cloud-hosting" },
                         { title : "Analytics Engine", link : "/index-single" },
-                        { title : "Serverless Stack", link : "/index-onepage", isOnePage : true },                        
-                    ],
-                    child3 : [
-                        { title : "Payouts", link : "/index-cloud-hosting" },
-                        { title : "Data Security", link : "/index-personal" },
-                        { title : "Risk Management", link : "/index-software", isNew : true  },                   
+                        { title : "Serverless Stack", link : "/index-onepage"},                        
                     ]
                 },
 
