@@ -20,7 +20,7 @@ class Topbar extends Component {
                         { title : "Billing Solutions", link : "/index-apps", isNew : true },
                         { title : "Bitcoin Payments", link : "/index-crypto" },
                         { title : "Mobile Payments", link : "/index-modern-business" },
-                        { title : "Bank Debit Payments", link : "/index-software", isNew : true },
+                        { title : "Bank Payments", link : "/index-software", isNew : true },
                     ],
                     child2 : [
                         { title : "Tasket", link : "/index-cloud-hosting" },
@@ -28,25 +28,24 @@ class Topbar extends Component {
                         { title : "ElektroPos", link : "/index-course", isNew : true  },
                         { title : "EAuth", link : "/index-personal" },
                         { title : "ElektroBill", link : "/index-single" },
-                        { title : "KardIssue", link : "/index-portfolio", isOnePage : true },                       
+                        { title : "KardIssue", link : "/index-portfolio", isNew : true },                       
                     ]
                 },
                 { id : 2, title : "Features", link : "/#", isMegaMenu : true, isOpenSubMenu : false,
                     child : [
-                        { title : "Saas", link : "/index-saas" },
-                        { title : "Application", link : "/index-apps" },
-                        { title : "Business", link : "/index-business" },
-                        { title : "Modern Business", link : "/index-modern-business" },
-                        { title : "Marketing", link : "/index-marketing" },
-                        { title : "Enterprise", link : "/index-enterprise" },
+                        { title : "Payment Methods", link : "/index-saas" },
+                        { title : "Fraud Tools", link : "/index-apps" },
+                        { title : "Instore Payments", link : "/index-business" },
                     ],
                     child2 : [
-                        { title : "Cloud Hosting", link : "/index-cloud-hosting" },
-                        { title : "Personal", link : "/index-personal" },
-                        { title : "Product", link : "/index-single" },
-                        { title : "Service", link : "/index-services" },
-                        { title : "Software", link : "/index-software" },
-                        { title : "Saas", link : "/index-onepage", isOnePage : true },                        
+                        { title : "Global Reach", link : "/index-cloud-hosting" },
+                        { title : "Analytics Engine", link : "/index-single" },
+                        { title : "Serverless Stack", link : "/index-onepage", isOnePage : true },                        
+                    ],
+                    child3 : [
+                        { title : "Payouts", link : "/index-cloud-hosting" },
+                        { title : "Data Security", link : "/index-personal" },
+                        { title : "Risk Management", link : "/index-software", isNew : true  },                   
                     ]
                 },
 
@@ -58,8 +57,8 @@ class Topbar extends Component {
                     { title : "Developer Docs", link : "/documentation"},
                     { title : "Our Blog", link : "/elektrobytes"},
                     { title : "Support Articles", link : "/changelog"},
-                    { title : "Components", link : "/components"},
-                    { title : "Status", link : "//status.elektropay.com"},
+                    { title : "Github Repo", link : "/components"},
+                    { title : "Service Status", link : "//status.elektropay.com"},
                     ]
                 },
             
