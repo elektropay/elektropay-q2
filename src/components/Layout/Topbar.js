@@ -184,7 +184,7 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                           <div>
-                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="172" alt=""/></Link>
+                            <Link className="logo" to="/"><img src={logo} className="header_logo" width="180" alt=""/></Link>
                         </div>
                         <div className="buy-button">
                             <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-md-block">Login</Link>
