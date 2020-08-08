@@ -19,7 +19,7 @@ class Footer extends Component {
                         <Row className="justify-content-center">
                             <Col md={6}>
                                 <div className="copy-rights text-center">
-                                    <p className="mb-0">© {new Date().getFullYear()}-{new Date().getFullYear() + 1} Landrick. Design by Themesbrand</p>
+                                    <p className="mb-0">© {new Date().getFullYear()}-{new Date().getFullYear() + 1} Elektropay. Design by Themesbrand</p>
                                 </div>
                             </Col>
                         </Row>
