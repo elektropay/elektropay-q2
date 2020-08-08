@@ -59,14 +59,19 @@ class Footer extends Component {
       <React.Fragment>
 
 
-        <footer className={this.props.isLight ? "footer bg-light" : "footer"}>
+        <footer className={this.props.isLight ? "footer bg-black" : "footer"}>
 
             <Container>
                 <Row>
                 <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">	                    
                         <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Elektropay<span className="text-primary">.</span></Link>	                       
-                        <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                        
+                        <p className={ this.props.isLight ? "mt-4 text-muted small" : "mt-4"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
+                        <ul className="list-unstyled social-icon social mb-0 mt-4">
+                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
+                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Linkedin"></i></Link></li>
+                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
+                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-slack" title="Slack"></i></Link></li>
+                        </ul>
                     </Col>
                     <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Platform</h4>
@@ -118,20 +123,17 @@ class Footer extends Component {
                 <Row className="align-items-center">
                     <Col md="6" sm="6">
                         <div className="text-sm-left small">
-                           <ul className="list-unstyled social-icon social mb-0 mt-4">
-                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
-                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
-                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
+                           <ul className="list-unstyled mb-0 mt-4">
                             <li className="list-inline-item mr-0 text-muted">Elektropay is a service of EverPay. &copy; 2020 Elektropay. </li>
                         </ul>
                         </div>
                     </Col>
                  <Col md="3" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right text-muted mb-0 small">
-                            <li className="list-inline-item mr-1 text-muted small"><Link to="/privacy-policy">Privacy Statement&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-1 text-muted small"><Link to="/privacy-policy">Privacy&nbsp; | </Link></li>
                             <li className="list-inline-item mr-1 text-muted small"><Link to="/terms">Terms&nbsp; | </Link></li>
                             <li className="list-inline-item mr-1 text-muted small"><Link to="/security-policy">Security&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-1 text-muted small"><Link to="//status.elektropay.com"> Status  </Link></li>
+                            <li className="list-inline-item mr-1 text-muted small"><Link to="//status.elektropay.com"> Status </Link></li>
                         </ul>
                     </Col>
 
