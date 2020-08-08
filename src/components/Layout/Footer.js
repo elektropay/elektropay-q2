@@ -76,7 +76,8 @@ class Footer extends Component {
                         <p className={ this.props.isLight ? "small mt-4 text-white" : "mt-4 small"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
-                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Linkedin"></i></Link></li>
+                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-linkedin" title="Linkedin"></i></Link></li>
+                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-whatsapp" title="Whatsapp"></i></Link></li>
                             <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
                             <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-slack" title="Slack"></i></Link></li>
                         </ul>
