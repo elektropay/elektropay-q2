@@ -1,6 +1,6 @@
 /* App Name: Elektropay
    Author: EverPay
-   E-mail: everpay@gmail.com
+   E-mail: richard.r@everpayinc.com
    Version: 2.1.0
    Created: May 2020
    File Description: Main Css file of the template
@@ -27,11 +27,13 @@
  *     17.  Contact              *
  *     18.  Footer               *
  ================================*/
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900");
 .bg-primary {
-  background-color: #5dbcd2 !important;
+  background-color: #5dbcd2!important;
 }
-
+.bg-black {
+  background-color: #202942!important;
+}
 .text-primary {
   color: #5dbcd2 !important;
 }
@@ -143,8 +145,11 @@ a.text-light:hover, a.text-light:focus {
 .text-footer {
   color: #202942 !important;
 }
+.text-copyright {
+  color: #202942 !important;
+}
 
-a.text-footer:hover, a.text-footer:focus {
+a.text-copyright:hover, a.text-copyright:focus {
   color: #181e30 !important;
 }
 
@@ -154,7 +159,7 @@ a.text-footer:hover, a.text-footer:focus {
 }
 
 .rounded {
-  border-radius: 10px !important;
+  border-radius: 15px !important;
 }
 
 .rounded-top {
@@ -1396,11 +1401,11 @@ button:not(:disabled) {
   color: #3c4858;
   border: 1px solid #3c4858;
   display: inline-block;
-  height: 32px;
+  height: 28px;
   text-align: center;
-  font-size: 15px;
-  width: 32px;
-  line-height: 30px;
+  font-size: 16px;
+  width: 28px;
+  line-height: 27px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   overflow: hidden;
@@ -1416,6 +1421,10 @@ button:not(:disabled) {
 .social-icon.social li a, .profile-icons.social li a {
   color: #adb5bd;
   border-color: #adb5bd;
+}
+
+.rounded {
+    border-radius: 15px!important;
 }
 
 .back-to-top {
@@ -1502,15 +1511,38 @@ button:not(:disabled) {
   }
 }
 
+svg {
+    margin-bottom: -0.4375rem;
+    vertical-align: baseline;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+    
+figure {
+    margin-bottom: 0;
+}
+figure {
+    margin: 0 0 1rem;
+}
+
+html {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 body {
-  font-family: 'Ubuntu', sans-serif;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
   overflow-x: hidden !important;
-  font-size: 16px;
   color: #161c2d;
 }
 
+h1, .h1 {
+    font-size: 3.275rem;
+   }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 600;
 }
@@ -3705,7 +3737,7 @@ margin-top: -4px;
 }
 
 .footer {
-  background: #202942;
+  background: #16191f;
   padding: 60px 0;
   position: relative;
   color: #adb5bd;
@@ -3720,7 +3752,7 @@ margin-top: -4px;
 }
 
 .footer .footer-head {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 500;
 }
@@ -3766,11 +3798,16 @@ margin-top: -4px;
 
 .footer .footer-list li {
   margin-bottom: 10px;
+  font-size: small; 
 }
 
 .footer .footer-list li a {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.footer .text-foot {
+    color: #adb5bd;
 }
 
 .footer .footer-list li a:hover {
@@ -3779,6 +3816,30 @@ margin-top: -4px;
 
 .footer .footer-list li:last-child {
   margin-bottom: 0;
+}
+
+.footer .social-muted {
+    color: #3d4349 !important;
+}
+
+.footer .creditcard-icons {
+    font-size: 15px;
+}
+
+.footer .copyright-list li a {
+    transition: all .5s ease;
+}
+
+.footer .copyright-list li a:hover {
+  color: #e6e8ea;
+}
+
+.footer .copyright-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer .text-copyright {
+    color: #adb5bd;
 }
 
 .footer.footer-bar {
