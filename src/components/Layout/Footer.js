@@ -8,7 +8,7 @@ import discover from '../../images/payments/discover.png';
 import masterCard from '../../images/payments/master-card.png';
 import paypal from '../../images/payments/paypal.png';
 import visa from '../../images/payments/visa.png';
-import logo from '//res.cloudinary.com/lmj6rf6tz/image/upload/c_scale,w_172/v1567499258/elektropay/assets/img/logo_white.png';
+import logo from '../../images/logo_white.png';
 class Footer extends Component {
 
   constructor(props) {
