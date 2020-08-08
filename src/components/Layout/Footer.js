@@ -154,22 +154,22 @@ class Footer extends Component {
                         </div>
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                   <ul className="list-unstyled creditcard-icons text-sm-right text-muted mb-0">
-          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-discover text-muted"></i></li>
-          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-jcb text-muted"></i></li>
-          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-amex text-muted"></i></li>
-          <li className="list-inline-item mr-1"><i className="fab fa-cc-stripe text-muted"></i></li>
-          <li className="list-inline-item mr-1"><i className="fab fa-cc-apple-pay text-muted"></i></li>
-          <li className="list-inline-item mr-1"><i className="fab fa-cc-amazon-pay text-muted"></i></li>
+                   <ul className="list-unstyled creditcard-icons text-sm-right mb-0">
+          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-discover"></i></li>
+          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-jcb"></i></li>
+          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-amex"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-stripe"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-apple-pay"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-amazon-pay"></i></li>
           <li className="list-inline-item mr-0"><img src={pci} alt="" /></li>
                         </ul>
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <ul className="list-unstyled list-inline-item copyright-list text muted mb-0 small">
+                    <ul className="list-unstyled copyright-list mb-0 small">
                               {
                                 this.state.grid5.map((grid, key) =>
-                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item small" : "text-copyright"}>{grid.title} </Link></li>
+                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item text-muted" : "text-copyright"}>{grid.title} </Link></li>
                                 )
                             }
                         </ul>
