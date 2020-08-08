@@ -38,7 +38,7 @@ class Footer extends Component {
             { title : "Contact us", link : "/contact-us" },
             { title : "About us", link : "/about-us" },
             { title : "Our Team", link : "/page-team" },
-            { title : "Careers", link : "/page-jobs" },
+            { title : "Careers", link : "/page-jobs", isHiring : true },
             { title : "Partners", link : "/page-work" },
         ],
       
