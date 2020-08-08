@@ -147,7 +147,6 @@ class Footer extends Component {
         </footer>
         <footer className="footer footer-bar">
             <Container className="text-center">
-              <CookiePolicyBanner />
                 <Row className="align-items-center">
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="text-sm-left small">
@@ -180,6 +179,7 @@ class Footer extends Component {
                       </Col>
                 </Row>
             </Container>
+      <CookiePolicyBanner />
         </footer>
       </React.Fragment>
     );
