@@ -97,7 +97,7 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4 small">
                             {
                                 this.state.grid2.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted list-inline-item" : "text-foot list-inline-item"}> {grid.title}</Link></li>
                                 )
                             }
                         </ul>
