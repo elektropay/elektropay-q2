@@ -34,6 +34,7 @@ class Footer extends Component {
             { title : "Serverless Stack", link : "/page-blog" },
             { title : "Risk Management", link : "/page-cover-login" },
         ],
+      
         grid3 : [
             { title : "Contact us", link : "/contact-us" },
             { title : "About us", link : "/about-us" },
@@ -63,8 +64,8 @@ class Footer extends Component {
             <Container>
                 <Row>
                 <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">	                    
-                        <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="170" alt=""/><span className="text-primary">.</span></Link>	                       
-                        <p className={ this.props.isLight ? "mt-4 text-muted small" : "mt-4"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
+                        <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="180" alt=""/></Link>	                       
+                        <p className={ this.props.isLight ? "mt-4 text-white small" : "mt-4"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Linkedin"></i></Link></li>
@@ -77,7 +78,7 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid1.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}><i className="mdi mdi-chevron-right mr-1"></i> {grid.title}</Link></li>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}>{grid.title}</Link></li>
                                 )
                             }
                         </ul>
