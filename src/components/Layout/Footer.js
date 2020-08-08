@@ -78,7 +78,7 @@ class Footer extends Component {
                                     </div>
                                 </Col>
             
-                                <Col sm="4" className="mt-4 mt-sm-4">
+                                <Col sm="4" className="mt-3 mt-sm-3">
                                  <div className="text-sm-left">
                                         <Link to="//auth.elektropay.com/signup" className="btn btn-primary mr-1">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
                                    
