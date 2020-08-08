@@ -1602,7 +1602,7 @@ p {
 }
 
 .title-heading {
-  line-height: 28px;
+  line-height: 40px;
 }
 
 .title-heading {
@@ -1613,6 +1613,12 @@ p {
 .heading {
   font-size: 48px;
   letter-spacing: 1px;
+}
+
+.title-heading .heading {
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 .title-heading .para-desc {
