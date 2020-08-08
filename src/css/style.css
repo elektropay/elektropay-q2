@@ -29,9 +29,11 @@
  ================================*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900");
 .bg-primary {
-  background-color: #5dbcd2 !important;
+  background-color: #5dbcd2!important;
 }
-
+.bg-black {
+  background-color: #202942!important;
+}
 .text-primary {
   color: #5dbcd2 !important;
 }
@@ -3808,6 +3810,10 @@ margin-top: -4px;
   transition: all 0.5s ease;
 }
 
+.footer .text-foot {
+    color: #adb5bd;
+}
+
 .footer .footer-list li a:hover {
   color: #e6e8ea;
 }
@@ -3817,10 +3823,27 @@ margin-top: -4px;
 }
 
 .footer .social-muted {
-    color: #555657 !important;
+    color: #3d4349 !important;
 }
+
 .footer .creditcard-icons {
     font-size: 15px;
+}
+
+.footer .copyright-list li a {
+    transition: all .5s ease;
+}
+
+.footer .copyright-list li a:hover {
+  color: #e6e8ea;
+}
+
+.footer .copyright-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer .text-copyright {
+    color: #adb5bd;
 }
 
 .footer.footer-bar {
