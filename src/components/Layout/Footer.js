@@ -70,7 +70,7 @@ class Footer extends Component {
             <Container>
                 <Row>
                 <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">	                    
-                        <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="180" alt=""/></Link>	                       
+                        <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="160" alt=""/></Link>	                       
                         <p className={ this.props.isLight ? "small mt-4 text-white" : "mt-4 mr-1 small"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
