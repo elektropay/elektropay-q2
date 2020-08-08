@@ -1396,11 +1396,11 @@ button:not(:disabled) {
   color: #3c4858;
   border: 1px solid #3c4858;
   display: inline-block;
-  height: 32px;
+  height: 28px;
   text-align: center;
-  font-size: 15px;
-  width: 32px;
-  line-height: 30px;
+  font-size: 16px;
+  width: 28px;
+  line-height: 27px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   overflow: hidden;
@@ -1416,6 +1416,10 @@ button:not(:disabled) {
 .social-icon.social li a, .profile-icons.social li a {
   color: #adb5bd;
   border-color: #adb5bd;
+}
+
+.rounded {
+    border-radius: 15px!important;
 }
 
 .back-to-top {
@@ -3728,7 +3732,7 @@ margin-top: -4px;
 }
 
 .footer {
-  background: #202942;
+  background: #16191f;
   padding: 60px 0;
   position: relative;
   color: #adb5bd;
@@ -3743,7 +3747,7 @@ margin-top: -4px;
 }
 
 .footer .footer-head {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 500;
 }
@@ -3789,6 +3793,7 @@ margin-top: -4px;
 
 .footer .footer-list li {
   margin-bottom: 10px;
+  font-size: small; 
 }
 
 .footer .footer-list li a {
