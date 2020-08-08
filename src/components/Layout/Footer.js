@@ -67,7 +67,7 @@ class Footer extends Component {
 
         <footer className={this.props.isLight ? "footer bg-black" : "footer"}>
           <Container className="mt-60 mb-60">
-                        <div className="p-4 rounded bg-black shadow">
+                        <div className="pt-4 pb-4 pr-4">
                             <Row className="align-items-center">
                                 <Col sm="7">
                                     <div className="text-sm-left">
