@@ -241,6 +241,7 @@ class Topbar extends Component {
                                         <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
                                     )
                                 }
+                                <li><i className="mdi mdi-facebook" title="Facebook"></i> </li>    
                             </ul>
                             <div className="buy-menu-btn ml-4">
                                 <Link to="#" id="signupButton" target="_blank" className="btn btn-outline-info d-md-none">Get Started</Link>
