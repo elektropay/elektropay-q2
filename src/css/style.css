@@ -577,14 +577,18 @@ button:not(:disabled) {
 }
 
 .badge-success {
-  background-color: #2eca8b !important;
-  color: #ffffff !important;
+  color: #fff;
+  background-color: #00c9a7;
 }
 
-.badge-outline-success {
-  background-color: transparent !important;
-  color: #2eca8b !important;
-  border: 1px solid #2eca8b !important;
+a.badge-success:hover, a.badge-success:focus {
+  color: #fff;
+  background-color: #00967d;
+}
+
+a.badge-success:focus, a.badge-success.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 201, 167, 0.5);
 }
 
 .badge-warning {
@@ -682,7 +686,9 @@ button:not(:disabled) {
 }
 
 .badge.badge-pill {
-  border-radius: 10px;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
 }
 
 .badge:focus, .badge.focus {
