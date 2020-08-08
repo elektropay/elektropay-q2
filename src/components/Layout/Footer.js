@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
+// import CookiePolicy
+import CookiePolicyBanner from '@edx/frontend-component-cookie-policy-banner';
+
 // import images
 import logoWhite from '../../images/logo_white.png';
 import pci from '../../images/pci_dss.png';
@@ -172,7 +175,9 @@ class Footer extends Component {
                      <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item text-muted" : "text-copyright"}>{grid.title} </Link></li>
                                 )
                             }
+                     <li className="list-inline-item mr-1"><CookiePolicyBanner /></li>
                         </ul>
+
                       </Col>
                 </Row>
             </Container>
