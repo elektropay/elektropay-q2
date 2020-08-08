@@ -8,7 +8,7 @@ import discover from '../../images/payments/discover.png';
 import masterCard from '../../images/payments/master-card.png';
 import paypal from '../../images/payments/paypal.png';
 import visa from '../../images/payments/visa.png';
-import logo from 'https://res.cloudinary.com/lmj6rf6tz/image/upload/c_scale,w_172/v1567499258/elektropay/assets/img/logo_white.png';
+import logo from '//res.cloudinary.com/lmj6rf6tz/image/upload/c_scale,w_172/v1567499258/elektropay/assets/img/logo_white.png';
 class Footer extends Component {
 
   constructor(props) {
@@ -64,7 +64,7 @@ class Footer extends Component {
             <Container>
                 <Row>
                 <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">	                    
-                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">Elektropay<span className="text-primary">.</span></Link>	                       
+                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#"><img src={logo} className="" width="170" alt=""/><span className="text-primary">.</span></Link>	                       
                         <p className={ this.props.isLight ? "mt-4 text-muted small" : "mt-4"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
