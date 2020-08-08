@@ -172,16 +172,17 @@ class Footer extends Component {
                     <ul className="list-unstyled copyright-list text-sm-right mb-0">
                               {
                                 this.state.grid5.map((grid, key) =>
-      <li key={key} className="list-inline-item small"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
+      <li key={key} className="list-inline-item small mr-1"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
                         </ul>
 
                       </Col>
-<div className="list-inline-item"><CookiePolicyBanner /></div>
                 </Row>
             </Container>
-        </footer>        
+        </footer>
+
+<div className="list-inline-item"><CookiePolicyBanner /></div>
       </React.Fragment>
     );
   }
