@@ -180,9 +180,9 @@ class Footer extends Component {
                       </Col>
                 </Row>
             </Container>
-        </footer>
 
-<div className="list-inline-item"><CookiePolicyBanner /></div>
+<div><CookiePolicyBanner /></div>
+        </footer>
       </React.Fragment>
     );
   }
