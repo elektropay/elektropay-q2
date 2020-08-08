@@ -71,13 +71,16 @@ class Footer extends Component {
                             <Row className="align-items-center">
                                 <Col sm="7">
                                     <div className="text-sm-left">
-                                        <h2 className="mb-0">Ready to start accepting payments?</h2>
+                                        <h1 className="mb-0 text-white">Ready To start Accepting Payments?</h1>
                                     </div>
                                 </Col>
             
                                 <Col sm="5" className="mt-4 mt-sm-0">
+                                 <div className="text-sm-left">
+                                        <Link to="" className="btn btn-outline-primary">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
+                                    </div>
                                     <div className="text-sm-right">
-                                        <Link to="" className="btn btn-outline-primary">Start Now <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="" className="btn btn-secondary-primary">Try The Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                 </Col>
                             </Row>
