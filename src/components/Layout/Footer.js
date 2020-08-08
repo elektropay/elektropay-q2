@@ -66,18 +66,18 @@ class Footer extends Component {
 
 
         <footer className={this.props.isLight ? "footer bg-black" : "footer"}>
-          <Container className="mt-100 mt-60">
+          <Container className="mt-60 mb-60">
                         <div className="p-4 rounded bg-black shadow">
                             <Row className="align-items-center">
                                 <Col sm="7">
                                     <div className="text-sm-left">
-                                        <h5 className="mb-0">Start building beautiful block-based websites.</h5>
+                                        <h2 className="mb-0">Ready to start accepting payments?</h2>
                                     </div>
                                 </Col>
             
                                 <Col sm="5" className="mt-4 mt-sm-0">
                                     <div className="text-sm-right">
-                                        <Link to="" className="btn btn-outline-primary"><i className="mdi mdi-file-document-outline"></i> Start Now </Link>
+                                        <Link to="" className="btn btn-outline-primary">Start Now <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                 </Col>
                             </Row>
