@@ -53,7 +53,7 @@ class Topbar extends Component {
                         { id : 1, title : "Contact Us", link : "/contact-us"},
                         { id : 3, title : "About Us", link : "/about-us"},
                         { id : 4, title : "Our Team", link : "/page-team"},
-                        { id : 5, title : "Careers", link : "/index-job"},
+                        { id : 5, title : "Careers", link : "/index-job", isHiring : true },
                         { id : 6, title : "Partners", link : "/partners"},
                         ]
                 },
@@ -64,7 +64,6 @@ class Topbar extends Component {
                     { title : "Help & Support", link : "/changelog"},
                     { title : "Sandbox API", link : "//sandbox.elektropay.com"},
                     { title : "Documentation", link : "//docs.elektropay.com"},
-                    { title : "Github Repo", link : "//github.com/elektropay"},
                     { title : "Developer Portal", link : "//developers.elektropay.com"},
                     ]
                 },
