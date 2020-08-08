@@ -48,7 +48,17 @@ class Topbar extends Component {
 
                 { id : 3, title : "Plans", link : "/plans" },
 
-                { id : 4, title : "Resources", link : "/#", isOpenSubMenu : false,
+                { id : 4, title : "Company", link : "/#", isOpenSubMenu : false,
+                    child : [
+                        { id : 1, title : "Contact Us", link : "/contact-us"},
+                        { id : 3, title : "About Us", link : "/about-us"},
+                        { id : 4, title : "Our Team", link : "/page-team"},
+                        { id : 5, title : "Careers", link : "/index-job"},
+                        { id : 6, title : "Partners", link : "/partners"},
+                        ]
+                },
+             
+                { id : 5, title : "Resources", link : "/#", isOpenSubMenu : false,
                 child : [
                     
                     { title : "Developer Docs", link : "/documentation"},
@@ -58,18 +68,7 @@ class Topbar extends Component {
                     { title : "Service Status", link : "//status.elektropay.com"},
                     ]
                 },
-            
-                { id : 5, title : "Company", link : "/#", isOpenSubMenu : false,
-                    child : [
-                        { id : 1, title : "Contact Us", link : "/contact-us"},
-                        { id : 2, title : "Support", link : "/index-customer"},
-                        { id : 3, title : "About Us", link : "/about-us"},
-                        { id : 4, title : "Our Team", link : "/page-team"},
-                        { id : 5, title : "Careers", link : "/index-job"},
-                        { id : 6, title : "Partners", link : "/partners"},
-                        ]
-                    },
-                    
+                   
             ]
          };
 
@@ -238,10 +237,10 @@ class Topbar extends Component {
                                                 
                                         </li>
                                     :
-                                        <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
+                                      <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
                                     )
                                 }
-                                <li><i className="mdi mdi-facebook" title="Facebook"></i> </li>    
+                                <li><Link to="/index-customer" id="supportButton" className=""><i className="mdi mdi-facebook" title="Contact Support"></i></Link> </li>    
                             </ul>
                             <div className="buy-menu-btn ml-4">
                                 <Link to="#" id="signupButton" target="_blank" className="btn btn-outline-info d-md-none">Get Started</Link>
