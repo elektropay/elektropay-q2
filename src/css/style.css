@@ -3809,6 +3809,13 @@ margin-top: -4px;
   margin-bottom: 0;
 }
 
+.footer .social-muted {
+    color: #555657 !important;
+}
+.footer .creditcard-icons {
+    font-size: 15px;
+}
+
 .footer.footer-bar {
   padding: 30px 0;
   border-top: 1px solid #3d4349;
