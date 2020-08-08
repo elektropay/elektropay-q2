@@ -14,7 +14,7 @@
         letter-spacing: 1px;
     }
     .footer-head {
-        font-size: 20px; 
+        font-size: 17px; 
         letter-spacing: 1px;         
         font-weight: 500;
     }
@@ -39,6 +39,9 @@
         }
     } 
     .text-foot {
+        color: $gray-500;
+    }
+    .text-copyright {
         color: $gray-500;
     }
     .footer-list {
