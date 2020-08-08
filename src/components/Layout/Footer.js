@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Form, Input, Label } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 // import images
 import americanEx from '../../images/payments/american-ex.png';
