@@ -18,8 +18,12 @@ class Footer extends Component {
             { title : "Card Processing", link : "/page-aboutus" },
             { title : "Omni Commerce", link : "/page-services" },
             { title : "Crypto Processing", link : "/page-team" },
-            { title : "Tasket", link : "/page-pricing" },
+            { title : "Real-Time Processing", link : "/page-team" },
+            { title : "Mobile Processing", link : "/page-pricing" },
             { title : "ElektroPOS", link : "/page-work" },
+            { title : "Bank Payments", link : "/page-work" },
+            { title : "Tasket", link : "/page-pricing" },
+            { title : "EAuth", link : "/page-work" },
             { title : "Marketplace", link : "/page-jobs" },
             { title : "SugarBiller", link : "/page-blog" },
             { title : "KardIssue", link : "/page-cover-login" },
@@ -32,7 +36,8 @@ class Footer extends Component {
             { title : "Global Reach", link : "/page-work" },
             { title : "Analytics Engine", link : "/page-jobs" },
             { title : "Serverless Stack", link : "/page-blog" },
-            { title : "Risk Management", link : "/page-cover-login" },
+            { title : "Risk Management", link : "/page-cover-login" },  
+            { title : "Fees & Pricing", link : "/plans" },
         ],
       
         grid3 : [
@@ -41,7 +46,6 @@ class Footer extends Component {
             { title : "Our Team", link : "/page-team" },
             { title : "Careers", link : "/page-jobs" },
             { title : "Partners", link : "/page-work" },
-            { title : "Pricing & Plans", link : "/plans" },
         ],
       
         grid4 : [
