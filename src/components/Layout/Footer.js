@@ -63,7 +63,7 @@ class Footer extends Component {
 
             <Container>
                 <Row>
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Platform</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
@@ -73,7 +73,7 @@ class Footer extends Component {
                             }
                         </ul>
                     </Col>
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Features</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
@@ -84,7 +84,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
                 
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="3" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Company</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
