@@ -155,7 +155,7 @@ class Footer extends Component {
                         </ul>
                         </div>
                     </Col>
-                 <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                 <Col md="3" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                    <ul className="list-unstyled creditcard-icons text-sm-center mb-0">
           <li className="list-inline-item mr-1"><i className="fab fa-cc-discover"></i></li>
           <li className="list-inline-item mr-1"><i className="fab fa-cc-jcb"></i></li>
@@ -167,14 +167,14 @@ class Footer extends Component {
                    </ul>
                     </Col>
 
-                    <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <Col md="5" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <ul className="list-unstyled copyright-list text-sm-right mb-0">
                               {
                                 this.state.grid5.map((grid, key) =>
       <li key={key} className="list-inline-item small mr-2"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
-       <li className="list-inline-item"><Link to="//elektropay.freshstatus.io" className="text-muted small" target="_blank">Status <span className="color-dot success"> <i className="fas fa-circle success"></i></span><span className="color-description">Operational</span></link></li>                 
+       <li className="list-inline-item small mr-2"><Link to="//elektropay.freshstatus.io" className="text-muted small">Status <i className="fas fa-circle success"></i> <span className="text-muted small"> Operational</span></link></li>                 
                         </ul>
 
                       </Col>
