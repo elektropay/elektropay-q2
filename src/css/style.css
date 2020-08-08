@@ -148,10 +148,6 @@ a.text-light:hover, a.text-light:focus {
 .text-copyright {
   color: #202942 !important;
 }
-a.text-footer:hover, a.text-footer:focus {
-  color: #181e30 !important;
-}
-
 
 a.text-copyright:hover, a.text-copyright:focus {
   color: #181e30 !important;
