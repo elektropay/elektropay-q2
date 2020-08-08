@@ -80,9 +80,9 @@ class Footer extends Component {
             
                                 <Col sm="4" className="mt-3 mt-sm-3">
                                  <div className="text-sm-left">
-                                        <Link to="//app.elektropay.com/signup" className="btn btn-primary mr-2">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="//app.elektropay.com/signup" className="btn btn-primary mr-2">Get Started  <i className="mdi mdi-chevron-right"></i> </Link>
                                    
-                                        <Link to="//sandbox.elektropay.com" className="btn btn-secondary">Try Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="//sandbox.elektropay.com" className="btn btn-secondary">Try Sandbox <i className="mdi mdi-chevron-right"></i> </Link>
                                     </div>
                                 </Col>
                             </Row>
