@@ -147,7 +147,7 @@ class Footer extends Component {
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <<ul className="list-unstyled  list-inline-item text-muted mb-0 small">
+                    <ul className="list-unstyled  list-inline-item text-muted mb-0 small">
                               {
                                 this.state.grid5.map((grid, key) =>
                                 <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted list-inline-item" : "text-foot list-inline-item"}>{grid.title}&nbsp; | </Link></li>
