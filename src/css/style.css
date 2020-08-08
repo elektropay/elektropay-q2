@@ -1532,7 +1532,7 @@ html {
     font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 body {
-    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  font-family: mentone, sans-serif;
   overflow-x: hidden !important;
   color: #161c2d;
 }
@@ -1542,8 +1542,9 @@ h1, .h1 {
    }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: mentone, sans-serif;
   line-height: 1.5;
+  font-style: normal;
   font-weight: 600;
 }
 
@@ -1619,6 +1620,7 @@ p {
     font-size: 3.3rem;
     letter-spacing: 1px;
     font-weight: 700;
+    line-height: 1;
 }
 
 .title-heading .para-desc {
