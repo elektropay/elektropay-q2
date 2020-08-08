@@ -111,13 +111,13 @@ class Footer extends Component {
         <footer className="footer footer-bar">
             <Container className="text-center">
                 <Row className="align-items-center">
-                    <Col md="4" sm="6">
-                      <ul className="list-unstyled social-icon social mb-0 mt-4">
+                    <Col md="5" sm="6">
+                        <div className="text-sm-left small">
+                           <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
                         </ul>
-                        <div className="text-sm-left small">
                             <p className="mb-0 small">Elektropay is a service of EverPay. &copy; 2020 EverPay.</p>
                         </div>
                     </Col>
@@ -130,7 +130,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
 
-                    <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <Col md="3" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right mb-0">
                             <li className="list-inline-item mr-1"><Link to=""><img src={americanEx} className="avatar avatar-ex-sm" title="American Express" alt=""/></Link></li>
                             <li className="list-inline-item mr-1"><Link to=""><img src={discover} className="avatar avatar-ex-sm" title="Discover" alt=""/></Link></li>
