@@ -70,6 +70,7 @@ class Footer extends Component {
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>	                               
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>	                                
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
+                         </ul>
                     </Col>
                     <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Platform</h4>
@@ -119,22 +120,22 @@ class Footer extends Component {
         <footer className="footer footer-bar">
             <Container className="text-center">
                 <Row className="align-items-center">
-                    <Col md="5" sm="6">
+                    <Col md="6" sm="6">
                         <div className="text-sm-left small">
                            <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
-                            <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
-                            <li className="list-inline-item mr-1 text-muted">Elektropay is a service of EverPay. &copy; 2020 Elektropay. </li>
+                            <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
+                            <li className="list-inline-item mr-0 text-muted">Elektropay is a service of EverPay. &copy; 2020 Elektropay. </li>
                         </ul>
                         </div>
                     </Col>
-                 <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                 <Col md="3" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right text-muted mb-0 small">
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="/privacy-policy">Privacy Statement&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="/terms">Terms&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="/security-policy">Security&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="//status.elektropay.com"> Status  </Link></li>
+                            <li className="list-inline-item mr-1 text-muted small"><Link to="/privacy-policy">Privacy Statement&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-1 text-muted small"><Link to="/terms">Terms&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-1 text-muted small"><Link to="/security-policy">Security&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-1 text-muted small"><Link to="//status.elektropay.com"> Status  </Link></li>
                         </ul>
                     </Col>
 
