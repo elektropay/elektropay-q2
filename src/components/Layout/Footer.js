@@ -69,18 +69,18 @@ class Footer extends Component {
           <Container className="mt-60 mb-60">
                         <div className="pt-4 pb-4 pr-4">
                             <Row className="align-items-center">
-                                <Col sm="7">
+                                <Col sm="8">
                                     <div className="text-sm-left">
                                         <h1 className="mb-0 text-white">Ready To start Accepting Payments?</h1>
                                     </div>
                                 </Col>
             
-                                <Col sm="5" className="mt-4 mt-sm-0">
+                                <Col sm="4" className="mt-4 mt-sm-0">
                                  <div className="text-sm-left">
                                         <Link to="" className="btn btn-outline-primary">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                     <div className="text-sm-right">
-                                        <Link to="" className="btn btn-secondary-primary">Try The Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="" className="btn btn-ouline-secondary">Try The Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -166,10 +166,10 @@ class Footer extends Component {
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <ul className="list-unstyled list-inline-item copyright-menu mb-0 small">
+                    <ul className="list-unstyled list-inline-item text-copyright mb-0 small">
                               {
                                 this.state.grid5.map((grid, key) =>
-                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item" : "text-copyright"}>{grid.title} </Link></li>
+                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item" : "text-muted"}>{grid.title} </Link></li>
                                 )
                             }
                         </ul>
