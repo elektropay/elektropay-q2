@@ -136,12 +136,12 @@ class Footer extends Component {
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                    <ul className="list-unstyled creditcard-icons text-sm-right text-muted mb-0">
-          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-discover"></i></Link></li>
-          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-jcb"></i></Link></li>
-          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amex"></i></Link></li>
-          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-stripe"></i></Link></li>
-          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-apple-pay"></i></Link></li>
-          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amazon-pay"></i></Link></li>
+          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-discover text-muted"></i></li>
+          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-jcb text-muted"></i></li>
+          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-amex text-muted"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-stripe text-muted"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-apple-pay text-muted"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-amazon-pay text-muted"></i></li>
           <li className="list-inline-item mr-0"><img src={pci} alt="" /></li>
                         </ul>
                     </Col>
