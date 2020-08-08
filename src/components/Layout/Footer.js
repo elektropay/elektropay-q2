@@ -69,8 +69,8 @@ class Footer extends Component {
 
 
         <footer className={this.props.isLight ? "footer bg-black" : "footer"}>
-          <Container className="mt-40 mb-60">
-                        <div className="pt-4 pb-4 pr-4">
+          <Container className="mt-20 mb-60">
+                        <div className="pt-3 pb-4 pr-4">
                             <Row className="align-items-center">
                                 <Col sm="8">
                                     <div className="text-sm-left">
@@ -80,7 +80,7 @@ class Footer extends Component {
             
                                 <Col sm="4" className="mt-4 mt-sm-4">
                                  <div className="text-sm-left">
-                                        <Link to="//auth.elektropay.com/signup" className="btn btn-primary mr-2">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="//auth.elektropay.com/signup" className="btn btn-primary mr-1">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                     <div className="text-sm-right">
                                         <Link to="//sandbox.elektropay.com" className="btn btn-secondary">Try Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
@@ -169,16 +169,16 @@ class Footer extends Component {
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <ul className="list-unstyled copyright-list mb-0 small">
+                    <ul className="list-unstyled copyright-list list-inline-item mb-0 small">
                               {
                                 this.state.grid5.map((grid, key) =>
-                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item text-muted" : "text-copyright"}>{grid.title} </Link></li>
+                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-copyright"}>{grid.title} </Link></li>
                                 )
                             }
-                     <li className="list-inline-item mr-1"><CookiePolicyBanner /></li>
                         </ul>
 
                       </Col>
+<div className="list-inline-item"><CookiePolicyBanner /></div>
                 </Row>
             </Container>
         </footer>        
