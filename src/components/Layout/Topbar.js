@@ -54,7 +54,7 @@ class Topbar extends Component {
                     { title : "Developer Docs", link : "/documentation"},
                     { title : "Our Blog", link : "/elektrobytes"},
                     { title : "Support Articles", link : "/changelog"},
-                    { title : "Github Repo", link : "/components"},
+                    { title : "Github Repo", link : "//github.com/elektropay"},
                     { title : "Service Status", link : "//status.elektropay.com"},
                     ]
                 },
