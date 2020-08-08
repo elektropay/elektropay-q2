@@ -71,7 +71,7 @@ class Footer extends Component {
                 <Row>
                 <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">	                    
                         <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="180" alt=""/></Link>	                       
-                        <p className={ this.props.isLight ? "small mt-4 text-white" : "mt-4 small"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
+                        <p className={ this.props.isLight ? "small mt-4 text-white" : "mt-4 mr-1 small"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item mr-2"><Link to="" className="rounded"><i className="mdi mdi-linkedin" title="Linkedin"></i></Link></li>
@@ -145,15 +145,14 @@ class Footer extends Component {
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul className="list-unstyled text-sm-right text-muted mb-0">
+                        <ul className="list-unstyled creditcard-icons text-sm-right text-muted mb-0">
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-discover"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-jcb"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amex"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-stripe"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-apple-pay"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amazon-pay"></i></Link></li>
-          <li className="list-inline-item mr-1"><img src={pci} className="" alt="" /></li>
-
+          <li className="list-inline-item mr-0"><img src={pci} alt="" /></li>
                         </ul>
                     </Col>
 
