@@ -9,6 +9,7 @@ import masterCard from '../../images/payments/master-card.png';
 import paypal from '../../images/payments/paypal.png';
 import visa from '../../images/payments/visa.png';
 import logoWhite from '../../images/logo_white.png';
+import pci from '../../images/pci_dss.png';
 class Footer extends Component {
 
   constructor(props) {
@@ -22,8 +23,6 @@ class Footer extends Component {
             { title : "Mobile Processing", link : "/page-pricing" },
             { title : "ElektroPOS", link : "/page-work" },
             { title : "Bank Payments", link : "/page-work" },
-            { title : "Tasket", link : "/page-pricing" },
-            { title : "EAuth", link : "/page-work" },
             { title : "Marketplace", link : "/page-jobs" },
             { title : "SugarBiller", link : "/page-blog" },
             { title : "KardIssue", link : "/page-cover-login" },
@@ -101,7 +100,7 @@ class Footer extends Component {
                         <ul className="list-unstyled footer-list mt-4 small">
                             {
                                 this.state.grid2.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted list-inline-item" : "text-foot list-inline-item"}> {grid.title}</Link></li>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}> {grid.title}</Link></li>
                                 )
                             }
                         </ul>
@@ -151,12 +150,15 @@ class Footer extends Component {
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul className="list-unstyled text-sm-right mb-0">
-                            <li className="list-inline-item mr-1"><Link to=""><img src={americanEx} className="avatar avatar-ex-sm" title="American Express" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={discover} className="avatar avatar-ex-sm" title="Discover" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={masterCard} className="avatar avatar-ex-sm" title="Master Card" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={paypal} className="avatar avatar-ex-sm" title="Paypal" alt=""/></Link></li>
-                            <li className="list-inline-item mr-1"><Link to=""><img src={visa} className="avatar avatar-ex-sm" title="Visa" alt=""/></Link></li>
+                        <ul className="list-unstyled text-sm-right text-muted mb-0">
+          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-discover"></i></Link></li>
+          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-jcb"></i></Link></li>
+          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amex"></i></Link></li>
+          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-stripe"></i></Link></li>
+          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-apple-pay"></i></Link></li>
+          <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amazon-pay"></i></Link></li>
+          <li className="list-inline-item mr-1"><img src={pci} className="" alt="" /></li>
+
                         </ul>
                     </Col>
 
