@@ -43,6 +43,7 @@ class Footer extends Component {
             { title : "Partners", link : "/page-work" },
             { title : "Pricing & Plans", link : "/plans" },
         ],
+      
         grid4 : [
             { title : "Our Blog", link : "/elektrobytes" },
             { title : "Help & Support", link : "/support" },
@@ -50,6 +51,13 @@ class Footer extends Component {
             { title : "Documentation", link : "//docs.elektropay.com" },
             { title : "Github Repo", link : "//github.com/elektropay" },
             { title : "Developer Portal", link : "//developers.elektropay.com" },
+        ],
+      
+        grid5 : [
+            { title : "Privacy", link : "/privacy-policy" },
+            { title : "Terms", link : "/terms" },
+            { title : "Security", link : "/security-policy" },
+            { title : "Status", link : "//status.elektropay.com" },
         ]
     };
   }
@@ -65,7 +73,7 @@ class Footer extends Component {
                 <Row>
                 <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">	                    
                         <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="180" alt=""/></Link>	                       
-                        <p className={ this.props.isLight ? "mt-4 text-white small" : "mt-4"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
+                        <p className={ this.props.isLight ? "small mt-4 text-white" : "mt-4 small"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Linkedin"></i></Link></li>
@@ -129,10 +137,11 @@ class Footer extends Component {
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right text-muted mb-0 small">
-                            <li className="list-inline-item mr-1 text-muted small"><Link to="/privacy-policy">Privacy&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-1 text-muted small"><Link to="/terms">Terms&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-1 text-muted small"><Link to="/security-policy">Security&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-1 text-muted small"><Link to="//status.elektropay.com"> Status </Link></li>
+                              {
+                                this.state.grid5.map((grid, key) =>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-foot"}>{grid.title}&nbsp; | </Link></li>
+                                )
+                            }
                         </ul>
                     </Col>
 
