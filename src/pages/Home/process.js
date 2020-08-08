@@ -47,7 +47,7 @@ class Process extends Component {
                         <Col xs="12" className="text-center">
                             <div className="section-title mb-60">
                                 <h4 className="title mb-4">Easy payment processing for your business</h4>
-                                <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             </div>
 
                             <div>
@@ -80,7 +80,7 @@ class Process extends Component {
                         <Col xs="12" className="text-center">
                             <div className="section-title mb-60">
                                 <h4 className="title mb-4">Transection Between Buyers and Seller</h4>
-                                <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             </div>
                             <img src={sellerOrder} alt="" className="position-relative img-fluid mx-auto d-block" style={{ zIndex : "1"}}/>
                         </Col>

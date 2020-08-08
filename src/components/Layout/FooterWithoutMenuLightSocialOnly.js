@@ -17,7 +17,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                         <Row className="align-items-center">
                             <Col sm="6">
                                 <div className="text-sm-left">
-                                    <p className="mb-0">© 2019-20 Landrick. Develop by <Link to="#" target="_blank" className="text-success">Themesbrand</Link>.</p>
+                                    <p className="mb-0">© 2019-20 Elektropay. Develop by <Link to="#" target="_blank" className="text-success">Themesbrand</Link>.</p>
                                 </div>
                             </Col>
 

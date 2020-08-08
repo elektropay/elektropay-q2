@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "@edx/frontend-component-cookie-policy-banner": "^1.0.0",
     "aos": "^2.3.4",
     "availity-reactstrap-validation": "^2.6.1",
     "bootstrap": "^4.3.1",
@@ -16,6 +17,7 @@
     "react-dom": "^16.10.2",
     "react-flex-carousel": "^1.1.0",
     "react-image-lightbox": "^5.1.1",
+    "react-iubenda-policy": "^0.1.1",
     "react-modal-video": "^1.2.3",
     "react-owl-carousel": "^2.3.1",
     "react-parallax": "^3.0.3",

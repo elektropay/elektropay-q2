@@ -59,11 +59,11 @@ class Documentation extends Component {
                         <Row>
                             <Col>
                                 <h1>Introduction</h1>
-                                <p className="text-muted h5 font-weight-normal">Get Start With <span className="text-primary font-weight-bold">Landrick</span> in React Js. Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 React js page.</p>
+                                <p className="text-muted h5 font-weight-normal">Get Start With <span className="text-primary font-weight-bold">Elektropay</span> in React Js. Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 React js page.</p>
 
                                 <h3 className="mt-4 pt-2">Quick start</h3>
 
-                                <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect. <Link to="//reactjs.org/docs/create-a-new-react-app.html" target="_blank" className="text-primary h6">Head to the CRA installation page.</Link></p>
+                                <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect. <Link to="//reactjs.org/docs/create-a-new-react-app.html" target="_blank" className="text-primary h6">Head to the CRA installation page.</Link></p>
 
                                 <h4 className="mt-4 pt-2">CSS/SCSS</h4>
                                 <p className="text-muted">Import all CSS and SCSS files in App.js file just like below. </p>
@@ -74,7 +74,7 @@ class Documentation extends Component {
                                 <code className="text-success rounded p-2 bg-dark font-weight-bold">import './css/materialdesignicons.min.css';</code>
 
                                 <h4 className="mt-4 pt-2">Installtion</h4>
-                                <p className="text-muted">The zip file contains all js files integrated with Landrick, however you need to perform following steps to get node_modules etc. Make sure you have installed node and its version is greater then 9. You can simply switch your current node version using nvm (Node version manager). </p>
+                                <p className="text-muted">The zip file contains all js files integrated with Elektropay, however you need to perform following steps to get node_modules etc. Make sure you have installed node and its version is greater then 9. You can simply switch your current node version using nvm (Node version manager). </p>
                                 <h6 className="mt-3"><code className="text-success rounded p-2 bg-dark font-weight-bold">npm install</code></h6>
                                 <p className="text-muted">To run project locally you need to run below command.</p>
                                 <h6 className="mt-3"><code className="text-success rounded p-2 bg-dark font-weight-bold">npm start</code></h6>
@@ -91,7 +91,7 @@ class Documentation extends Component {
                                     <span className="text-danger">   &lt;head&gt;</span> <br /><br />
 
                                     <span className="text-danger">     &lt;meta charset="utf-8" /&gt;</span> <br />
-                                    <span className="text-danger">     &lt;title&gt;</span><span className="text-primary"> Landrick - Saas & Software Landing Page Template </span><span className="text-danger">&lt;/title&gt;</span> <br />
+                                    <span className="text-danger">     &lt;title&gt;</span><span className="text-primary"> Elektropay - Saas & Software Landing Page Template </span><span className="text-danger">&lt;/title&gt;</span> <br />
                                     <span className="text-danger">      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span> <br />
                                     <span className="text-danger">      &lt;meta name="description" content="Site description" /&gt;</span> <br />
                                     <span className="text-danger">      &lt;meta name="keywords" content="Your tags" /&gt;</span> <br /> <br />

@@ -10,7 +10,7 @@ class FeatureTitle extends Component {
                             <div className="section-title mb-4 pb-2">
                                 <span className={"badge badge-" + this.props.badgeColor + " rounded mb-2"}>{this.props.maintitle}</span>
                                 <h4 className="title mb-4">{this.props.title}</h4>
-                                <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> {this.props.desc}</p>
+                                <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> {this.props.desc}</p>
                             </div>
                         </Col>
                     </Row>

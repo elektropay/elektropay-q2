@@ -64,7 +64,7 @@ class PageComingsoon2 extends Component {
                     <Container className="position-relative text-md-left text-center" style={{zIndex:"1"}}>
                         <Row>
                             <Col md="12">
-                                <Link to="#" className="text-white title-dark logo h5">Landrick<span className="text-primary">.</span></Link>
+                                <Link to="#" className="text-white title-dark logo h5">Elektropay<span className="text-primary">.</span></Link>
                                 <h1 className="text-uppercase text-white title-dark mt-2 mb-4 coming-soon">
                                     <Typist>
                                                 <span className="element">We're Coming soon...</span>
@@ -75,7 +75,7 @@ class PageComingsoon2 extends Component {
                                                 <Typist.Backspace count={23} delay={500} />
                                     </Typist>
                                 </h1>
-                                <p className="text-light para-dark para-desc">Start working with <span className="font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                <p className="text-light para-dark para-desc">Start working with <span className="font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             </Col>
                         </Row>
 

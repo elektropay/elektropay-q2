@@ -57,7 +57,7 @@ class About extends Component {
                                 <div className="section-title">
                                     <h4 className="title">About Me</h4>
                                     <h6 className="text-primary mb-4">I'm Passionate Web Designer</h6>
-                                    <p className="text-muted mb-0">Start working with landrick that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
+                                    <p className="text-muted mb-0">Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                                     <div className="mt-4">
                                         <Link to="#contact" className="btn btn-primary mouse-down"><i className="mdi mdi-phone"></i> Contact Me</Link>
                                     </div>

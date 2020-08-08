@@ -36,7 +36,7 @@ class Support extends Component {
                         <Col xs="12" className="text-center">
                             <div className="section-title mb-60">
                                 <h4 className="title mb-4" data-aos="fade-up" data-aos-duration="1000">Need to CRM Support</h4>
-                                <p className="text-muted para-desc mb-0 mx-auto" data-aos="fade-up" data-aos-duration="1400">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                <p className="text-muted para-desc mb-0 mx-auto" data-aos="fade-up" data-aos-duration="1400">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             
                                 <Row className="mt-5 pt-1 justify-content-center">
                                     <Col lg="8" md="12" className="text-center">

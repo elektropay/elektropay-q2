@@ -56,7 +56,7 @@ class PageMaintenance extends Component {
                         <Container>
                             <Row className="justify-content-center">
                                     <Col lg={8} md={12} className="text-center">
-                                        <Link to="#" className="text-white title-dark logo h5">Landrick<span className="text-primary">.</span></Link>
+                                        <Link to="#" className="text-white title-dark logo h5">Elektropay<span className="text-primary">.</span></Link>
                                         <div className="text-uppercase text-white title-dark mt-2 mb-4 maintenance">System Is Under Maintenance</div>
                                         <p className="text-light para-dark">Perfect and awesome template to present your future product or service. Hooking audience attention is all in the opener.</p>
                                     </Col>

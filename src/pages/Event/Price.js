@@ -26,9 +26,9 @@ class Price extends Component {
         super(props);
         this.state = {
             pricings : [
-                { id : 1, title : "MEMBER", image : ticket1, price : "19", duration : "Day", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect." },
-                { id : 2, title : "DESK", image : ticket2, price : "39", duration : "Full", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.", isActive : true },
-                { id : 3, title : "DEDICATED", image : ticket3, price : "49", duration : "Day", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect." },
+                { id : 1, title : "MEMBER", image : ticket1, price : "19", duration : "Day", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect." },
+                { id : 2, title : "DESK", image : ticket2, price : "39", duration : "Full", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.", isActive : true },
+                { id : 3, title : "DEDICATED", image : ticket3, price : "49", duration : "Day", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect." },
             ],
             clients : [
                 { id : 1, image : client1, name : "Thomas Israel" , post : "C.E.O", rating : 5, desc : "It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century." },

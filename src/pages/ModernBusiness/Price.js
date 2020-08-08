@@ -101,7 +101,7 @@ class Price extends Component {
                                 <div className="section-title ml-lg-5">
                                     <SectionTitleLeft
                                         title = "Startup Business Solution"
-                                        desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                        desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                         features = {this.state.features_Line}
                                         class = "mdi-18px h5 mr-2"
                                     />

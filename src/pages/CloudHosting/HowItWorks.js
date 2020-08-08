@@ -48,7 +48,7 @@ class HowItWorks extends Component {
                                 <div className="section-title ml-lg-5">
                                 <SectionTitleLeft
                                     title = "Get best plan for more power with cloud Hosting"
-                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                     features = {this.state.features1}
                                     class = "mdi-18px h5 mr-2"
                                 />
@@ -64,7 +64,7 @@ class HowItWorks extends Component {
                                 <div className="section-title">
                                 <SectionTitleLeft
                                     title = "Don't Compromise with the best web hosting solutions"
-                                    desc = "Using Landrick to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier."
+                                    desc = "Using Elektropay to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier."
                                     features = {this.state.features2}
                                     class = "mdi-18px h5 mr-2"
                                 />
@@ -88,7 +88,7 @@ class HowItWorks extends Component {
                                 <div className="section-title ml-lg-5">
                                 <SectionTitleLeft
                                     title = "Powerful Server & Web Hosting Plateform"
-                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                     features = {this.state.features3}
                                     class = "mdi-18px h5 mr-2"
                                 />

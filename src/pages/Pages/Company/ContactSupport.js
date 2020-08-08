@@ -155,7 +155,7 @@ class ContactSupport extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Phone</h4>
-                                        <p className="text-muted">Start working with Landrick that can provide everything</p>
+                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
                                         <Link to="#" onClick={this.callNumber} className="text-primary">+152 534-468-854</Link>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@ class ContactSupport extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Email</h4>
-                                        <p className="text-muted">Start working with Landrick that can provide everything</p>
+                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
                                         <Link to="#" onClick={this.sendMail} className="text-primary">contact@example.com</Link>
                                     </div>
                                 </div>

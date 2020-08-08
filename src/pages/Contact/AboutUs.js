@@ -148,7 +148,7 @@ class AboutUs extends Component {
                             <Col lg={7} md={7} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
                                 <div className="section-title ml-lg-4">
                                     <h4 className="title mb-4">Our Story</h4>
-                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
+                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
                                     <Link to="#" className="btn btn-primary mt-3">Buy Now <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
@@ -188,7 +188,7 @@ class AboutUs extends Component {
                             <Col className="text-center">
                                 <div className="section-title">
                                     <h4 className="title mb-4">See everything about your employee at one place.</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <div className="mt-3">
                                         <Link to="#" className="btn btn-primary mt-2 mr-2">Get Started Now</Link>&nbsp;
                                         <Link to="#" className="btn btn-outline-primary mt-2">Free Trial</Link>

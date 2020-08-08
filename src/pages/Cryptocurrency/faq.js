@@ -68,7 +68,7 @@ class Faq extends Component {
                             <div className="ml-lg-4">
                                 <div className="section-title mb-4 pb-2">
                                     <h4 className="title mb-4">Frequently asked questions</h4>
-                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
 
                                 <div className="faq-content mt-4">

@@ -59,7 +59,7 @@ class HowItWorks extends Component {
                                 <div className="section-title ml-lg-5">
                                 <SectionTitleLeft
                                     title = "Change the way you build websites"
-                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                     features = {this.state.features}
                                     class = "mdi-18px h5 mr-2"
                                 />
@@ -74,11 +74,11 @@ class HowItWorks extends Component {
                             <Col lg="7" md={{size:6, order:1}} xs={{order:2}} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title">
                                     <SectionTitleLeft
-                                        desc = "Using Landrick to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier."
+                                        desc = "Using Elektropay to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier."
                                         features = {this.state.features1}
                                         class = "mdi-18px h5 mr-2"
                                     >
-                                        <h4 className="title mb-4">Speed up your development <br /> with <span className="text-primary">Landrick.</span></h4>
+                                        <h4 className="title mb-4">Speed up your development <br /> with <span className="text-primary">Elektropay.</span></h4>
                                     </SectionTitleLeft>
                                     <Link to="#" className="mt-3 text-primary">Find Out More <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>

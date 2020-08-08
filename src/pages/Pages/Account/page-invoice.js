@@ -57,8 +57,8 @@ class PageInvoice extends Component {
                                     <div className="invoice-top pb-4 border-bottom">
                                         <Row>
                                             <Col md="8">
-                                                <div className="logo-invoice mb-2">Landrick<span className="text-primary">.</span></div>
-                                                <Link to="#" className="text-primary h6"><i className="mdi mdi-link-variant text-muted mr-2"></i>www.landrick.corp</Link>
+                                                <div className="logo-invoice mb-2">Elektropay<span className="text-primary">.</span></div>
+                                                <Link to="#" className="text-primary h6"><i className="mdi mdi-link-variant text-muted mr-2"></i>www.Elektropay.corp</Link>
                                             </Col>
 
                                             <Col md="4" className="mt-4 mt-sm-0">
@@ -74,7 +74,7 @@ class PageInvoice extends Component {
 
                                                     <dt className="col-2 text-muted"><i className="mdi mdi-email"></i></dt>
                                                     <dd className="col-10 text-muted">
-                                                        <Link to="#" id="mail" onClick={this.sendMail} className="text-muted">info@landrick.com</Link>
+                                                        <Link to="#" id="mail" onClick={this.sendMail} className="text-muted">info@Elektropay.com</Link>
                                                     </dd>
 
                                                     <dt className="col-2 text-muted"><i className="mdi mdi-phone"></i></dt>

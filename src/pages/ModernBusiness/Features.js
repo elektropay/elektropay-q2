@@ -110,7 +110,7 @@ class Features extends Component {
                                 <div className="section-title ml-lg-4">
                                 <SectionTitleLeft
                                     title = "Startup Business Solution"
-                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                     features = {this.state.features_Line}
                                     class = "mdi-18px h4 mr-2"
                                 />
@@ -137,8 +137,8 @@ class Features extends Component {
                         <Row className="justify-content-center">
                             <Col xs="12" className="text-center">
                                 <div className="section-title mb-4 pb-2">
-                                    <h4 className="title mb-4">See everything about your <span className="text-primary">Landrick</span></h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <h4 className="title mb-4">See everything about your <span className="text-primary">Elektropay</span></h4>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>

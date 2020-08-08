@@ -24,10 +24,10 @@ class Cta extends Component {
         super(props);
         this.state = {
             pricings : [
-                { id : 1, title : "MEMBER", image : lightbulb, price : "19", duration : "mo", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Buy Now" },
-                { id : 2, title : "DESK", image : tableImg, price : "39", duration : "mo", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Get Started", isActive : true },
-                { id : 3, title : "DEDICATED", image : star, price : "49", duration : "mo", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Get Started" },
-                { id : 4, title : "OFFICE", image : startUp, price : "59", duration : "mo", desc : "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Try It Now" },
+                { id : 1, title : "MEMBER", image : lightbulb, price : "19", duration : "mo", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Buy Now" },
+                { id : 2, title : "DESK", image : tableImg, price : "39", duration : "mo", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Get Started", isActive : true },
+                { id : 3, title : "DEDICATED", image : star, price : "49", duration : "mo", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Get Started" },
+                { id : 4, title : "OFFICE", image : startUp, price : "59", duration : "mo", desc : "Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.", btnName : "Try It Now" },
             ],
             isOpen: false
         }
@@ -56,7 +56,7 @@ class Cta extends Component {
                                         <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId='287684225' onClose={() => this.setState({isOpen: false})} />
                                                            
                                         <h4 className="title mb-4 mt-4">We Are Creative Dreamers and Co-workers</h4>
-                                        <p className="text-muted mx-auto para-desc mb-0">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                        <p className="text-muted mx-auto para-desc mb-0">Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     </div>
                                 </Col>
                             </Row>

@@ -36,7 +36,7 @@ class PageContactDetail extends Component {
                                     <Col lg={{size : 6, offset :6}} md={{size:7, offset:5}}>
                                         <div className="title-heading mt-5 pt-4">
                                             <h1 className="heading">Let's talk about your portfolio</h1>
-                                            <p className="text-dark">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                            <p className="text-dark">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                             <div className="contact-detail mt-3">
                                                 <div className="icon mt-3 float-left">
                                                     <i className="mdi mdi-email-variant text-dark mdi-36px mr-3"></i>

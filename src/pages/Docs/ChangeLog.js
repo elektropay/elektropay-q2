@@ -111,7 +111,7 @@ class ChangeLog extends Component {
                                     
 
                                     <div className="mt-4">
-                                        <a href="https://1.envato.market/landrickreactjs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Purchase Now</a>
+                                        <a href="https://1.envato.market/Elektropayreactjs" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Purchase Now</a>
                                     </div>
                                 </div>
                             </Col>

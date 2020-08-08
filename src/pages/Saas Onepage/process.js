@@ -25,7 +25,7 @@ class Process extends Component {
                         <Col lg="7" md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <div className="section-title ml-lg-5">
                                 <h4 className="title mb-4" data-aos="fade-up" data-aos-duration="1000">Seamless Operation via Smart SEO</h4>
-                                <p className="text-muted" data-aos="fade-up" data-aos-duration="1400">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                <p className="text-muted" data-aos="fade-up" data-aos-duration="1400">You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                 <ul className="list-unstyled feature-list mb-0 text-muted" data-aos="fade-up" data-aos-duration="1800">
                                     {
                                         this.state.processes.map((process, key) =>

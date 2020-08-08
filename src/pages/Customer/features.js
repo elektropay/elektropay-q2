@@ -32,7 +32,7 @@ class Features extends Component {
                         <div className="section-title mb-4 pb-2">
                             <span className="badge badge-success rounded" data-aos="fade-up" data-aos-duration="1000">Features</span>
                             <h4 className="title my-4" data-aos="fade-up" data-aos-duration="1400">Communication Resources</h4>
-                            <p className="text-muted para-desc mx-auto mb-0" data-aos="fade-up" data-aos-duration="1800">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-muted para-desc mx-auto mb-0" data-aos="fade-up" data-aos-duration="1800">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         </div>
                     </Col>
                 </Row>

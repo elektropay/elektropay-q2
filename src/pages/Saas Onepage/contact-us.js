@@ -69,7 +69,7 @@ class ContactUs extends Component {
                     <Col lg="7" md="6" className="mt-4 pt-2 order-1 order-md-2">
                         <div className="title-heading ml-lg-4">
                             <h4 className="mb-4" data-aos="fade-up" data-aos-duration="1000">Contact Details</h4>
-                            <p className="text-muted" data-aos="fade-up" data-aos-duration="1400">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-muted" data-aos="fade-up" data-aos-duration="1400">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             <div className="contact-detail mt-3" data-aos="fade-up" data-aos-duration="1800">
                                 <div className="icon mt-3 float-left">
                                     <i className="mdi mdi-email-variant text-muted mdi-36px mr-3"></i>

@@ -30,7 +30,7 @@ class ContactForm extends Component {
                             <Col lg="8" md="7">
                                 <div className="section-title mr-lg-4">
                                     <h4 className="title title-dark text-light mb-4">We are Built for Business – Explore Us Today !</h4>
-                                    <p className="text-light para-dark para-desc mb-0">Start working with <span className="text-success font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-light para-dark para-desc mb-0">Start working with <span className="text-success font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
 

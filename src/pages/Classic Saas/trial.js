@@ -12,7 +12,7 @@ class Trial extends Component {
                             <Col md="8">
                                 <div className="section-title text-md-left text-center">
                                     <h4 className="title mb-3 text-white title-dark">Start your free 2 week trial today</h4>
-                                    <p className="text-white-50 mb-0">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-white-50 mb-0">Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                             

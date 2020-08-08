@@ -92,7 +92,7 @@ class PageContactOne extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Phone</h4>
-                                        <p className="text-muted">Start working with Landrick that can provide everything</p>
+                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
                                         <Link to="#" onClick={this.callNumber} className="text-primary">+152 534-468-854</Link>
                                     </div>  
                                 </div>
@@ -101,11 +101,11 @@ class PageContactOne extends Component {
                             <Col md={4} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="contact-detail text-center">
                                     <div className="icon">
-                                        <img src={Email} className="avatar avatar-small" alt="Landrick" />
+                                        <img src={Email} className="avatar avatar-small" alt="Elektropay" />
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Email</h4>
-                                        <p className="text-muted">Start working with Landrick that can provide everything</p>
+                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
                                         <Link to="#" onClick={this.sendMail} className="text-primary">contact@example.com</Link>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@ class PageContactOne extends Component {
                             <Col md={4} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="contact-detail text-center">
                                     <div className="icon">
-                                        <img src={location} className="avatar avatar-small" alt="Landrick" />
+                                        <img src={location} className="avatar avatar-small" alt="Elektropay" />
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Location</h4>
@@ -179,7 +179,7 @@ class PageContactOne extends Component {
                             </Col>
 
                             <Col lg={7} md={6} className="order-1 order-md-2">
-                                <img src={contact} className="img-fluid" alt="Landrick" />
+                                <img src={contact} className="img-fluid" alt="Elektropay" />
                             </Col>
                         </Row>
                     </Container>

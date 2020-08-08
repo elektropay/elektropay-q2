@@ -14,7 +14,7 @@ class Section extends Component {
                                 <Row className="align-items-center">
                                     <Col lg={6} md={7} >
                                         <div className="title-heading mt-4">
-                                            <h1 className="heading mb-3">Manage all of you stuff using <span className="text-primary">Landrick.</span> app</h1>
+                                            <h1 className="heading mb-3">Manage all of you stuff using <span className="text-primary">Elektropay.</span> app</h1>
                                             <p className="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
                                             <div className="mt-4">
                                                 <Link to="#" className="btn btn-primary mt-2 mr-2"><i className="mdi mdi-apple"></i> App Store</Link>

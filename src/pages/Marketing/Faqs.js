@@ -46,8 +46,8 @@ class Faqs extends Component {
                         <Row className="justify-content-center">
                             <Col className="text-center">
                                 <div className="section-title mb-4 pb-2">
-                                    <h4 className="title mb-4">See everything about your <span className="text-primary">Landrick</span></h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <h4 className="title mb-4">See everything about your <span className="text-primary">Elektropay</span></h4>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -66,7 +66,7 @@ class Faqs extends Component {
                                         <Card className="border rounded shadow mb-2">
                                             <Link  to="#" onClick={() => this.setState({collapse1 : !this.state.collapse1,collapse3 : false, collapse2 : false,collapse4 : false})} className={this.state.collapse1 ? "faq position-relative text-primary" :  "faq position-relative text-dark" } >
                                                 <CardHeader className="bg-light p-3">
-                                                    <h4 className="title mb-0 faq-question"> How our Landrick work ? </h4>
+                                                    <h4 className="title mb-0 faq-question"> How our Elektropay work ? </h4>
                                                 </CardHeader>
                                             </Link>
                                             <Collapse isOpen={this.state.collapse1}>
@@ -104,7 +104,7 @@ class Faqs extends Component {
                                         <Card className="rounded shadow mb-0">
                                         <Link  to="#" onClick={() => this.setState({collapse4 : !this.state.collapse4, collapse3 : false, collapse2 : false,collapse1 : false})} className={this.state.collapse4 ? "faq position-relative text-primary" :  "faq position-relative text-dark" }>
                                                 <CardHeader className="bg-light p-3">
-                                                    <h4 className="title mb-0 faq-question"> Is Landrick safer to use with my account ? </h4>
+                                                    <h4 className="title mb-0 faq-question"> Is Elektropay safer to use with my account ? </h4>
                                                 </CardHeader>
                                             </Link>
                                             <Collapse isOpen={this.state.collapse4}>
@@ -128,7 +128,7 @@ class Faqs extends Component {
                             <Col xs="12" className="text-center">
                                 <div className="section-title">
                                     <h4 className="title mb-4">Get Started</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                                     <div className="watch-video mt-4 pt-2">
                                         <Link to="#" className="btn btn-primary mb-2">Buy Now <Badge color="danger" className="rounded ml-2">v2.0</Badge></Link>

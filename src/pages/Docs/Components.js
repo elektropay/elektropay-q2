@@ -170,7 +170,7 @@ class Components extends Component {
                                             </div>
 
                                             <div className="p-4">
-                                                <h6 className="text-muted mb-4 pb-2">Ex. <code className="text-danger">&lt;div className="bg-primary"&gt; Landrick Saas & Software Template &lt;/div&gt;</code></h6>
+                                                <h6 className="text-muted mb-4 pb-2">Ex. <code className="text-danger">&lt;div className="bg-primary"&gt; Elektropay Saas & Software Template &lt;/div&gt;</code></h6>
                                                 
                                                 <div className="d-inline-block mr-1" id="bgprimary">
                                                     <p className="avatar avatar-small bg-primary rounded bg-white border"></p>
@@ -253,7 +253,7 @@ class Components extends Component {
                                             </div>
                 
                                             <div className="p-4">
-                                                <h6 className="text-muted mb-4 pb-2">Ex. <code className="text-danger">&lt;div className="text-primary"&gt; Landrick Saas & Software Template &lt;/div&gt;</code></h6>
+                                                <h6 className="text-muted mb-4 pb-2">Ex. <code className="text-danger">&lt;div className="text-primary"&gt; Elektropay Saas & Software Template &lt;/div&gt;</code></h6>
 
                                                 <h6 className="text-primary">.text-primary</h6>
                                                 <h6 className="text-secondary">.text-secondary</h6>
@@ -475,7 +475,7 @@ class Components extends Component {
 
                                             <div className="p-4">
                                                 <div className="map map-gray">
-                                                    <iframe title="landrick" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{ border: "0" }} className="rounded" allowFullScreen></iframe>
+                                                    <iframe title="Elektropay" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{ border: "0" }} className="rounded" allowFullScreen></iframe>
                                                 </div>
                                             </div>
                                         </div>
@@ -532,13 +532,13 @@ class Components extends Component {
                                                     <Col>
                                                         <TabContent activeTab={this.state.activeTab}>
                                                             <TabPane tabId="1" className="p-3">
-                                                            <p className="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                            <p className="text-muted mb-0">You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                                             </TabPane>
                                                             <TabPane tabId="2" className="p-3">
-                                                            <p className="text-muted mb-0">Can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                            <p className="text-muted mb-0">Can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                                             </TabPane>
                                                             <TabPane tabId="3" className="p-3">
-                                                            <p className="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                            <p className="text-muted mb-0">You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                                                             </TabPane>
                                                         </TabContent>
                                                      

@@ -145,7 +145,7 @@ class Widget extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Phone</h4>
-                                        <p className="text-muted">Start working with Landrick that can provide everything</p>
+                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
                                         <Link to="tel:+152534-468-854" className="text-primary">+152 534-468-854</Link>
                                     </div>  
                                 </div>
@@ -420,7 +420,7 @@ class Widget extends Component {
                             
                             <Col md="6" xs="12" className="mt-4 pt-2">
                                 <div className="faq-container">
-                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span className="text-primary">Landrick</span> work ?</h4>
+                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span className="text-primary">Elektropay</span> work ?</h4>
                                     <p className="answer text-muted ml-lg-4 pl-lg-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                                 </div>
                             </Col>

@@ -64,10 +64,10 @@ class ShowCase extends Component {
                             <Col lg={7} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-5">
                                     <SectionTitleLeft
-                                        desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                        desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                         features = {this.state.features}
                                     >
-                                        <h4 className="title mb-4">Best <span className="text-primary">Landrick</span> App Partner For Your Life</h4>
+                                        <h4 className="title mb-4">Best <span className="text-primary">Elektropay</span> App Partner For Your Life</h4>
                                     </SectionTitleLeft>
                                     <Link to="#" className="mt-3 text-primary">Find Out More <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
@@ -79,8 +79,8 @@ class ShowCase extends Component {
                         <Row className="justify-content-center">
                             <Col xs="12" className="text-center">
                                 <div className="section-title mb-60">
-                                    <h4 className="title mb-4"><span className="text-primary">Landrick</span> App Showcase</h4>
-                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <h4 className="title mb-4"><span className="text-primary">Elektropay</span> App Showcase</h4>
+                                    <p className="text-muted para-desc mb-0 mx-auto">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                                     <Row className="mt-5 pt-1 justify-content-center">
                                         <Col lg={8} md={12}  className="text-center" style={{ marginTop : "32px" }}>
@@ -132,7 +132,7 @@ class ShowCase extends Component {
                                             <Col md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                                 <div className="section-title">
                                                 <SectionTitleLeft
-                                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                                     features = {this.state.features1}
                                                     class = "mdi-18px h5 mr-2"
                                                 >
@@ -152,7 +152,7 @@ class ShowCase extends Component {
                                             <Col md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                                 <div className="section-title">
                                                 <SectionTitleLeft
-                                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                                     features = {this.state.features2}
                                                     class = "mdi-18px h5 mr-2"
                                                 >
@@ -173,7 +173,7 @@ class ShowCase extends Component {
                                             <Col md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                                 <div className="section-title">
                                                 <SectionTitleLeft
-                                                    desc = "You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website."
+                                                    desc = "You can combine all the Elektropay templates into a single one, you can take a component from the Application theme and use it in the Website."
                                                     features = {this.state.features3}
                                                     class = "mdi-18px h5 mr-2"
                                                 >

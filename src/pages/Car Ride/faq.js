@@ -17,7 +17,7 @@ class Faq extends Component {
                         <Row>
                             <Col md="6" xs="12" className="mt-4 pt-2">
                                 <div className="faq-container">
-                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span className="text-primary">Landrick</span> work ?</h4>
+                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> How our <span className="text-primary">Elektropay</span> work ?</h4>
                                     <p className="answer text-muted ml-lg-4 pl-lg-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                                 </div>
                             </Col>
@@ -38,7 +38,7 @@ class Faq extends Component {
                             
                             <Col md="6" xs="12" className="mt-4 pt-2">
                                 <div className="faq-container">
-                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span className="text-primary">Landrick</span> safer to use with my account ?</h4>
+                                    <h4 className="question"><i className="mdi mdi-help-circle text-primary mr-2 h4"></i> Is <span className="text-primary">Elektropay</span> safer to use with my account ?</h4>
                                     <p className="answer text-muted ml-lg-4 pl-lg-3 mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.</p>
                                 </div>
                             </Col>
@@ -48,7 +48,7 @@ class Faq extends Component {
                             <Col xs="12" className="text-center">
                                 <div className="section-title">
                                     <h4 className="title mb-4">Download Our App Now !</h4>
-                                    <p className="text-muted para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted para-desc mx-auto">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <div className="mt-4">
                                         <Form>
                                             <Row className="justify-content-center">

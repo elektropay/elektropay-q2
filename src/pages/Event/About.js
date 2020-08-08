@@ -28,7 +28,7 @@ class About extends Component {
                                 <Col lg="6">
                                     <div className="section-title p-5">
                                         <h4 className="title mb-4">Business Startup Conference</h4>
-                                        <p className="text-muted para-desc mb-0">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect. Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page managing conversion centered bootstrap4 html page.</p>
+                                        <p className="text-muted para-desc mb-0">Start working with Elektropay that can provide everything you need to generate awareness, drive traffic, connect. Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page managing conversion centered bootstrap4 html page.</p>
                                         <div className="mt-4 pt-2">
                                             <Link to="#" className="btn btn-outline-primary">Read More <i className="mdi mdi-chevron-right"></i></Link>
                                         </div>

@@ -34,7 +34,7 @@ class Section extends Component {
                                         <div className="title-heading mt-4">
                                             <Alert className="alert-light alert-pills shadow" role="alert"> 
                                                 <Badge color="success" className="rounded mr-1">v2.0</Badge>
-                                                <span className="content"> Build <span className="text-primary">anything</span> you want - Landrick.</span>
+                                                <span className="content"> Build <span className="text-primary">anything</span> you want - Elektropay.</span>
                                             </Alert>
                                             <h1 className="heading mb-3">Leading Digital Business For &nbsp;
                                             <Typist style={{ display : "contents" }}>
