@@ -70,7 +70,7 @@ class Footer extends Component {
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>	                               
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>	                                
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
-      </Col>
+                    </Col>
                     <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Platform</h4>
                         <ul className="list-unstyled footer-list mt-4">
@@ -81,7 +81,7 @@ class Footer extends Component {
                             }
                         </ul>
                     </Col>
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="2" md="2" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Features</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
@@ -92,7 +92,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
                 
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="2" md="2" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Company</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
@@ -103,7 +103,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
                     
-                    <Col lg="2" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="2" md="2" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Resources</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
@@ -125,16 +125,16 @@ class Footer extends Component {
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-facebook" title="Facebook"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-instagram" title="Instagram"></i></Link></li>
                             <li className="list-inline-item mr-1"><Link to="" className="rounded"><i className="mdi mdi-twitter" title="Twitter"></i></Link></li>
+                            <li className="list-inline-item mr-1 text-muted">Elektropay is a service of EverPay. &copy; 2020 Elektropay. </li>
                         </ul>
-                            <p className="mb-0 small">Elektropay is a service of EverPay. &copy; 2020 EverPay.</p>
                         </div>
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <ul className="list-unstyled text-sm-right text-muted mb-0 small">
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Privacy Statement&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Terms&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-2 text-muted small"><Link to="">Security&nbsp; | </Link></li>
-                            <li className="list-inline-item mr-2 text-muted small"><Link to=""> Status  </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="/privacy-policy">Privacy Statement&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="/terms">Terms&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="/security-policy">Security&nbsp; | </Link></li>
+                            <li className="list-inline-item mr-2 text-muted small"><Link to="//status.elektropay.com"> Status  </Link></li>
                         </ul>
                     </Col>
 
