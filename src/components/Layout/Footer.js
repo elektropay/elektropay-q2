@@ -135,17 +135,7 @@ class Footer extends Component {
                         </div>
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul className="list-unstyled text-sm-right text-muted mb-0 small">
-                              {
-                                this.state.grid5.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted list-inline-item" : "text-foot list-inline-item"}>{grid.title}&nbsp; | </Link></li>
-                                )
-                            }
-                        </ul>
-                    </Col>
-
-                    <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <ul className="list-unstyled creditcard-icons text-sm-right text-muted mb-0">
+                   <ul className="list-unstyled creditcard-icons text-sm-right text-muted mb-0">
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-discover"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-jcb"></i></Link></li>
           <li className="list-inline-item mr-1"><Link to=""><i className="fab fa-cc-amex"></i></Link></li>
@@ -156,6 +146,15 @@ class Footer extends Component {
                         </ul>
                     </Col>
 
+                    <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <<ul className="list-unstyled  list-inline-item text-muted mb-0 small">
+                              {
+                                this.state.grid5.map((grid, key) =>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted list-inline-item" : "text-foot list-inline-item"}>{grid.title}&nbsp; | </Link></li>
+                                )
+                            }
+                        </ul>
+                      </Col>
                 </Row>
             </Container>
         </footer>        
