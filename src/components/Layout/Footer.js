@@ -81,8 +81,7 @@ class Footer extends Component {
                                 <Col sm="4" className="mt-4 mt-sm-4">
                                  <div className="text-sm-left">
                                         <Link to="//auth.elektropay.com/signup" className="btn btn-primary mr-1">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
-                                    </div>
-                                    <div className="text-sm-right">
+                                   
                                         <Link to="//sandbox.elektropay.com" className="btn btn-secondary">Try Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                 </Col>
@@ -148,6 +147,7 @@ class Footer extends Component {
         </footer>
         <footer className="footer footer-bar">
             <Container className="text-center">
+              <CookiePolicyBanner />
                 <Row className="align-items-center">
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="text-sm-left small">
@@ -165,14 +165,14 @@ class Footer extends Component {
           <li className="list-inline-item mr-1"><i className="fab fa-cc-apple-pay"></i></li>
           <li className="list-inline-item mr-1"><i className="fab fa-cc-amazon-pay"></i></li>
           <li className="list-inline-item mr-0"><img src={pci} alt="" /></li>
-                        </ul>
+                   </ul>
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <ul className="list-unstyled copyright-list text-sm-right mb-0">
                               {
                                 this.state.grid5.map((grid, key) =>
-      <li key={key} className="list-inline-item small mr-1"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
+      <li key={key} className="list-inline-item small mr-2"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
                         </ul>
@@ -180,8 +180,6 @@ class Footer extends Component {
                       </Col>
                 </Row>
             </Container>
-
-<div><CookiePolicyBanner /></div>
         </footer>
       </React.Fragment>
     );
