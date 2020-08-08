@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
 // import images
-import americanEx from '../../images/payments/american-ex.png';
-import discover from '../../images/payments/discover.png';
-import masterCard from '../../images/payments/master-card.png';
-import paypal from '../../images/payments/paypal.png';
-import visa from '../../images/payments/visa.png';
 import logoWhite from '../../images/logo_white.png';
 import pci from '../../images/pci_dss.png';
 class Footer extends Component {
@@ -52,14 +47,14 @@ class Footer extends Component {
             { title : "Help & Support", link : "/support" },
             { title : "Sandbox API", link : "//sandbox.elektropay.com" },
             { title : "Documentation", link : "//docs.elektropay.com" },
-            { title : "Github Repo", link : "//github.com/elektropay" },
             { title : "Developer Portal", link : "//developers.elektropay.com" },
         ],
       
         grid5 : [
             { title : "Privacy", link : "/privacy-policy" },
             { title : "Terms", link : "/terms" },
-            { title : "Security", link : "/security-policy" },
+            { title : "GBPR", link : "/gbpr" },
+            { title : "Security", link : "/security-policy" },       
             { title : "Status", link : "//status.elektropay.com" },
         ]
     };
