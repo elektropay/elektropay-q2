@@ -60,12 +60,12 @@ class Topbar extends Component {
              
                 { id : 5, title : "Resources", link : "/#", isOpenSubMenu : false,
                 child : [
-                    
-                    { title : "Developer Docs", link : "/documentation"},
                     { title : "Our Blog", link : "/elektrobytes"},
-                    { title : "Support Articles", link : "/changelog"},
+                    { title : "Help & Support", link : "/changelog"},
+                    { title : "Sandbox API", link : "//sandbox.elektropay.com"},
+                    { title : "Documentation", link : "//docs.elektropay.com"},
                     { title : "Github Repo", link : "//github.com/elektropay"},
-                    { title : "Service Status", link : "//status.elektropay.com"},
+                    { title : "Developer Portal", link : "//developers.elektropay.com"},
                     ]
                 },
                    
