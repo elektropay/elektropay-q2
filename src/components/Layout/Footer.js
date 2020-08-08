@@ -66,7 +66,7 @@ class Footer extends Component {
 
 
         <footer className={this.props.isLight ? "footer bg-black" : "footer"}>
-          <Container className="mt-60 mb-60">
+          <Container className="mt-40 mb-60">
                         <div className="pt-4 pb-4 pr-4">
                             <Row className="align-items-center">
                                 <Col sm="8">
@@ -75,12 +75,12 @@ class Footer extends Component {
                                     </div>
                                 </Col>
             
-                                <Col sm="4" className="mt-4 mt-sm-0">
+                                <Col sm="4" className="mt-4 mt-sm-4">
                                  <div className="text-sm-left">
-                                        <Link to="" className="btn btn-outline-primary">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="" className="btn btn-primary">Get Started <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                     <div className="text-sm-right">
-                                        <Link to="" className="btn btn-ouline-secondary">Try The Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
+                                        <Link to="" className="btn btn-secondary">Try The Sandbox <i className="mdi mdi-file-document-outline"></i> </Link>
                                     </div>
                                 </Col>
                             </Row>
