@@ -150,7 +150,7 @@ class Footer extends Component {
                     <ul className="list-unstyled list-inline-item text-muted text-sm-left mb-0 small">
                               {
                                 this.state.grid5.map((grid, key) =>
-                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item text muted" : "text-sm-left small"}>{grid.title} &nbsp;| </Link></li>
+                                <li key={key}><Link to={grid.link} className={this.props.isLight ? "list-inline-item text muted" : "small"}>{grid.title} </Link></li>
                                 )
                             }
                         </ul>
