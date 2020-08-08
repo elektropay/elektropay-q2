@@ -157,10 +157,10 @@ class Footer extends Component {
                         </div>
                     </Col>
                  <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                   <ul className="list-unstyled creditcard-icons text-sm-right mb-0">
-          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-discover"></i></li>
-          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-jcb"></i></li>
-          <li className="list-inline-item mr-1 text-muted"><i className="fab fa-cc-amex"></i></li>
+                   <ul className="list-unstyled creditcard-icons text-sm-center mb-0">
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-discover"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-jcb"></i></li>
+          <li className="list-inline-item mr-1"><i className="fab fa-cc-amex"></i></li>
           <li className="list-inline-item mr-1"><i className="fab fa-cc-stripe"></i></li>
           <li className="list-inline-item mr-1"><i className="fab fa-cc-apple-pay"></i></li>
           <li className="list-inline-item mr-1"><i className="fab fa-cc-amazon-pay"></i></li>
@@ -169,10 +169,10 @@ class Footer extends Component {
                     </Col>
 
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <ul className="list-unstyled copyright-list list-inline-item mb-0 small">
+                    <ul className="list-unstyled copyright-list text-sm-right mb-0">
                               {
                                 this.state.grid5.map((grid, key) =>
-                     <li key={key}><Link to={grid.link} className={this.props.isLight ? "text-muted" : "text-copyright"}>{grid.title} </Link></li>
+      <li key={key} className="list-inline-item small"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
                         </ul>
