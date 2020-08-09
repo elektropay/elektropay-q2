@@ -41,7 +41,7 @@ class WebsiteDescription extends Component {
                                 />
                                 </div>
                                 <div className="text-sm-left mt-5 ml-lg-5">
-                                   <Link to="/omni-channel" className="btn btn-dark mb-2 mr-2">Find out how <i className="mdi mdi-chevron-right"></i></Link>
+                                   <Link to="/omnichannel-payments" className="btn btn-dark mb-2 mr-2">Find out how</Link>
                                 </div>
                             </Col>
                         </Row>
