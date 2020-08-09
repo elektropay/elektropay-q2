@@ -37,11 +37,11 @@ class WebsiteDescription extends Component {
                                     title = "Maximize Revenue Channels"
                                     desc = "Connect with more customers and increase your bottom line with Elektropay's Open Commerce Platform, customizable to easily connect payment processors, card issuers, alternative payment methods, digital wallets, all through a single seamless integration."
                                     features = {this.state.features}
-                                    class = "mdi-20px h5 mr-2"
+                                    class = "mdi-18px h5 mr-2"
                                 />
                                 </div>
-                                <div className="text-sm-left mt-5">
-                                   <Link to="/omnichannel-payments" className="btn btn-dark mb-2 mr-2">Find out how</Link>
+                                <div className="ml-lg-5 mt-5">
+                                   <Link to="/omnichannel-payments" className="btn btn-dark text-sm-left mb-2 mr-2">Find out how</Link>
                                 </div>
                             </Col>
                         </Row>
