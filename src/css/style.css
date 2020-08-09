@@ -34,6 +34,12 @@
 .bg-black {
   background-color: #32393e !important;
 }
+.text-hero {
+  font-size: 3.3rem !important;
+  letter-spacing: 1px;
+  font-weight: 700 !important;
+}
+
 .text-primary {
   color: #5dbcd2 !important;
 }
