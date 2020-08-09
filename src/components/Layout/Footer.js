@@ -78,7 +78,7 @@ class Footer extends Component {
                                     </div>
                                 </Col>
             
-                                <Col sm="4" className="mt-2 mt-sm-2">
+                                <Col sm="4" className="mt-1 mt-sm-1">
                                  <div className="text-sm-left">
                                         <Link to="//app.elektropay.com/signup" className="btn btn-primary mr-2">Get Started  <i className="mdi mdi-chevron-right"></i> </Link>
                                    
@@ -90,7 +90,7 @@ class Footer extends Component {
                     </Container>
             <Container>
                 <Row>
-                <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2 pr-2" name="footercolumn">	                    
+                <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2 pr-4" name="footercolumn">	                    
                         <Link className={this.props.isLight ? "logo-footer" : "logo-footer"} to="#"><img src={logoWhite} className="" width="160" alt=""/></Link>	                       
                         <p className={ this.props.isLight ? "small mt-4 text-white" : "mt-4 mr-1 small"}>Elektropay is an Open Payments Platform that enables customers to manage payments, transfer money, connect thier personal, business and payment accounts</p>
                         <ul className="list-unstyled social-icon social mb-0 mt-4">
