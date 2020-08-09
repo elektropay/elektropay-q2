@@ -55,7 +55,7 @@ class Footer extends Component {
         grid5 : [
             { title : "Privacy", link : "/privacy-policy" },
             { title : "Terms", link : "/terms" },
-            { title : "GBPR", link : "/gbpr" },
+            { title : "GDPR", link : "/gbpr" },
             { title : "Security", link : "/security-policy" },       
             { title : "Cookies", link : "/cookie-policy" },
         ]
