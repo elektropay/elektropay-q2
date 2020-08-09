@@ -10,9 +10,9 @@ import mobile from "../../images/software/mobile01.png";
 class WebsiteDescription extends Component {
     state = {
         features : [
-            { title : "Digital Payment Solutions for Tomorrow" },
-            { title : "Our Secure & Experienced Marketing Agency" },
-            { title : "Fully White labeled to match your brand" },
+            { title : "Scalable digital payment solutions for tomorrow." },
+            { title : "Reach more buyers & drive higher conversions." },
+            { title : "Leverage our extensive network to expand markets." },
         ],
     }
 
