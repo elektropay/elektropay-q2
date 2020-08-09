@@ -23,9 +23,9 @@ class Topbar extends Component {
                         { title : "Bank Payments", link : "/index-software", isNew : true },
                     ],
                     child2 : [
+                        { title : "ElektroPos", link : "/index-course", isNew : true  },
                         { title : "Tasket", link : "/index-cloud-hosting" },
                         { title : "Marketplace", link : "/index-services" },
-                        { title : "ElektroPos", link : "/index-course", isNew : true  },
                         { title : "EAuth", link : "/index-personal" },
                         { title : "SugarBiller", link : "/index-single" },
                         { title : "KardIssue", link : "/index-portfolio", isNew : true },                       
@@ -61,7 +61,7 @@ class Topbar extends Component {
                 { id : 5, title : "Resources", link : "/#", isOpenSubMenu : false,
                 child : [
                     { title : "Our Blog", link : "/elektrobytes"},
-                    { title : "Help & Support", link : "/changelog"},
+                    { title : "Help & Support", link : "/page-customer"},
                     { title : "Sandbox API", link : "//sandbox.elektropay.com"},
                     { title : "Documentation", link : "//docs.elektropay.com"},
                     { title : "Developer Portal", link : "//developers.elektropay.com"},
@@ -157,7 +157,7 @@ class Topbar extends Component {
                             <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-md-block">Login</Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-outline-secondary mt-3 mr-2 d-none d-sm-block">Try It Free</Link>
+                            <Link to="//app.elektropay.com/signup" id="signupButton" className="btn btn-outline-secondary mt-3 mr-2 d-none d-sm-block">Try It Free</Link>
                         </div>
 
                         <div className="menu-extras">
