@@ -29,7 +29,9 @@ class Section extends Component {
                             <Col lg="6" md="12" className="mt-4 pt-2">
                                 <div className="position-relative">
                                     <div className="software_hero">
+                                      <div className="saas-feature-shape-right position-relative">
                                         <img src={classic02} className="img-fluid d-block" alt=""/>
+                                      </div>
                                     </div>
                                 </div>
                             </Col>
