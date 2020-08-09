@@ -40,7 +40,7 @@ class FeatureDescription extends Component {
                     
                     <Col lg={{size:7, order:2}} xs={{order:1}}>
                         <div className="saas-feature-shape-right position-relative">
-                            <img src={this.props.image2} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
+                            <img src={this.props.image2} className="img-fluid mx-auto d-block rounded" alt=""/>
                         </div>
                     </Col>
                 </Row>
@@ -49,7 +49,7 @@ class FeatureDescription extends Component {
                 <Row className="align-items-center mb-5">
                     <Col lg="7">
                         <div className="saas-feature-shape-left position-relative">
-                            <img src={this.props.image1} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
+                            <img src={this.props.image1} className="img-fluid mx-auto d-block rounded" alt=""/>
                         </div>
                     </Col>
 
