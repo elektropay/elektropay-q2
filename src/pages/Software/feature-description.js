@@ -8,7 +8,7 @@ class FeatureDescription extends Component {
     render() {
         return (
             <React.Fragment>
-            <Container className="pb-5 mb-md-5 mt-100 mt-60">
+            <Container className="pb-5 mb-md-5 mt-100 mt-60 mb-60">
                 <Row className="align-items-center">
                     <Col lg="7">
                         <div className="saas-feature-shape-left position-relative">
@@ -18,8 +18,8 @@ class FeatureDescription extends Component {
 
                     <Col lg="5" className="mt-4 pt-2 mt-lg-0 pt-lg-0">
                         <div className="section-title ml-lg-4">
-                            <h1 className="title mb-3">Build your site for using this app</h1>
-                            <p className="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                            <h1 className="title mb-3">Optimize Sales Conversions</h1>
+                            <p className="para-desc text-muted">Launch your payments program quickly and benefit from our extensive expertise, deep relationships with financial institutions and leading technology companies.</p>
                             
                             <OwlCarousel
                                 className="owl-theme"
@@ -41,12 +41,12 @@ class FeatureDescription extends Component {
                     </Col>
                 </Row>
             </Container>
-            <Container className="mt-100 mt-60">
+            <Container className="mt-100 mt-80 mb-100">
                 <Row className="align-items-center">
                     <Col lg={{size :5, order :1}} xs={{order:2}}  className="mt-4 pt-2 mt-lg-0 pt-lg-0">
                         <div className="section-title mr-lg-4">
-                            <h1 className="title mb-3">Why Choose us ?</h1>
-                            <p className="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                            <h1 className="title mb-3">Reach more customers in more places</h1>
+                            <p className="para-desc text-muted">Use our extensive global payments network and technologies to accesss the global market.</p>
                         
                             <Row>
                                 {
