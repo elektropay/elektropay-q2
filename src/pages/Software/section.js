@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
-// Modal Video 
-import ModalVideo from 'react-modal-video'
-import '../../../node_modules/react-modal-video/scss/modal-video.scss';
-
 //Import Images
 import software from "../../images/software/software.png";
 
@@ -45,11 +41,6 @@ class Section extends Component {
                                 <div className="position-relative">
                                     <div className="software_hero">
                                         <img src={software} className="img-fluid d-block" alt=""/>
-                                    </div>
-                                    <div className="play-icon">
-                                        <Link to="#" className="play-btn video-play-icon" onClick={this.openModal}>
-                                            <i className="mdi mdi-play text-primary rounded-pill bg-white shadow"></i>
-                                        </Link>
                                     </div>
                                 </div>
                             </Col>
