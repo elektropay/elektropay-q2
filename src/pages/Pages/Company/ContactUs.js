@@ -86,7 +86,7 @@ class ContactUs extends Component {
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Phone</h4>
                                         <p className="text-muted">Start working with Elektropay that can provide everything</p>
-                                        <Link to="#" onClick={this.callNumber} className="text-primary">+1 800 566-6003</Link>
+                                        <Link to="#" onClick={this.callNumber} className="text-primary">+1 800-566-6003</Link>
                                     </div>  
                                 </div>
                             </Col>
@@ -181,8 +181,8 @@ class ContactUs extends Component {
                         <Row>
                             <Col className="p-0">
                                 <div className="map">
-                                    <iframe title="myFrame" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{ border: "0" }} className="rounded" allowFullScreen></iframe>
-                                </div>
+                 <iframe title="Elektropay Headquarters" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.2546861447104!2d-2.2352382750476707!3d53.44071001137228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb23dd1f74d3b%3A0x11655e5e5281636d!2s7%20Mornington%20Cres%2C%20Manchester%20M14%206DF%2C%20UK!5e0!3m2!1sen!2smx!4v1596942375098!5m2!1sen!2smx" style={{ border: "0" }} className="rounded" allowFullScreen></iframe>                                
+                                 </div>
                             </Col>
                         </Row>
                     </Container>
