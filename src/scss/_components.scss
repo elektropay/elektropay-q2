@@ -5,7 +5,7 @@
 //component-wrapper
 .component-wrapper {
     .title {
-        font-size: 20px;
+        font-size: 32px;
     }
 }
 
@@ -212,7 +212,7 @@ $value in $colors {
         .close {
             top: -2px;
             right: -10px;
-            font-size: 16px !important;
+            font-size: 32px !important;
         }
     }
     &.alert-pills {
