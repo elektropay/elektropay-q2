@@ -99,7 +99,7 @@ class ContactUs extends Component {
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Email</h4>
                                         <p className="text-muted">Start working with Elektropay to increase payments acceptance</p>
-                                        <Link to="#" onClick={this.sendMail} className="text-primary">corporate@elektropay.com</Link>
+                                        <Link to="#" onClick={this.sendMail} className="text-primary">apply@elektropay.com</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -111,9 +111,9 @@ class ContactUs extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Location</h4>
-                                        <p className="text-muted">C/54 Northwest Freeway, Suite 558, <br />Houston, USA 485</p>
-                                        <Link to="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" className="video-play-icon h6 text-primary">View on Google map</Link>
-                                    </div>
+                                        <p className="text-muted">7, Mornington Cresent <br />Manchester, M14 6DF, England</p>
+                                        <Link to="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.2546861447104!2d-2.2352382750476707!3d53.44071001137228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb23dd1f74d3b%3A0x11655e5e5281636d!2s7%20Mornington%20Cres%2C%20Manchester%20M14%206DF%2C%20UK!5e0!3m2!1sen!2smx!4v1596942375098!5m2!1sen!2smx" className="video-play-icon h6 text-primary">View on Google map</Link>
+                                   </div>
                                 </div>
                             </Col>
                         </Row>
