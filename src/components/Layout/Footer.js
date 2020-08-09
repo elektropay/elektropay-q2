@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
+// import CookiePolicy
+import CookiePolicyBanner from '@edx/frontend-component-cookie-policy-banner';
+
 // import images
 import logoWhite from '../../images/logo_white.png';
 import pci from '../../images/pci_dss.png';
@@ -177,8 +180,8 @@ class Footer extends Component {
                       </Col>
                 </Row>
             </Container>
-      <CookiePolicyBanner />
         </footer>
+      <CookiePolicyBanner />
       </React.Fragment>
     );
   }
