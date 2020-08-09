@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
 //Import Images
-import software from "../../images/software/software.png";
+import classic02 from "../../images/saas/classic02.png";
 
 class Section extends Component {
 
@@ -29,7 +29,7 @@ class Section extends Component {
                             <Col lg="6" md="12" className="mt-4 pt-2">
                                 <div className="position-relative">
                                     <div className="software_hero">
-                                        <img src={software} className="img-fluid d-block" alt=""/>
+                                        <img src={classic02} className="img-fluid d-block" alt=""/>
                                     </div>
                                 </div>
                             </Col>
