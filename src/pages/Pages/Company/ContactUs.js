@@ -84,9 +84,9 @@ class ContactUs extends Component {
                                         <img src={bitcoin} className="avatar avatar-small" alt=""/>
                                     </div>
                                     <div className="content mt-3">
-                                        <h4 className="title font-weight-bold">Phone</h4>
-                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
-                                        <Link to="#" onClick={this.callNumber} className="text-primary">+1 800-566-6003</Link>
+                                        <h4 className="title font-weight-bold">Contact Sales</h4>
+                                        <p className="text-muted">Speak to an professional to find the right solutions and products to meet your payment needs.</p>
+                                        <Link to="#" onClick={this.callNumber} className="btn btn-outline btn-primary">Toll-Free: +1 800-566-6003</Link>
                                     </div>  
                                 </div>
                             </Col>
@@ -97,9 +97,9 @@ class ContactUs extends Component {
                                         <img src={Email} className="avatar avatar-small" alt="Elektropay" />
                                     </div>
                                     <div className="content mt-3">
-                                        <h4 className="title font-weight-bold">Email</h4>
-                                        <p className="text-muted">Start working with Elektropay to increase your payments acceptance</p>
-                                        <Link to="#" onClick={this.sendMail} className="text-primary">apply@elektropay.com</Link>
+                                        <h4 className="title font-weight-bold">Contact Support</h4>
+                                        <p className="text-muted">Visit our support portal to request assistance, open a support ticket or access support materials.</p>
+                                        <Link to="#" onClick={this.sendMail} className="btn btn-outline btn-primary">support@elektropay.com</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -110,9 +110,9 @@ class ContactUs extends Component {
                                         <img src={location} className="avatar avatar-small" alt="Elektropay" />
                                     </div>
                                     <div className="content mt-3">
-                                        <h4 className="title font-weight-bold">Location</h4>
-                                        <p className="text-muted">7, Mornington Cresent <br />Manchester, M14 6DF, England</p>
-                                        <Link to="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.2546861447104!2d-2.2352382750476707!3d53.44071001137228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb23dd1f74d3b%3A0x11655e5e5281636d!2s7%20Mornington%20Cres%2C%20Manchester%20M14%206DF%2C%20UK!5e0!3m2!1sen!2smx!4v1596942375098!5m2!1sen!2smx" className="video-play-icon h6 text-primary">View on Google map</Link>
+                                        <h4 className="title font-weight-bold">Corporate HQ</h4>
+                                        <p className="text-muted">7, Mornington Cresent, Suite 200 <br />Manchester, M14 6DF, UK</p>
+                                        <Link to="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.2546861447104!2d-2.2352382750476707!3d53.44071001137228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb23dd1f74d3b%3A0x11655e5e5281636d!2s7%20Mornington%20Cres%2C%20Manchester%20M14%206DF%2C%20UK!5e0!3m2!1sen!2smx!4v1596942375098!5m2!1sen!2smx" className="btn btn-outline btn-primary video-play-icon">View on Google map</Link>
                                    </div>
                                 </div>
                             </Col>
