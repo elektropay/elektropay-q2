@@ -12,7 +12,7 @@ class Section extends Component {
             <React.Fragment>
                 <section className="bg-half-170 bg-white d-table w-100">
                     <Container>
-                        <Row className="align-items-center position-relative mt-2" style={{zIndex: "1"}}>
+                        <Row className="align-items-center position-relative mt-5" style={{zIndex: "1"}}>
                             <Col lg="6" md="12">
                                 <div className="title-heading mt-4 text-center text-lg-left">
                                     <h1 className="heading mb-3 text-dark text-hero">Monetize Your Commerce Channels</h1>
