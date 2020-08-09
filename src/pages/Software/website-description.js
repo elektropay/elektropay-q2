@@ -40,8 +40,8 @@ class WebsiteDescription extends Component {
                                     class = "mdi-20px h5 mr-2"
                                 />
                                 </div>
-                                <div className="mt-4">
-                                   <Link to="#" className="btn btn-primary mb-2 mr-2">Find out how <i className="mdi mdi-chevron-right"></i></Link>
+                                <div className="text-sm-left mt-5 ml-lg-5">
+                                   <Link to="/omni-channel" className="btn btn-dark mb-2 mr-2">Find out how <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
                         </Row>
