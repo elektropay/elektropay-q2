@@ -20,7 +20,6 @@ class Footer extends Component {
             { title : "Real-Time Processing", link : "/page-team" },
             { title : "Mobile Processing", link : "/page-pricing" },
             { title : "ElektroPOS", link : "/page-work" },
-            { title : "Bank Payments", link : "/page-work" },
             { title : "Marketplace", link : "/page-jobs" },
             { title : "SugarBiller", link : "/page-blog" },
             { title : "KardIssue", link : "/page-cover-login" },
