@@ -174,7 +174,7 @@ class Footer extends Component {
       <li key={key} className="list-inline-item small mr-2"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
-       <li className="list-inline-item small mr-2"><Link to="//elektropay.freshstatus.io" className="text-muted">Status <i className="fas fa-circle success"></i></Link> <span className="text-white small"> Operational</span> </li>                 
+       <li className="list-inline-item small mr-2"><Link to="//elektropay.freshstatus.io" className="text-muted small">Status <i className="fas fa-circle text-success"></i></Link> <span className="text-white x-small"> Operational</span> </li>                 
                         </ul>
 
                       </Col>
