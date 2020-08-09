@@ -201,7 +201,7 @@ class Topbar extends Component {
                                                                 {
                                                                     navLink.child2.map((item, childKey) =>
                                                                         <li key={childKey}>
-                                                                            <Link to={item.link}>{item.title}{item.isOnePage ? <span className="badge badge-warning rounded ml-2">Onepage</span> : null}</Link>
+                                                                            <Link to={item.link}>{item.title}{item.isNowHiring ? <span className="badge badge-success rounded ml-2">Now Hiring</span> : null}</Link>
                                                                         </li>
                                                                     )
                                                                 }
@@ -239,7 +239,7 @@ class Topbar extends Component {
                                       <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
                                     )
                                 }
-                                <li><Link to="/index-customer" id="supportButton" className=""><i className="mdi mdi-facebook" title="Contact Support"></i></Link> </li>    
+                                <li><Link to="/index-customer" id="supportButton" className="rounded"><i className="mdi mdi-user" title="Contact Support"></i></Link> </li>    
                             </ul>
                             <div className="buy-menu-btn ml-4">
                                 <Link to="#" id="signupButton" target="_blank" className="btn btn-outline-info d-md-none">Get Started</Link>
