@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "reactstrap";
+import { Link } from 'react-router-dom';
 
 //Import Components
 import SectionTitleLeft from "../../components/Shared/section-title-left";
@@ -36,7 +37,7 @@ class WebsiteDescription extends Component {
                                     title = "Maximize Revenue Channels"
                                     desc = "Connect with more customers and increase your bottom line with Elektropay's Open Commerce Platform, customizable to easily connect payment processors, card issuers, alternative payment methods, digital wallets, all through a single seamless integration."
                                     features = {this.state.features}
-                                    class = "mdi-18px h5 mr-2"
+                                    class = "mdi-20px h5 mr-2"
                                 />
                                 </div>
                                 <div className="mt-4">
