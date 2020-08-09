@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 // import CookiePolicy
 import CookiePolicyBanner from '@edx/frontend-component-cookie-policy-banner';
+import CookiePolicyScss from '../../scss/_cookie-policy-banner.scss';
 
 // import images
 import logoWhite from '../../images/logo_white.png';
