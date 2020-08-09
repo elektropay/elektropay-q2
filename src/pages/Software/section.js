@@ -15,7 +15,7 @@ class Section extends Component {
                         <Row className="align-items-center position-relative mt-2" style={{zIndex: "1"}}>
                             <Col lg="6" md="12">
                                 <div className="title-heading mt-4 text-center text-lg-left">
-                                    <h1 className="heading mb-3 text-dark">Monetize Your Commerce Channels</h1>
+                                    <h1 className="heading mb-3 text-dark text-hero">Monetize Your Commerce Channels</h1>
                                     <p className="para-desc text-muted">The commerce as service management platform delivering unmatched solutions for start-up and enterprise businesses.</p>
                                     <div className="mt-4">
                                          <Link to="" className="btn btn-light mt-1 mr-2 mouse-down"> Request A Demo</Link>
