@@ -6,11 +6,8 @@ import Section from "./section";
 import Partners from "../../components/Shared/Partners";
 // import Feature from "../../components/Shared/Feature";
 import FeatureDescription from "./feature-description";
-import CTA from "./cta";
-import Pricings from "./pricings";
 import BlockContainer from "./block-container";
 import WebsiteDescription from "./website-description";
-// import Price from "./price";
 
 //Import Images
 import user from "../../images/icon/user.svg";
@@ -86,18 +83,10 @@ class IndexclassNameSoftware extends Component {
                     <BlockContainer/>
 
                     {/* Render Feature Description */}
+                    <section className="pt-5 pb-5">
                     <FeatureDescription image1={classic02} image2={classic02} testimonials={this.state.testimonials} facilities={this.state.facilities} />
-
-                    {/* render pricing */}
-                    <Pricings pricings={this.state.pricings} />
+                    </section>
                                    
-
-                 <section className="pt-5 pb-5">
-                    <Container>
-                    {/* Render CTA */}
-                    <CTA/>
-                    </Container>
-                </section>
             </React.Fragment>
         );
     }
