@@ -16,7 +16,7 @@ class Section extends Component {
                             <Col lg="6" md="12">
                                 <div className="title-heading mt-4 text-center text-lg-left">
                                     <h1 className="heading mb-3 text-dark text-hero">Monetize Your Commerce Channels</h1>
-                                    <p className="para-desc text-muted">The commerce as service management platform delivering unmatched solutions for start-up and enterprise businesses.</p>
+                                    <p className="para-desc lead text-muted">The commerce as service management platform delivering innovative payment solutions for start-ups and enterprise businesses alike.</p>
                                     <div className="mt-4">
                                          <Link to="" className="btn btn-light mt-1 mr-2 mouse-down"> Request A Demo</Link>
                                       
