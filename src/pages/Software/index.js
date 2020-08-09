@@ -4,10 +4,10 @@ import { Container } from "reactstrap";
 //Import Components
 import Section from "./section";
 import Partners from "../../components/Shared/Partners";
+import WebsiteDescription from "./website-description";
 // import Feature from "../../components/Shared/Feature";
 import FeatureDescription from "./feature-description";
 import BlockContainer from "./block-container";
-import WebsiteDescription from "./website-description";
 
 //Import Images
 import user from "../../images/icon/user.svg";
