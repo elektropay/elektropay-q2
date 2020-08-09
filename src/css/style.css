@@ -207,10 +207,10 @@ a.text-copyright:hover, a.text-copyright:focus {
 }
 
 .x-small, x-small {
-    font-size: 80%;
+    font-size: 80% !important;
 }
 .xx-small, xx-small {
-    font-size: 70%;
+    font-size: 70% !important;
 }
 
 .component-wrapper .title {
