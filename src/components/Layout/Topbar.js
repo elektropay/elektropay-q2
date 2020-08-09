@@ -239,7 +239,7 @@ class Topbar extends Component {
                                       <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
                                     )
                                 }
-                                <li><Link to="/index-customer" id="supportButton" className="text-secondary md-18 profile-icons"><i className="mdi mdi-account rounded-pill bg-white shadow profile-icons" title="Contact Support +1 800-566-6003"></i></Link> </li>    
+                                <li><Link to="/index-customer" id="supportButton" className="text-secondary mdi-20px profile-icons"><i className="mdi mdi-account rounded-pill p-1 bg-light shadow profile-icons" title="Contact Support +1 800-566-6003"></i></Link> </li>    
                             </ul>
                             <div className="buy-menu-btn ml-4">
                                 <Link to="#" id="signupButton" target="_blank" className="btn btn-primary d-md-none">Get Started </Link>
