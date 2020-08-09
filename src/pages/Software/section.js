@@ -6,17 +6,6 @@ import { Container, Row, Col } from "reactstrap";
 import software from "../../images/software/software.png";
 
 class Section extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isOpen: false
-        }
-        this.openModal = this.openModal.bind(this);
-    }   
-    
-    openModal() {
-        this.setState({ isOpen: true })
-    }
 
     render() {
         return (
@@ -46,7 +35,6 @@ class Section extends Component {
                             </Col>
                         </Row>
                     </Container>
-                    <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId='287684225' onClose={() => this.setState({ isOpen: false })} />
                 </section>
             </React.Fragment>
         );
