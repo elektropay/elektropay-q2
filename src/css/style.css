@@ -505,7 +505,7 @@ a.text-copyright:hover, a.text-copyright:focus {
   letter-spacing: 0.5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 10px;
 }
 
