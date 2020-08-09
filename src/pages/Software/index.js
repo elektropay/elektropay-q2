@@ -13,7 +13,6 @@ import BlockContainer from "./block-container";
 import user from "../../images/icon/user.svg";
 import calendar from "../../images/icon/calendar.svg";
 import sandclock from "../../images/icon/sand-clock.svg";
-import classic02 from "../../images/saas/classic02.png";
 import app1 from "../../images/app/1.png";
 import app2 from "../../images/app/2.png";
 import client1 from "../../images/client/01.jpg";
