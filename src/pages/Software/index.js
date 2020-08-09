@@ -14,6 +14,7 @@ import user from "../../images/icon/user.svg";
 import calendar from "../../images/icon/calendar.svg";
 import sandclock from "../../images/icon/sand-clock.svg";
 import classic02 from "../../images/saas/classic02.png";
+import mobile from "../../images/software/mobile01.png";
 import client1 from "../../images/client/01.jpg";
 import client2 from "../../images/client/02.jpg";
 import client3 from "../../images/client/03.jpg";
@@ -84,7 +85,7 @@ class IndexclassNameSoftware extends Component {
 
                     {/* Render Feature Description */}
                     <section className="pt-5 pb-5">
-                    <FeatureDescription image1={classic02} image2={classic02} testimonials={this.state.testimonials} facilities={this.state.facilities} />
+                    <FeatureDescription image1={mobile} image2={classic02} testimonials={this.state.testimonials} facilities={this.state.facilities} />
                     </section>
                                    
             </React.Fragment>
