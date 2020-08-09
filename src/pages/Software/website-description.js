@@ -11,7 +11,7 @@ class WebsiteDescription extends Component {
     state = {
         features : [
             { title : "Scalable digital payment solutions for tomorrow." },
-            { title : "Reach more buyers & drive higher conversions." },
+            { title : "Reach more buyers and drive higher conversions." },
             { title : "Leverage our extensive network to expand markets." },
         ],
     }
