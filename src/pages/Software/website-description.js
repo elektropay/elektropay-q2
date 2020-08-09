@@ -33,8 +33,8 @@ class WebsiteDescription extends Component {
                             <Col lg="7" md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="section-title ml-lg-5">
                                 <SectionTitleLeft
-                                    title = "Maximizing Your Revenue Channels"
-                                    desc = "Connect with more customers and increase your bottom line with Elektropay's Open Commerce platform that connects all major payment processors, credit, gift and debit cards, Echecks, and most popular digital wallets in a single, seamless integration."
+                                    title = "Maximize Revenue Channels"
+                                    desc = "Connect with more customers and increase your bottom line with Elektropay's Open Commerce platform, customize your account to connect and choose your payment processor or card acquirers, customize your alternative payment methods and you can also use the most popular digital wallets in a single, seamless integration."
                                     features = {this.state.features}
                                     class = "mdi-18px h5 mr-2"
                                 />
