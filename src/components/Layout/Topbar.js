@@ -153,7 +153,7 @@ class Topbar extends Component {
                           <div>
                             <Link className="logo" to="/"><img src={logo} className="header_logo" width="180" alt=""/></Link>
                         </div>
-                        <div className="buy-button">
+                        <div className="login-btn-light">
                             <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-md-block">Login</Link>
                         </div>
                         <div className="buy-button">
