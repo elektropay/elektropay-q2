@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
-// import CookiePolicy
-import CookiePolicyBanner from '@edx/frontend-component-cookie-policy-banner';
-
 // import images
 import logoWhite from '../../images/logo_white.png';
 import pci from '../../images/pci_dss.png';
@@ -174,7 +171,7 @@ class Footer extends Component {
       <li key={key} className="list-inline-item small mr-2"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
-       <li className="list-inline-item small mr-2"><Link to="//elektropay.freshstatus.io" className="text-muted small">Status <i className="fas fa-circle small text-success"></i></Link> <span className="xx-small text-white"> Operational</span> </li>                 
+       <li className="list-inline-item small mr-2"><Link to="//elektropay.freshstatus.io" className="text-muted small">Status <i className="fas fa-circle text-success"></i></Link> <span className="xx-small text-white"> Operational</span> </li>                 
                         </ul>
 
                       </Col>
