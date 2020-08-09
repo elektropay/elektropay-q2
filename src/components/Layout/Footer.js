@@ -78,7 +78,7 @@ class Footer extends Component {
                                     </div>
                                 </Col>
             
-                                <Col sm="4" className="mt-3 mt-sm-3">
+                                <Col sm="4" className="mt-2 mt-sm-2">
                                  <div className="text-sm-left">
                                         <Link to="//app.elektropay.com/signup" className="btn btn-primary mr-2">Get Started  <i className="mdi mdi-chevron-right"></i> </Link>
                                    
@@ -174,7 +174,7 @@ class Footer extends Component {
       <li key={key} className="list-inline-item small mr-2"><Link to={grid.link} className={this.props.isLight ? "text-copyright" : "text-muted small"}>{grid.title} </Link></li>
                                 )
                             }
-       <li className="list-inline-item small mr-2"><Link to="//elektropay.freshstatus.io" className="text-muted small">Status <i className="fas fa-circle text-success"></i></Link> <span className="xx-small text-white"> Operational</span> </li>                 
+       <li className="list-inline-item small ml-1"><Link to="//elektropay.freshstatus.io" className="text-muted small">Status <i className="fas fa-circle text-success"></i></Link> <span className="xx-small text-white pb1"> Operational</span> </li>                 
                         </ul>
 
                       </Col>
