@@ -41,7 +41,7 @@ class FeatureDescription extends Component {
                     </Col>
                 </Row>
             </Container>
-            <Container className="mt-100 mt-80 mb-100">
+            <Container className="mt-100 mt-60 mb-100">
                 <Row className="align-items-center">
                     <Col lg={{size :5, order :1}} xs={{order:2}}  className="mt-4 pt-2 mt-lg-0 pt-lg-0">
                         <div className="section-title mr-lg-4">
