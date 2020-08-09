@@ -1,5 +1,5 @@
 $cookie-banner-background-color: #f1f1f1 !default;
-$cookie-banner-text-color: #6c757d !default;
+$cookie-banner-text-color: #222222 !default;
 $cookie-banner-cta-base: #0075b4 !default;
 $cookie-banner-cta-hover: #075683 !default;
 
@@ -18,7 +18,7 @@ $cookie-banner-cta-hover: #075683 !default;
 
   .alert {
     position: relative;
-    padding: 0.75rem 1.25rem;
+    padding: 0.95rem 1.35rem;
   }
 
   .alert-dismissible {
@@ -34,7 +34,7 @@ $cookie-banner-cta-hover: #075683 !default;
       float: right;
       line-height: 1;
       font: {
-        size: 1.5rem;
+        size: 1.85rem;
         weight: 700;
       }
     }
