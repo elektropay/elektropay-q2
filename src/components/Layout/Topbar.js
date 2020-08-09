@@ -154,10 +154,10 @@ class Topbar extends Component {
                             <Link className="logo" to="/"><img src={logo} className="header_logo" width="180" alt=""/></Link>
                         </div>
                          <div className="buy-button">
-                            <Link to="//app.elektropay.com/signup" id="signupButton" className="btn btn-outline-primary mt-3 mr-2 d-none d-sm-block">Try It Free</Link>
+                            <Link to="//app.elektropay.com/signup" id="signupButton" className="btn btn-primary mt-3 mr-2 d-none d-sm-block">Try It Free <i class="mdi mdi-chevron-right"></i></Link>
                         </div>
                         <div className="buy-button login-btn-light">
-                            <Link to="#" id="loginButton" className="btn text-success mt-3 d-none d-md-block">Login <i class="mdi mdi-chevron-right"></i></Link>
+                            <Link to="#" id="loginButton" className="btn btn-outline-success mt-3 d-none d-md-block">Login </Link>
                         </div>
 
                         <div className="menu-extras">
@@ -245,7 +245,7 @@ class Topbar extends Component {
                                 <Link to="#" id="signupButton" target="_blank" className="btn btn-primary d-md-none">Get Started </Link>
                             </div>
                         <div className="buy-menu-btn ml-4 mt-2">
-                            <Link to="#" id="loginButton" className="btn btn-outline-success d-md-none mr-2">Login </Link>
+                            <Link to="#" id="loginButton" className="btn btn-success d-md-none mr-2">Login </Link>
                         </div>
                         </div>
                     </Container>
