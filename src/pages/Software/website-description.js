@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 //Import Components
 import SectionTitleLeft from "../../components/Shared/section-title-left";
 
-//Import Images
-import mobile from "../../images/software/mobile01.png";
+// Import images
+import busi01 from '../../images/busi01.jpg';
 
 class WebsiteDescription extends Component {
     state = {
@@ -28,7 +28,7 @@ class WebsiteDescription extends Component {
                     <Container className="mt-100 mt-60">
                         <Row className="align-items-center">
                             <Col lg="5" md="6">
-                                <img src={mobile} className="img-fluid" alt=""/>
+                                <img src={busi01} className="img-fluid" alt=""/>
                             </Col>
 
                             <Col lg="7" md="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
