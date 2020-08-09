@@ -6,6 +6,7 @@ import { Route, Switch, BrowserRouter as Router, withRouter } from 'react-router
 import './Apps.scss';
 import './css/materialdesignicons.min.css';
 import './css/colors/default.css';
+import './scss/_cookie-policy-banner.scss';
 
 // Include Routes 
 import routes from './routes';
