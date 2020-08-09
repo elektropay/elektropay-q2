@@ -88,8 +88,8 @@ class IndexclassNameSoftware extends Component {
                     <BlockContainer/>
 
                     {/* Render Feature Description */}
-                    <section className="pt-5 pb-5">
-                    <FeatureDescription image1={mobile} image2={classic02} testimonials={this.state.testimonials} facilities={this.state.facilities} />
+                    <section className="pt-5 mb-60">
+                    <FeatureDescription image1={app1} image2={app2} testimonials={this.state.testimonials} facilities={this.state.facilities} />
                     </section>
                                    
             </React.Fragment>
