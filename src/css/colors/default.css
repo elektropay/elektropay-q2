@@ -31,7 +31,7 @@
 .classic-saas-image .bg-saas-shape:after,
 .saas-feature-shape-left:after,
 .saas-feature-shape-right:after {
-    background-color: #2f55d4 !important;
+    background-color: #6ec9e4 !important;
 }
 
 .text-primary,
@@ -68,7 +68,7 @@
 .container-filter li a:hover,
 .team .name:hover,
 .catagories a:hover {
-    color: #2f55d4 !important;
+    color: #6ec9e4 !important;
 }
 
 .btn-primary,
@@ -102,7 +102,7 @@
 .container-filter li a:hover,
 .flatpickr-day.selected, 
 .flatpickr-day.selected:hover {
-    border-color: #2f55d4 !important;
+    border-color: #6ec9e4 !important;
 }
 
 .btn-primary,
@@ -127,7 +127,7 @@
 .alert-primary,
 .pagination li a:hover,
 ::selection {
-    background-color: #4466d8;
+    background-color: #6ec9e4;
 }
 
 .alert-primary .alert-link {
@@ -140,49 +140,49 @@
 
 a.text-primary:hover, 
 a.text-primary:focus {
-    color: #284bc1 !important;
+    color: #6ec9e4 !important;
 }
 
 .bg-overlay-gradient {
-    background-color: rgba(47, 85, 212, 0.6);
+    background-color: rgba(106, 202, 228, 1);
 }
 
 .bg-overlay-gradient2 {
-    background-image: linear-gradient(90deg, #2eca8b, #2f55d4, #2eca8b);
+    background-image: linear-gradient(90deg, #90d3e6, #6ec9e4, #90d3e6);
 }
 
 .gradient {
-    background: linear-gradient(45deg, #2f55d4, #2f55d4) !important;
+    background: linear-gradient(45deg, #6ec9e4, #90d3e6) !important;
 }
 
 .features .image:before {
-    background: linear-gradient(45deg, transparent, rgba(47, 85, 212, 0.09));
+    background: linear-gradient(45deg, transparent, rgba(144, 211, 230, 1));
 }
 
 .features:hover .image:before {
-    background: rgba(47, 85, 212, 0.07);
+    background: rgba(144, 211, 230, 1);
 }
 
 .key-feature .icon {
-    background: linear-gradient(45deg, transparent, rgba(47, 85, 212, 0.15));
+    background: linear-gradient(45deg, transparent, rgba(144, 211, 230, 1));
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    background: rgba(47, 85, 212, 0.5) !important;
+    background: rgba(110, 202, 228, 1) !important;
 }
 
 .play-icon i,
 .play-icon i:hover {
-    -webkit-text-stroke: 2px #2f55d4;
+    -webkit-text-stroke: 2px #6ec9e4;
 }
   
 .play-icon i:hover {
-    -webkit-text-fill-color: #2f55d4;
+    -webkit-text-fill-color: #6ec9e4;
 }
 
 .event-schedule .date .day {
     background: rgba(47, 85, 212, 0.1);
-    box-shadow: 0px 0px 2px 0.25px rgba(47, 85, 212, 0.5);
+    box-shadow: 0px 0px 2px 0.25px rgba(110, 202, 228, 1);
 }
 
 .classic-app-image .bg-app-shape:after,
@@ -191,7 +191,7 @@ a.text-primary:focus {
 .classic-saas-image .bg-saas-shape:after,
 .saas-feature-shape-left:after,
 .saas-feature-shape-right:after {
-    box-shadow: 0 0 40px rgba(47, 85, 212, 0.5);
+    box-shadow: 0 0 40px rgba(110, 202, 228, 1);
 }
 
 .nav-pills .nav-link:hover {
