@@ -40,7 +40,7 @@ class WebsiteDescription extends Component {
                                 />
                                 </div>
                                 <div className="mt-4">
-                                <Link to="" className="btn btn-dark mt-3 mr-2 mouse-down"> Find out how</Link>
+                                   <Link to="#" className="btn btn-primary mb-2 mr-2">Find out how <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
                         </Row>
