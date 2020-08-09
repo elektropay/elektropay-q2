@@ -38,9 +38,9 @@ class WebsiteDescription extends Component {
                                     features = {this.state.features}
                                     class = "mdi-18px h5 mr-2"
                                 />
+                                </div>
                                 <div className="mt-4">
                                 <Link to="" className="btn btn-dark mt-3 mr-2 mouse-down"> Find out how</Link>
-                                </div>
                                 </div>
                             </Col>
                         </Row>
