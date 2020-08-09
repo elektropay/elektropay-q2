@@ -12,7 +12,7 @@ class FeatureDescription extends Component {
                 <Row className="align-items-center">
                     <Col lg="7">
                         <div className="saas-feature-shape-left position-relative">
-                            <img src={this.props.app1} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
+                            <img src={this.props.image1} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
                         </div>
                     </Col>
 
@@ -39,6 +39,9 @@ class FeatureDescription extends Component {
                             </OwlCarousel>
                         </div>
                     </Col>
+                               <Col xs="12" className="pt-4">
+                                    <Link to="" className="btn btn-dark">Find out how</Link>
+                                </Col>
                 </Row>
             </Container>
             <Container className="mt-100 mt-60 mb-100">
@@ -64,7 +67,7 @@ class FeatureDescription extends Component {
                                 }
     
                                 <Col xs="12" className="pt-4">
-                                    <Link to="" className="btn btn-outline-primary">Install Now <i className="mdi mdi-chevron-right"></i></Link>
+                                    <Link to="" className="btn btn-dark">Find out how</Link>
                                 </Col>
                             </Row>
                         </div>
@@ -72,7 +75,7 @@ class FeatureDescription extends Component {
                     
                     <Col lg={{size:7, order:2}} xs={{order:1}}>
                         <div className="saas-feature-shape-right position-relative">
-                            <img src={this.props.app2} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
+                            <img src={this.props.image2} className="img-fluid mx-auto d-block rounded shadow" alt=""/>
                         </div>
                     </Col>
                 </Row>
