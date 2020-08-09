@@ -53,7 +53,7 @@ class Topbar extends Component {
                         { id : 1, title : "Contact Us", link : "/contact-us"},
                         { id : 3, title : "About Us", link : "/about-us"},
                         { id : 4, title : "Our Team", link : "/page-team"},
-                        { id : 5, title : "Careers", link : "/index-job", isHiring : true },
+                        { id : 5, title : "Careers", link : "/index-job", isNowHiring : true },
                         { id : 6, title : "Partners", link : "/partners"},
                         ]
                 },
@@ -239,7 +239,7 @@ class Topbar extends Component {
                                       <li key={key}><Link to={navLink.link}>{navLink.title}</Link></li>
                                     )
                                 }
-                                <li><Link to="/index-customer" id="supportButton" className="rounded"><i className="mdi mdi-user" title="Contact Support"></i></Link> </li>    
+                                <li><Link to="/index-customer" id="supportButton" className="rounded"><i className="mdi mdi-account ml-0 icons" title="Contact Support"></i></Link> </li>    
                             </ul>
                             <div className="buy-menu-btn ml-4">
                                 <Link to="#" id="signupButton" target="_blank" className="btn btn-outline-info d-md-none">Get Started</Link>
