@@ -40,7 +40,7 @@ class WebsiteDescription extends Component {
                                     class = "mdi-20px h5 mr-2"
                                 />
                                 </div>
-                                <div className="text-sm-left mt-5 ml-lg-5">
+                                <div className="text-sm-left mt-5">
                                    <Link to="/omnichannel-payments" className="btn btn-dark mb-2 mr-2">Find out how</Link>
                                 </div>
                             </Col>
