@@ -60,7 +60,7 @@ class ContactUs extends Component {
     }
 
     callNumber(){
-        window.location.href="tel:+152534-468-854";
+        window.location.href="tel:+1-800-566-6003";
     }
     
     render() {
@@ -86,7 +86,7 @@ class ContactUs extends Component {
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Phone</h4>
                                         <p className="text-muted">Start working with Elektropay that can provide everything</p>
-                                        <Link to="#" onClick={this.callNumber} className="text-primary">+152 534-468-854</Link>
+                                        <Link to="#" onClick={this.callNumber} className="text-primary">+1 800 566-6003</Link>
                                     </div>  
                                 </div>
                             </Col>
@@ -98,7 +98,7 @@ class ContactUs extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Email</h4>
-                                        <p className="text-muted">Start working with Elektropay to increase payments acceptance</p>
+                                        <p className="text-muted">Start working with Elektropay to increase your payments acceptance</p>
                                         <Link to="#" onClick={this.sendMail} className="text-primary">apply@elektropay.com</Link>
                                     </div>
                                 </div>
