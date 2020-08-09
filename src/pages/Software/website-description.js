@@ -13,7 +13,7 @@ class WebsiteDescription extends Component {
         features : [
             { title : "Scalable digital payment solutions for tomorrow." },
             { title : "Reach more buyers and drive higher conversions." },
-            { title : "Leverage our extensive network to expand markets." },
+            { title : "Leverage our networks to access new markets." },
         ],
     }
 
