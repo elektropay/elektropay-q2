@@ -62,7 +62,7 @@ class PageContactUs extends Component {
     }
 
     callNumber(){
-        window.location.href="tel:+152534-468-854";
+        window.location.href="tel:+1(800)566-6003";
     }
     
     render() {
@@ -92,8 +92,8 @@ class PageContactUs extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Phone</h4>
-                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
-                                        <Link to="#" onClick={this.callNumber} className="text-primary">+152 534-468-854</Link>
+                                        <p className="text-muted">Here you will find all the help you need. </p>
+                                        <Link to="#" onClick={this.callNumber} className="text-primary">+1(800)566-6003</Link>
                                     </div>  
                                 </div>
                             </Col>
@@ -105,8 +105,8 @@ class PageContactUs extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Email</h4>
-                                        <p className="text-muted">Start working with Elektropay that can provide everything</p>
-                                        <Link to="#" onClick={this.sendMail} className="text-primary">contact@example.com</Link>
+                                        <p className="text-muted">  Here you will find all the help you need. Read our articles, FAQs and if you still need assistance, use the different channels to contact us.</p>
+                                        <Link to="#" onClick={this.sendMail} className="text-primary">contact@elektropay.com</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -118,7 +118,7 @@ class PageContactUs extends Component {
                                     </div>
                                     <div className="content mt-3">
                                         <h4 className="title font-weight-bold">Location</h4>
-                                        <p className="text-muted">C/54 Northwest Freeway, Suite 558, <br />Houston, UK 485</p>
+                                        <p className="text-muted">7 Mornington Cresent, Manchester, H4K 4K8, UK<br />Houston, UK 485</p>
                                         <Link to="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" className="video-play-icon h6 text-primary">View on Google map</Link>
                                     </div>
                                 </div>
