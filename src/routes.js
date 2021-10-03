@@ -149,7 +149,7 @@ const routes = [
 
 
     //About Us
-    { path: '/page-aboutus', component: PageAboutUs },
+    { path: '/page-aboutus', component: AboutUs },
     { path: '/page-pricing', component: PagePricing },
     { path: '/page-services', component: PageServices },
     { path: '/page-team', component: PageTeam },
