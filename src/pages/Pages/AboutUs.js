@@ -148,11 +148,11 @@ class PageAboutUs extends Component {
                             <Col lg={7} md={7} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
                                 <div className="section-title ml-lg-4">
                                     <h4 className="title mb-4">Our Story</h4>
-                                    <p className="text-muted">Elektropay<span className="text-primary font-weight-bold">Elektropay</span> is an innovative cloud technology platform that enables businesses to accept, send, reconcile payments to any individual or business anywhere in the world, in any currency, and to all major payment methods. 
+                                    <p className="text-muted mb-3">Elektropay<span className="text-primary font-weight-bold">Elektropay</span> is an innovative cloud technology platform that enables businesses to accept, send, reconcile payments to any individual or business anywhere in the world, in any currency, and to all major payment methods. 
 All achieved through our powerful commerce API, which gives businesses access to our extensive global banking, crypto exchanges, and payments network.
-
+<b>
 Elektropay was founded in 2018 by a team of financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees.
-                                    </p>
+                               </b>     </p>
                                     <Link to="/contact-us" className="btn btn-primary mt-3">Contact Us <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
@@ -161,7 +161,7 @@ Elektropay was founded in 2018 by a team of financial technology and payments ex
 
                     <Container className="mt-100 mt-60">
                     {/* Render Section Title */}
-                    <SectionTitle title="Key Features" desc="that can provide everything you need to generate instant payments, drive conversation, lower churn and connect payment methods." />
+                    <SectionTitle title="Our Payment Stacks" desc="Elektropay can provide everything you need to accept payments, drive conversation, lower churn and connect payment methods." />
 
                         <Row>
                             {/* key features */}
@@ -170,7 +170,7 @@ Elektropay was founded in 2018 by a team of financial technology and payments ex
 
                         <Row className="justify-content-center">
                             <Col className="text-center mt-4 pt-2">
-                                <Link to="#" className="btn btn-primary">See More <i className="mdi mdi-arrow-right"></i></Link>
+                                <Link to="/payments" className="btn btn-primary">See More <i className="mdi mdi-arrow-right"></i></Link>
                             </Col>
                         </Row>
                     </Container>
@@ -179,7 +179,7 @@ Elektropay was founded in 2018 by a team of financial technology and payments ex
                 <section className="section bg-light">
                     <Container>
                     {/* Render Section Title */}
-                    <SectionTitle title="Our Greatest Minds" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
+                    <SectionTitle title="Our Greatest Minds" desc="" />
 
                         <Row>
                             {/* teambox */}
