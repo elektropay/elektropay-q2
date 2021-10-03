@@ -1,4 +1,4 @@
-// React Basic and Bootstrap
+C// React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
@@ -37,13 +37,13 @@ class PageAboutUs extends Component {
                 { icon : "mdi-cryengine", title : "Retina Ready" },
                 { icon : "mdi-bootstrap", title : "Based On Bootstrap 4" },
                 { icon : "mdi-cube-outline", title : "Material Design Icon" },
-                { icon : "mdi-sass", title : "Built With SASS" },
-                { icon : "mdi-check-decagram", title : "W3c Valid Code" },
+                { icon : "mdi-sass", title : "Built With Serverless" },
+                { icon : "mdi-check-decagram", title : "Drop-in Code" },
                 { icon : "mdi-vector-bezier", title : "Flaticon Icon" },
                 { icon : "mdi-settings-outline", title : "Easy to customize" },
             ],
             candidates : [
-                { id : 1, image : team1, name : "Ronny Jofra", designation : "Organizer", link : "",
+                { id : 1, image : team1, name : "Richard Rowe", designation : "Executive Director", link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
@@ -51,7 +51,7 @@ class PageAboutUs extends Component {
                         { icon : "mdi-google-plus", link : "#" },
                     ]
                 },
-                { id : 2, image : team2, name : "Micheal Carlo", designation : "Event Manager", link : "",
+                { id : 2, image : team2, name : "Yuval Binstoc", designation : "Partnership Manager", link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
@@ -59,7 +59,7 @@ class PageAboutUs extends Component {
                         { icon : "mdi-google-plus", link : "#" },
                     ]
                 },
-                { id : 3, image : team3, name : "Aliana Rosy", designation : "Motivator", link : "",
+                { id : 3, image : team3, name : "David Picard", designation : "Banking Relationship manager, link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
@@ -67,7 +67,7 @@ class PageAboutUs extends Component {
                         { icon : "mdi-google-plus", link : "#" },
                     ]
                 },
-                { id : 4, image : team4, name : "Sofia Razaq", designation : "Speaker", link : "",
+                { id : 4, image : team4, name : Salvadore Hernandez", designation : "VP Business Development LATAM", link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
@@ -118,7 +118,7 @@ class PageAboutUs extends Component {
             <React.Fragment>
                 {/* breadcrumb */}
                 <PageBreadcrumb
-                    title="About Us"
+                    title="Commerce is our thing"
                     pathItems = {this.state.pathItems}
                 />
                 <div className="position-relative">
@@ -179,7 +179,7 @@ Elektropay was founded in 2018 by a team of financial technology and payments ex
                 <section className="section bg-light">
                     <Container>
                     {/* Render Section Title */}
-                    <SectionTitle title="Our Greatest Minds" desc="" />
+                    <SectionTitle title="Our Brain bank" desc="" />
 
                         <Row>
                             {/* teambox */}
