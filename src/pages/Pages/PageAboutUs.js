@@ -151,7 +151,7 @@ class PageAboutUs extends Component {
                                     <p className="text-muted">Elektropay<span className="text-primary font-weight-bold">Elektropay</span> is an innovative cloud technology platform that enables businesses to accept, send, reconcile payments to any individual or business anywhere in the world, in any currency, and to all major payment methods. 
 All achieved through our powerful commerce API, which gives businesses access to our extensive global banking, crypto exchanges, and payments network.
 
-Elektropay was founded in 2018 by a team of passionate financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees. </p>
+Elektropay was founded in 2018 by a team of financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees.
                                     </p>
                                     <Link to="/contact-us" className="btn btn-primary mt-3">Contact Us <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
@@ -161,7 +161,7 @@ Elektropay was founded in 2018 by a team of passionate financial technology and 
 
                     <Container className="mt-100 mt-60">
                     {/* Render Section Title */}
-                    <SectionTitle title="Key Features" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
+                    <SectionTitle title="Key Features" desc="that can provide everything you need to generate instant payments, drive conversation, lower churn and connect payment methods." />
 
                         <Row>
                             {/* key features */}
@@ -184,21 +184,6 @@ Elektropay was founded in 2018 by a team of passionate financial technology and 
                         <Row>
                             {/* teambox */}
                             <TeamBox candidates={this.state.candidates} />
-                        </Row>
-                    </Container>
-
-                    <Container className="mt-100 mt-60">
-                        <Row className="justify-content-center">
-                            <Col className="text-center">
-                                <div className="section-title">
-                                    <h4 className="title mb-4">See everything about your employee at one place.</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                                    <div className="mt-3">
-                                        <Link to="#" className="btn btn-primary mt-2 mr-2">Get Started Now</Link>&nbsp;
-                                        <Link to="#" className="btn btn-outline-primary mt-2">Free Trial</Link>
-                                    </div>
-                                </div>
-                            </Col>
                         </Row>
                     </Container>
                 </section>
