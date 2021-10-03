@@ -69,7 +69,7 @@ class ContactSupport extends Component {
                 <section className="bg-half bg-light d-table w-100" style={{ background: `url(${contactImg}) center center`}} >
                     <div className="bg-overlay bg-overlay-white"></div>
                     <Container>
-                        <Row className="justify-content-center">
+                        <Row className="justify-content-center mt-4 pt-2">
                             <Col lg="12" className="text-center">
                                 <div className="page-next-level">
                                     <h4 className="title">Contact Us</h4>
