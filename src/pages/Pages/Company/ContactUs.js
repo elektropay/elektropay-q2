@@ -75,7 +75,7 @@ class ContactUs extends Component {
                     </div>
                 </div>
 
-                <section className="section pb-0">
+                <section className="section pt-3 pb-0">
                     <Container className="mt-100 mt-60">
                         <Row>
                             <Col md={4}>
