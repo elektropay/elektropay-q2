@@ -29,22 +29,21 @@ class AboutUs extends Component {
             pathItems : [
                 //id must required
                 { id : 1, name : "Home", link : "/index" },
-                { id : 2, name : "Pages", link : "#" },
-                { id : 3, name : "About Us" },
+                { id : 2, name : "About Us" },
             ],
             keyfeatures : [
                 { icon : "mdi-responsive", title : "Fully Responsive" },
                 { icon : "mdi-internet-explorer", title : "Browser Compatibility" },
-                { icon : "mdi-cryengine", title : "Retina Ready" },
+                { icon : "mdi-cryengine", title : "Mobile Payments Ready" },
                 { icon : "mdi-bootstrap", title : "Based On Bootstrap 4" },
                 { icon : "mdi-cube-outline", title : "Material Design Icon" },
-                { icon : "mdi-sass", title : "Built With SASS" },
+                { icon : "mdi-sass", title : "Built With Serverless" },
                 { icon : "mdi-check-decagram", title : "W3c Valid Code" },
                 { icon : "mdi-vector-bezier", title : "Flaticon Icon" },
                 { icon : "mdi-settings-outline", title : "Easy to customize" },
             ],
             candidates : [
-                { id : 1, image : team1, name : "Ronny Jofra", designation : "Organizer", link : "",
+                { id : 1, image : team1, name : "Richardy Rowe", designation : "Organizer", link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
@@ -137,9 +136,13 @@ class AboutUs extends Component {
                         <Row className="align-items-center">
                             <Col lg={7} md={7} className="mt-0 pt-1 mt-sm-0 pt-sm-0">
                               <div className="section-title ml-lg-4">
-                                    <h2 className="title mb-4">Unlocking the Power of Payments</h2>
-                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
-                                    <Link to="#" className="btn btn-primary mt-3">Buy Now <i className="mdi mdi-chevron-right"></i></Link>
+                                    <h2 className="title mb-4">About Us</h2>
+                                    <p className="text-muted">Elektropay is an<span className="text-primary font-weight-bold"> innovative</span> cloud technology platform that enables businesses to accept, send, reconcile payments to any individual or business anywhere in the world, in any currency, and to all major payment methods. 
+All achieved through our powerful commerce API, which gives businesses access to our extensive global banking, crypto exchanges, and payments network.
+
+Elektropay was founded in 2018 by a team of passionate financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees. </p>
+                                     </p>
+                                    <Link to="/contact-us" className="btn btn-primary mt-3">Reach out<i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
                             <Col lg={5} md={5} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
@@ -157,7 +160,7 @@ class AboutUs extends Component {
 
                     <Container className="mt-100 mt-60">
                     {/* Render Section Title */}
-                    <SectionTitle title="Key Features" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
+                    <SectionTitle title="Key Features" desc="that can provide everything you need to generate more conversations and less churn.." />
 
                         <Row>
                             {/* key features */}
@@ -166,7 +169,7 @@ class AboutUs extends Component {
 
                         <Row className="justify-content-center">
                             <Col className="text-center mt-4 pt-2">
-                                <Link to="#" className="btn btn-primary">See More <i className="mdi mdi-arrow-right"></i></Link>
+                                <Link to="/payments" className="btn btn-primary">See More <i className="mdi mdi-arrow-right"></i></Link>
                             </Col>
                         </Row>
                     </Container>
@@ -175,7 +178,7 @@ class AboutUs extends Component {
                 <section className="section bg-light">
                     <Container>
                     {/* Render Section Title */}
-                    <SectionTitle title="Our Greatest Minds" desc="that can provide everything you need to generate awareness, drive traffic, connect." />
+                    <SectionTitle title="Our Payments Intelligence" desc="Our brains and backbone of the company ." />
 
                         <Row>
                             {/* teambox */}
@@ -187,11 +190,11 @@ class AboutUs extends Component {
                         <Row className="justify-content-center">
                             <Col className="text-center">
                                 <div className="section-title">
-                                    <h4 className="title mb-4">See everything about your employee at one place.</h4>
-                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <h4 className="title mb-4">See our career openings happening now.</h4>
+                                    <p className="text-muted para-desc mx-auto mb-0">Start working with <span className="text-primary font-weight-bold">Elektropay</span> </p>
                                     <div className="mt-3">
-                                        <Link to="#" className="btn btn-primary mt-2 mr-2">Get Started Now</Link>&nbsp;
-                                        <Link to="#" className="btn btn-outline-primary mt-2">Free Trial</Link>
+                                        <Link to="/careers" className="btn btn-primary mt-2 mr-2">Check Openings</Link>&nbsp;
+                                        
                                     </div>
                                 </div>
                             </Col>
