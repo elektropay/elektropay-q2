@@ -55,7 +55,7 @@ class ContactSupport extends Component {
       }
 
     sendMail(){
-        window.location.href="mailto:contact@example.com";
+        window.location.href="mailto:contact@elektropay.com";
     }
 
     callNumber(){
