@@ -28,8 +28,8 @@ class PageAboutUs extends Component {
             pathItems : [
                 //id must required
                 { id : 1, name : "Home", link : "/index" },
-                { id : 2, name : "Pages", link : "#" },
-                { id : 3, name : "About Us" },
+                { id : 2, name : "About Us", link : "#" },
+     
             ],
             keyfeatures : [
                 { icon : "mdi-responsive", title : "Fully Responsive" },
@@ -148,8 +148,12 @@ class PageAboutUs extends Component {
                             <Col lg={7} md={7} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
                                 <div className="section-title ml-lg-4">
                                     <h4 className="title mb-4">Our Story</h4>
-                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
-                                    <Link to="#" className="btn btn-primary mt-3">Buy Now <i className="mdi mdi-chevron-right"></i></Link>
+                                    <p className="text-muted">Elektropay<span className="text-primary font-weight-bold">Elektropay</span> is an innovative cloud technology platform that enables businesses to accept, send, reconcile payments to any individual or business anywhere in the world, in any currency, and to all major payment methods. 
+All achieved through our powerful commerce API, which gives businesses access to our extensive global banking, crypto exchanges, and payments network.
+
+Elektropay was founded in 2018 by a team of passionate financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees. </p>
+                                    </p>
+                                    <Link to="/contact-us" className="btn btn-primary mt-3">Contact Us <i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
                         </Row>
