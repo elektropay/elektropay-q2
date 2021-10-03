@@ -43,11 +43,11 @@ class PageContactTwo extends Component {
       }
 
     sendMail(){
-        window.location.href="mailto:contact@example.com";
+        window.location.href="mailto:contact@elektropay.com";
     }
 
     callNumber(){
-        window.location.href="tel:+152534-468-854";
+        window.location.href="tel:+44-456-7778";
     }
 
     render() {
@@ -112,7 +112,7 @@ class PageContactTwo extends Component {
                             <Col lg={7} md={6} className="order-1 order-md-2">
                                 <div className="title-heading ml-lg-4">
                                     <h4 className="mb-4">Contact Details</h4>
-                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p className="text-muted">Start working with <span className="text-primary font-weight-bold">Elektropay</span> that can provide everything you need to increase conversation, reduce churn, and connect multiple sources.</p>
                                     <div className="contact-detail mt-3">
                                         <div className="icon mt-3 float-left">
                                             <i className="mdi mdi-email-variant text-muted mdi-36px mr-3"></i>
