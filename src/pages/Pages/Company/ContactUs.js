@@ -76,7 +76,7 @@ class ContactUs extends Component {
                 </div>
 
                 <section className="section pb-0">
-                    <Container>
+                    <Container className="mt-100 mt-60">
                         <Row>
                             <Col md={4}>
                                 <div className="contact-detail text-center">
