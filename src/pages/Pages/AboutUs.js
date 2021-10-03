@@ -1,4 +1,4 @@
-C// React Basic and Bootstrap
+// React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
@@ -67,7 +67,7 @@ class PageAboutUs extends Component {
                         { icon : "mdi-google-plus", link : "#" },
                     ]
                 },
-                { id : 4, image : team4, name : Salvadore Hernandez", designation : "VP Business Development LATAM", link : "",
+                { id : 4, image : team4, name : "Salvadore Hernandez", designation : "VP Business Development LATAM", link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
