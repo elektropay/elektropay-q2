@@ -140,7 +140,7 @@ class AboutUs extends Component {
                                     <p className="text-muted">Elektropay is an<span className="text-primary font-weight-bold"> innovative</span> cloud technology platform that enables businesses to accept, send, reconcile payments to any individual or business anywhere in the world, in any currency, and to all major payment methods. 
 All achieved through our powerful commerce API, which gives businesses access to our extensive global banking, crypto exchanges, and payments network.
 
-Elektropay was founded in 2018 by a team of passionate financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees. </p>
+Elektropay was founded in 2018 by a team of passionate financial technology and payments executives to solve everyday problems that nearly all businesses experience: accepting and processing international payments. Hassle-free and without any hidden fees.
                                      </p>
                                     <Link to="/contact-us" className="btn btn-primary mt-3">Reach out<i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
