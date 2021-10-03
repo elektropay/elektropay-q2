@@ -45,7 +45,7 @@ const Enterprise = React.lazy(() => import('./pages/Enterprise/index'));
 const Portfolio = React.lazy(() => import('./pages/Portfolio/index'));
 const Services = React.lazy(() => import('./pages/Services/index'));
 
-const PageAboutUs = React.lazy(() => import('./pages/Pages/PageAboutUs'));
+const PageAboutUs = React.lazy(() => import('./pages/Pages/AboutUs'));
 const PagePricing = React.lazy(() => import('./pages/Pages/PagePricing'));
 const PageServices = React.lazy(() => import('./pages/Pages/PageServices'));
 const PageTeam = React.lazy(() => import('./pages/Pages/PageTeam'));
