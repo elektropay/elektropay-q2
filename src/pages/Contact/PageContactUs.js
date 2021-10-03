@@ -85,7 +85,7 @@ class PageContactUs extends Component {
                 <section className="section pt-3 pb-0">
                     <Container>
                         <Row>
-                            <Col md={4}>
+                            <Col md={4} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="contact-detail text-center">
                                     <div className="icon">
                                         <img src={bitcoin} className="avatar avatar-small" alt=""/>
