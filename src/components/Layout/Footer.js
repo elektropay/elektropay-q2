@@ -150,7 +150,7 @@ class Footer extends Component {
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="text-sm-left small">
                            <ul className="list-unstyled mb-0 small">
-                            <li className="list-inline-item mr-0 text-muted">Elektropay is a service of EverPay. &copy; 2021 Elektropay. </li>
+                            <li className="list-inline-item mr-0 text-muted">Elektropay is a service of EverPay. &copy; 2022 Elektropay. </li>
                         </ul>
                         </div>
                     </Col>
