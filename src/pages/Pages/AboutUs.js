@@ -32,14 +32,14 @@ class PageAboutUs extends Component {
      
             ],
             keyfeatures : [
-                { icon : "mdi-responsive", title : "Fully Responsive" },
-                { icon : "mdi-internet-explorer", title : "Browser Compatibility" },
-                { icon : "mdi-cryengine", title : "Retina Ready" },
-                { icon : "mdi-bootstrap", title : "Based On Bootstrap 4" },
-                { icon : "mdi-cube-outline", title : "Material Design Icon" },
+                { icon : "mdi-responsive", title : "International Payments" },
+                { icon : "mdi-internet-explorer", title : "Crypto Payments" },
+                { icon : "mdi-cryengine", title : "Mobile Ready" },
+                { icon : "mdi-bootstrap", title : "All Payment Methods" },
+                { icon : "mdi-cube-outline", title : "Headless Commerce" },
                 { icon : "mdi-sass", title : "Built With Serverless" },
-                { icon : "mdi-check-decagram", title : "Drop-in Code" },
-                { icon : "mdi-vector-bezier", title : "Flaticon Icon" },
+                { icon : "mdi-check-decagram", title : "Drop-in Javascript" },
+                { icon : "mdi-vector-bezier", title : "Hosted Payment Pages" },
                 { icon : "mdi-settings-outline", title : "Easy to customize" },
             ],
             candidates : [
@@ -49,7 +49,7 @@ class PageAboutUs extends Component {
                         { icon : "mdi-instagram", link : "#" },
                         { icon : "mdi-twitter", link : "#" },
                         { icon : "mdi-google-plus", link : "#" },
-                    ]
+                    ] 
                 },
                 { id : 2, image : team2, name : "Yuval Binstoc", designation : "Partnership Manager", link : "",
                     socialIds : [
@@ -59,7 +59,7 @@ class PageAboutUs extends Component {
                         { icon : "mdi-google-plus", link : "#" },
                     ]
                 },
-                { id : 3, image : team3, name : "David Picard", designation : "Banking Relationship manager, link : "",
+                { id : 3, image : team3, name : "David Picard", designation : "Bank Partnerships", link : "",
                     socialIds : [
                         { icon : "mdi-facebook", link : "#" },
                         { icon : "mdi-instagram", link : "#" },
