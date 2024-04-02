@@ -33,9 +33,9 @@ class IndexclassNameSoftware extends Component {
             { id : 6, name : "Christa Smith", image : client6, desc : "According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero."},
         ],
         features : [
-            { imgUrl : user, title : "Easy To Use", description : "Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper." },
+            { imgUrl : user, title : "Easy To Use", description : "Let your customers pay how the want to pay — with their payment method of choice." },
             { imgUrl : calendar, title : "Daily Reports", description : "Allegedly, a Latin scholar established the origin of the established text by compiling unusual word" },
-            { imgUrl : sandclock, title : "Real Time Zone", description : "It seems that only fragments of the original text remain in only fragments the Lorem Ipsum texts used today." },
+            { imgUrl : sandclock, title : "Global payments", description : "Experience how our platform can optimize your business, and can orchestrate your payments stack." },
         ],
         facilities : [
             { icon : "mdi-security" ,title : "Fully Secured", desc : "Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page."},
