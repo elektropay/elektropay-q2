@@ -33,13 +33,13 @@ class IndexclassNameSoftware extends Component {
             { id : 6, name : "Christa Smith", image : client6, desc : "According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero."},
         ],
         features : [
-            { imgUrl : user, title : "Easy To Use", description : "Let your customers pay how the want to pay — with their payment method of choice." },
-            { imgUrl : calendar, title : "Daily Reports", description : "Allegedly, a Latin scholar established the origin of the established text by compiling unusual word" },
-            { imgUrl : sandclock, title : "Global payments", description : "Experience how our platform can optimize your business, and can orchestrate your payments stack." },
+            { imgUrl : user, title : "Easy To Use", description : "Let your customers pay how they always paid before — with their payment method of choice." },
+            { imgUrl : calendar, title : "Built To Scale", description : "Our full suite of solutions are designed to grow as your business needs to expand in new markets." },
+            { imgUrl : sandclock, title : "Global Payments", description : "Experience how our platform can optimize your business, and can orchestrate your payments stack." },
         ],
         facilities : [
-            { icon : "mdi-security" ,title : "Fully Secured", desc : "Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page."},
-            { icon : "mdi-clock-check-outline", title : "Best Performance", desc : "Moreover, in Latin only words at the beginning of sentences are capitalized."},
+            { icon : "mdi-security" ,title : "Fully Secured", desc : "Our security first approcah are based on the highest international standards including PCI Level 1 & Level 2compliance."},
+            { icon : "mdi-clock-check-outline", title : "Payments Orchestration", desc : "Customize your stack by using multiple PSPs and any payment service to create a frictionless checkout experience."},
         ],
     }
     
