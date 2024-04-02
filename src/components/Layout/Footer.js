@@ -14,21 +14,21 @@ class Footer extends Component {
     super(props);
     this.state = {
         grid1 : [
-            { title : "Card Processing", link : "/page-aboutus" },
+            { title : "Card Payments", link : "/page-aboutus" },
             { title : "Omni Commerce", link : "/page-services" },
-            { title : "Crypto Processing", link : "/page-team" },
+            { title : "Payment Methods", link : "/page-team" },
             { title : "Real-Time Processing", link : "/page-team" },
-            { title : "Mobile Processing", link : "/page-pricing" },
+            { title : "Mobile Payments", link : "/page-pricing" },
             { title : "ElektroPOS", link : "/page-work" },
             { title : "Marketplace", link : "/page-jobs" },
             { title : "SugarBiller", link : "/page-blog" },
-            { title : "KardIssue", link : "/page-cover-login" },
+            { title : "Kardi", link : "/page-cover-login" },
         ],
         grid2 : [
             { title : "Payment Methods", link : "/page-aboutus" },
             { title : "InStore Payments", link : "/page-services" },
             { title : "Fraud Prevention", link : "/page-team" },
-            { title : "Payouts", link : "/page-pricing" },
+            { title : "Cross Border Payments", link : "/page-pricing" },
             { title : "Global Reach", link : "/page-work" },
             { title : "Analytics Engine", link : "/page-jobs" },
             { title : "Serverless Stack", link : "/page-blog" },
@@ -150,7 +150,7 @@ class Footer extends Component {
                     <Col md="4" sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="text-sm-left small">
                            <ul className="list-unstyled mb-0 small">
-                            <li className="list-inline-item mr-0 text-muted">Elektropay is a service of EverPay. &copy; 2022 Elektropay. </li>
+                            <li className="list-inline-item mr-0 text-muted">Elektropay is a service of EverPay. &copy; 2024 Elektropay. </li>
                         </ul>
                         </div>
                     </Col>
