@@ -154,10 +154,10 @@ class Topbar extends Component {
                             <Link className="logo" to="/"><img src={logo} className="header_logo" width="180" alt=""/></Link>
                         </div>
                          <div className="buy-button">
-                            <Link to="https://app.elektropay.com/signup" id="signupButton" className="btn btn-outline-primary mt-3 d-none d-sm-block">Try It Free </Link>
+                            <Link to="https://onboarding.elektropay.com" id="signupButton" className="btn btn-outline-primary mt-3 d-none d-sm-block">Try It Free </Link>
                         </div>
                         <div className="buy-button login-btn-light">
-                            <Link to="#" id="loginButton" className="btn btn-light mt-3 mr-2 d-none d-md-block">Login </Link>
+                            <Link to="https://dashboard.elektropay.com" id="loginButton" className="btn btn-light mt-3 mr-2 d-none d-md-block">Login </Link>
                         </div>
 
                         <div className="menu-extras">
@@ -242,10 +242,10 @@ class Topbar extends Component {
                                 <li><Link to="/index-customer" id="supportButton" className="text-secondary mdi-20px profile-icons"><i className="mdi mdi-account rounded-pill p-2 bg-light shadow profile-icons" title="Contact Support +1 800-566-6003"></i></Link> </li>    
                             </ul>
                             <div className="buy-menu-btn ml-4">
-                                <Link to="#" id="signupButton" target="_blank" className="btn btn-primary d-md-none">Get Started </Link>
+                                <Link to="https://onboarding.elektropay.com" id="signupButton" target="_blank" className="btn btn-primary d-md-none">Get Started </Link>
                             </div>
                         <div className="buy-menu-btn ml-4 mt-2">
-                            <Link to="#" id="loginButton" className="btn btn-success d-md-none mr-2">Login </Link>
+                            <Link to="https://dashboard.elektropay.com" id="loginButton" className="btn btn-success d-md-none mr-2">Login </Link>
                         </div>
                         </div>
                     </Container>
