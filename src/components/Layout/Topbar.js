@@ -154,7 +154,7 @@ class Topbar extends Component {
                             <Link className="logo" to="/"><img src={logo} className="header_logo" width="180" alt=""/></Link>
                         </div>
                          <div className="buy-button">
-                            <Link to="https://app.elektropay.com/signup" id="signupButton" className="btn btn-outline-primary mt-3 d-none d-sm-block">Try It Free </Link>
+                            <Link to="https://onboarding.elektropay.com" id="signupButton" className="btn btn-outline-primary mt-3 d-none d-sm-block">Try It Free </Link>
                         </div>
                         <div className="buy-button login-btn-light">
                             <Link to="#" id="loginButton" className="btn btn-light mt-3 mr-2 d-none d-md-block">Login </Link>
